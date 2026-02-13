@@ -1,14 +1,18 @@
 {{ define "main" }}
 <!-- Hero Section -->
 <section class="hero">
-  <div class="hero-fish-bg">
-    <img src="/images/fish/brochet.svg" class="hero-fish fish-1" alt="">
-    <img src="/images/fish/sandre.svg" class="hero-fish fish-2" alt="">
-    <img src="/images/fish/truite-fario.svg" class="hero-fish fish-3" alt="">
+  <div class="hero-bg">
+    <img src="/images/backgrounds/hero-day.png" alt="" class="hero-bg-img">
+    <div class="hero-overlay"></div>
   </div>
+  <!-- Corner ornaments -->
+  <img src="/images/branding/ornament-corner.svg" alt="" class="hero-ornament hero-ornament-tl">
+  <img src="/images/branding/ornament-corner.svg" alt="" class="hero-ornament hero-ornament-tr">
+  <img src="/images/branding/ornament-corner.svg" alt="" class="hero-ornament hero-ornament-bl">
+  <img src="/images/branding/ornament-corner.svg" alt="" class="hero-ornament hero-ornament-br">
   <div class="container">
     <div class="hero-content">
-      <div class="hero-badge">Freshwater Fishing Forecast App</div>
+      <img src="/images/branding/logo.svg" alt="Fishing Moments" class="hero-logo">
       <h1>Know exactly when<br>fish are biting.</h1>
       <p class="hero-subtitle">Species-specific activity forecasts powered by solunar science, real-time weather, and fish biology. Because pike and carp don't bite in the same conditions.</p>
       <div class="hero-cta">
@@ -44,34 +48,56 @@
 <section class="species-showcase">
   <div class="container">
     <h2 class="section-title">44 Species, Each One Unique</h2>
+    <div class="section-ornament">
+      <img src="/images/branding/ornament-line.svg" alt="" class="ornament-line-section">
+    </div>
     <p class="section-subtitle">Every species has its own behavior model with unique sensitivity to temperature, pressure, light, and seasons.</p>
     <div class="species-grid">
-      <div class="species-card">
-        <div class="species-svg"><img src="/images/fish/brochet.svg" alt="Pike"></div>
-        <span class="species-name">Pike</span>
+      <div class="species-category">
+        <h3 class="category-title">Predators</h3>
+        <ul class="species-list">
+          <li>Pike</li>
+          <li>Zander</li>
+          <li>Perch</li>
+          <li>Asp</li>
+          <li>Catfish</li>
+          <li>Burbot</li>
+        </ul>
       </div>
-      <div class="species-card">
-        <div class="species-svg"><img src="/images/fish/sandre.svg" alt="Zander"></div>
-        <span class="species-name">Zander</span>
+      <div class="species-category">
+        <h3 class="category-title">Salmonids</h3>
+        <ul class="species-list">
+          <li>Brown Trout</li>
+          <li>Rainbow Trout</li>
+          <li>Atlantic Salmon</li>
+          <li>Grayling</li>
+          <li>Arctic Char</li>
+          <li>Brook Trout</li>
+        </ul>
       </div>
-      <div class="species-card">
-        <div class="species-svg"><img src="/images/fish/truite-fario.svg" alt="Brown Trout"></div>
-        <span class="species-name">Brown Trout</span>
+      <div class="species-category">
+        <h3 class="category-title">Cyprinids</h3>
+        <ul class="species-list">
+          <li>Carp</li>
+          <li>Tench</li>
+          <li>Barbel</li>
+          <li>Bream</li>
+          <li>Roach</li>
+          <li>Chub</li>
+        </ul>
       </div>
-      <div class="species-card">
-        <div class="species-svg"><img src="/images/fish/perche.svg" alt="Perch"></div>
-        <span class="species-name">Perch</span>
-      </div>
-      <div class="species-card">
-        <div class="species-svg"><img src="/images/fish/carpe.svg" alt="Carp"></div>
-        <span class="species-name">Carp</span>
-      </div>
-      <div class="species-card">
-        <div class="species-svg"><img src="/images/fish/silure.svg" alt="Catfish"></div>
-        <span class="species-name">Catfish</span>
+      <div class="species-category">
+        <h3 class="category-title">& More</h3>
+        <ul class="species-list">
+          <li>Eel</li>
+          <li>Rudd</li>
+          <li>Ide</li>
+          <li>Vendace</li>
+          <li>Whitefish</li>
+          <li>+ 20 others</li>
+        </ul>
       </div>
     </div>
-    <p class="species-more">+ 38 other freshwater species</p>
   </div>
 </section>
 
@@ -79,37 +105,52 @@
 <section class="features">
   <div class="container">
     <h2 class="section-title">Why Fishing Moments?</h2>
+    <div class="section-ornament">
+      <img src="/images/branding/ornament-line.svg" alt="" class="ornament-line-section">
+    </div>
     <p class="section-subtitle">Every feature designed to help you catch more fish, backed by real science.</p>
     <div class="features-grid">
       <div class="feature-card">
-        <div class="feature-icon">📊</div>
+        <div class="feature-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
+        </div>
         <h3>10-Day Forecasts</h3>
         <p>Plan your sessions ahead. See hour-by-hour activity predictions to find the perfect window for your target species.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon">🔬</div>
+        <div class="feature-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
         <h3>Science-Based</h3>
         <p>Built on solunar theory, barometric pressure, water temperature models, and species-specific biological rhythms.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon">🌍</div>
+        <div class="feature-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
         <h3>Localized Data</h3>
-        <p>Species catalogs adapted by country. France, Finland, Sweden, Poland — the app knows your local species.</p>
+        <p>Species catalogs adapted by country. France, Finland, Sweden, Poland &mdash; the app knows your local species.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon">📍</div>
+        <div class="feature-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
         <h3>Spot Map</h3>
         <p>Save your fishing spots and get localized forecasts with precise GPS weather data for each location.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon">🌙</div>
+        <div class="feature-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
+        </div>
         <h3>Solunar Calendar</h3>
-        <p>Major and minor feeding periods, moon phases, sunrise & sunset — all integrated into your daily forecast.</p>
+        <p>Major and minor feeding periods, moon phases, sunrise & sunset &mdash; all integrated into your daily forecast.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon">🌦️</div>
+        <div class="feature-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 15h8M8 9h2m-2 3h4"/><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5z"/></svg>
+        </div>
         <h3>Weather Intelligence</h3>
-        <p>Pressure trends, wind, rain, cloud cover — every weather factor scored for its impact on each species.</p>
+        <p>Pressure trends, wind, rain, cloud cover &mdash; every weather factor scored for its impact on each species.</p>
       </div>
     </div>
   </div>
@@ -117,14 +158,21 @@
 
 <!-- How It Works -->
 <section class="how-it-works">
+  <div class="hero-bg">
+    <img src="/images/backgrounds/hero-night.png" alt="" class="hero-bg-img">
+    <div class="hero-overlay overlay-dark"></div>
+  </div>
   <div class="container">
-    <h2 class="section-title">How It Works</h2>
-    <p class="section-subtitle">Three simple steps to better fishing sessions.</p>
+    <h2 class="section-title light">How It Works</h2>
+    <div class="section-ornament">
+      <img src="/images/branding/ornament-line.svg" alt="" class="ornament-line-section">
+    </div>
+    <p class="section-subtitle light">Three simple steps to better fishing sessions.</p>
     <div class="steps-grid">
       <div class="step">
         <div class="step-number">1</div>
         <h3>Choose your species</h3>
-        <p>Select from 44 freshwater species — each with its own unique behavior model and scoring engine.</p>
+        <p>Select from 44 freshwater species &mdash; each with its own unique behavior model and scoring engine.</p>
       </div>
       <div class="step">
         <div class="step-number">2</div>
@@ -144,6 +192,9 @@
 <section class="blog-preview">
   <div class="container">
     <h2 class="section-title">Fishing Tips & Articles</h2>
+    <div class="section-ornament">
+      <img src="/images/branding/ornament-line.svg" alt="" class="ornament-line-section">
+    </div>
     <p class="section-subtitle">Expert guides, seasonal tips, and species-specific techniques.</p>
     <div class="coming-soon-badge">Coming Soon</div>
   </div>
