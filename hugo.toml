@@ -1,0 +1,37 @@
+baseURL = 'https://fishingmoments.eu/'
+languageCode = 'en'
+title = 'Fishing Moments — Smart Fishing Forecasts'
+theme = 'fishingmoments'
+
+[params]
+  description = "Know when fish are biting. Species-specific forecasts powered by science."
+  author = "Fishing Moments"
+  email = "contact@fishingmoments.eu"
+  appStoreURL = ""
+  ogImage = "/images/og-image.png"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    name = "Support"
+    url = "/support/"
+    weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5

@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="logo">
+      <span class="logo-icon">🎣</span>
+      <span class="logo-text">Fishing Moments</span>
+    </a>
+    <nav class="main-nav">
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>
