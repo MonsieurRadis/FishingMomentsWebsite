@@ -56,8 +56,8 @@ img { max-width: 100%; height: auto; }
 }
 .logo:hover { text-decoration: none; opacity: 0.8; color: #e8f0ff; }
 .logo-icon {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
 }
 .main-nav { display: flex; gap: 2.5rem; }
 .main-nav a {
@@ -154,6 +154,7 @@ img { max-width: 100%; height: auto; }
   justify-content: flex-start;
   padding: 2.5rem 0 4rem;
   animation: fadeInUp 1s ease-out 0.2s both;
+  filter: drop-shadow(0 0 40px rgba(0,0,0,0.95)) drop-shadow(0 0 80px rgba(0,0,0,0.7));
 }
 .hero-logo {
   width: auto;
@@ -187,7 +188,6 @@ img { max-width: 100%; height: auto; }
   max-width: 32rem;
   margin: 0 auto 2.5rem;
   line-height: 1.7;
-  text-shadow: 0 0 12px rgba(0,0,0,0.9), 0 0 30px rgba(0,0,0,0.7), 0 2px 4px rgba(0,0,0,0.8);
 }
 .hero-cta { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
 
