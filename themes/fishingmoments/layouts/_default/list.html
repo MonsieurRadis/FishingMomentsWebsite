@@ -1,15 +1,32 @@
 {{ define "main" }}
-<section class="page-content">
+<section class="blog-list">
   <div class="container">
-    <h1>{{ .Title }}</h1>
+    <div class="blog-list-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="blog-list-desc">{{ . }}</p>{{ end }}
+    </div>
     {{ .Content }}
-    {{ range .Pages }}
-    <article class="post-card">
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      <time>{{ .Date.Format "January 2, 2006" }}</time>
-      <p>{{ .Summary }}</p>
-    </article>
-    {{ end }}
+    <div class="blog-grid">
+      {{ range .Pages }}
+      <article class="blog-card">
+        {{ with .Params.image }}
+        <a href="{{ $.Permalink }}" class="blog-card-image" style="background-image: url('{{ . }}');"></a>
+        {{ end }}
+        <div class="blog-card-body">
+          {{ with $.Params.tags }}
+          <div class="blog-card-tags">
+            {{ range first 2 . }}<span class="article-tag">{{ . }}</span>{{ end }}
+          </div>
+          {{ end }}
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          <p>{{ .Summary }}</p>
+          <div class="blog-card-meta">
+            <time>{{ .Date.Format "January 2, 2006" }}</time>
+          </div>
+        </div>
+      </article>
+      {{ end }}
+    </div>
   </div>
 </section>
 {{ end }}
