@@ -142,9 +142,9 @@ img { max-width: 100%; height: auto; }
 }
 .hero-logo {
   width: auto;
-  height: 6rem;
-  margin-bottom: 2rem;
-  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));
+  height: 16rem;
+  margin-bottom: 3rem;
+  filter: drop-shadow(0 6px 24px rgba(0,0,0,0.4));
   animation: gentleFloat 6s ease-in-out infinite;
 }
 .hero h1 {
@@ -587,7 +587,7 @@ img { max-width: 100%; height: auto; }
 @media (max-width: 768px) {
   .hero { padding: 5rem 0 4rem; min-height: 80vh; }
   .hero h1 { font-size: 2.5rem; }
-  .hero-logo { height: 4rem; }
+  .hero-logo { height: 10rem; }
   .hero-subtitle { font-size: 1rem; }
   .hero-stats { gap: 2rem; flex-wrap: wrap; }
   .hero-stat-number { font-size: 2rem; }
