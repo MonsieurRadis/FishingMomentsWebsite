@@ -1,0 +1,88 @@
+========================================
+ARTICLE BRIEF #11
+========================================
+
+TITLE: Spring Fishing Guide: Best Species, Times & Techniques
+SLUG: spring-fishing-guide
+TARGET KEYWORD: spring fishing tips
+SECONDARY KEYWORDS: spring fishing guide, what to fish in spring, best spring fishing, spring fish behavior
+TARGET LENGTH: 1200-1500 words (~120-150 lines)
+
+----------------------------------------
+META DESCRIPTION (max 155 chars):
+----------------------------------------
+Spring is when freshwater fishing comes alive. Learn which species to target, the best times, and how warming water changes everything.
+
+----------------------------------------
+OUTLINE:
+----------------------------------------
+
+H2: Why Spring Is a Game-Changer
+- Water warming from winter dormancy triggers massive biological activity
+- Insect hatches, spawning activity, feeding frenzies
+- Fish that haven't eaten properly in months are hungry
+- BUT: timing matters — too early and it's still winter, too late and it's summer rules
+
+H2: Early Spring (March - Mid April)
+- Water still cold (5-10°C), warming slowly
+- Best time: midday (warmest part of the day)
+- Target: pike (post-spawn, very aggressive), perch (shallow, hungry)
+- Slow presentations still needed — fish metabolism is low
+- Look for the warmest water: south-facing banks, shallow bays, dark-bottomed areas
+
+H2: Late Spring (Mid April - May)
+- Water hits 12-18°C — the magic zone for most species
+- Dawn/dusk become the prime windows again
+- Trout: insect hatches create incredible dry fly opportunities
+- Carp: start feeding seriously, moving into shallows
+- Perch: hunting packs reform, aggressive on lures
+- Everything is active — it's the easiest time of year to catch fish
+
+H2: Best Spring Species to Target
+- Pike: #1 spring target — post-spawn aggression, shallow water, easy to find
+- Perch: schooling, hitting small lures hard
+- Trout: rising to hatches, active in streams and rivers
+- Carp: warming water gets them moving, surface cruising begins
+- Tench: classic spring fish — dawn bites in weedy shallows
+
+H2: Spring Weather Patterns to Watch
+- Warming trends are everything — a week of mild weather = fishing explosion
+- Cold snaps in spring: devastating, can shut down fishing for days
+- Rain: warm spring rain = excellent (washes food, oxygenates)
+- Wind: SW wind in spring = perfect conditions
+- Pressure: stable/falling after a warm spell = prime time
+
+H2: Spring Techniques That Work
+- Predators: slow-retrieved lures, jerkbaits near surface, shallow running crankbaits
+- Carp: float fished bread, corn, or boilies in margins
+- Trout: dry flies matching the hatch, small nymphs
+- General: fish SHALLOWER than you think — fish move to warm water
+
+H2: Planning Your Spring Sessions
+- Watch the weather forecast for the first sustained warm spell
+- Target sunny afternoons in early spring, dawn/dusk in late spring
+- "Fishing Moments adapts to spring's changing conditions automatically — it shifts from winter-mode midday windows to summer-mode dawn/dusk as the season progresses."
+
+CTA FINAL:
+"Spring is unpredictable — one warm week followed by a cold snap. Fishing Moments tracks temperature trends, pressure changes, and species-specific seasonal shifts to tell you exactly when spring fishing switches on in your area."
+
+----------------------------------------
+IMAGES TO FIND:
+----------------------------------------
+- Hero image: Spring landscape with lake/river, green vegetation
+  Search: "spring fishing lake" or "spring river morning" on Unsplash/Pexels
+  Filename: spring-fishing-guide.jpg
+
+----------------------------------------
+INTERNAL LINKS:
+----------------------------------------
+- Link to #01 (Pike) when discussing post-spawn pike
+- Link to #03 (Trout Temperature) when discussing water temperature
+- Link to #07 (Barometric Pressure) when discussing spring fronts
+
+----------------------------------------
+ARTICLE CONTENT:
+(ChatGPT writes the article below this line)
+----------------------------------------
+
+

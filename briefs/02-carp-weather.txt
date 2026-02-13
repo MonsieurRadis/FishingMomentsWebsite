@@ -1,0 +1,81 @@
+========================================
+ARTICLE BRIEF #02
+========================================
+
+TITLE: How Weather Affects Carp Fishing: The Complete Guide
+SLUG: how-weather-affects-carp-fishing
+TARGET KEYWORD: carp fishing weather
+SECONDARY KEYWORDS: carp barometric pressure, carp feeding weather, best weather for carp, carp fishing conditions
+TARGET LENGTH: 1200-1500 words (~120-150 lines)
+
+----------------------------------------
+META DESCRIPTION (max 155 chars):
+----------------------------------------
+Discover how weather conditions affect carp behavior. Learn which pressure, temperature, wind, and cloud patterns make carp feed — and which shut them down.
+
+----------------------------------------
+OUTLINE:
+----------------------------------------
+
+H2: Why Carp Are So Weather-Sensitive
+- Carp are cold-blooded — metabolism directly tied to water temperature
+- Lateral line detects pressure changes before we feel them
+- Unlike predators, carp feed based on comfort, not aggression
+- Understanding weather = understanding carp mood
+
+H2: Barometric Pressure and Carp
+- Falling pressure (before a storm): feeding increases — carp sense the change
+- Low stable pressure: good, carp stay active
+- Rising pressure (after a front): carp go quiet, can take 12-24h to recover
+- High stable pressure: moderate activity, fish deeper
+- The TREND matters more than the number
+
+H2: Temperature: The #1 Factor
+- Carp's optimal feeding range: 15-25°C (59-77°F)
+- Below 10°C: metabolism drops, feed very little
+- Below 5°C: almost dormant, only midday micro-windows
+- Above 25°C: feed at night and early morning only
+- Warming trends (even 1-2°C rise) trigger feeding binges
+
+H2: Wind Direction and Carp
+- Southwest wind (in Europe): warm, generally best
+- Northeast/East wind: cold, usually poor
+- "Wind from the west, fish bite best. Wind from the east, fish bite least."
+- Wind pushes food (and warmer water) to one bank — fish the windward bank
+- Light to moderate wind > dead calm (oxygenation)
+
+H2: Cloud Cover, Rain & Storms
+- Overcast: excellent for carp — they feel safer feeding in open water
+- Light warm rain: one of the best conditions (oxygen + food washed in)
+- Heavy cold rain: poor — temperature drop kills it
+- Thunderstorms: carp often feed aggressively before, go dead during/after
+- Bright sun: carp stick to cover, shaded areas, deeper water
+
+H2: Putting It All Together
+- The perfect carp day: mild temp, overcast, light SW wind, falling/stable pressure
+- Use a multi-factor approach, not just one indicator
+- "Fishing Moments combines pressure trends, temperature, wind, and cloud cover into a single carp-specific score — saving you from checking 5 apps."
+
+CTA FINAL:
+"Carp respond to weather changes before you even notice them. Fishing Moments tracks every factor that affects carp behavior — pressure trends, temperature shifts, wind, and more — and gives you an hour-by-hour activity score so you can plan your session around the fish, not guesswork."
+
+----------------------------------------
+IMAGES TO FIND:
+----------------------------------------
+- Hero image: Carp in water or carp fishing scene
+  Search: "carp fishing" or "common carp lake" on Unsplash/Pexels
+  Filename: carp-weather-fishing.jpg
+
+----------------------------------------
+INTERNAL LINKS:
+----------------------------------------
+- Link to #07 (Barometric Pressure) when discussing pressure in detail
+- Link to #10 (Wind and Fishing) when discussing wind
+- Link to #12 (Summer Fishing) when discussing hot weather strategies
+
+----------------------------------------
+ARTICLE CONTENT:
+(ChatGPT writes the article below this line)
+----------------------------------------
+
+

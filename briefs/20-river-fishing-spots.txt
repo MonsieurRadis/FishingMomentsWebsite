@@ -1,0 +1,98 @@
+========================================
+ARTICLE BRIEF #20
+========================================
+
+TITLE: River Fishing: How to Find the Best Spots
+SLUG: river-fishing-best-spots
+TARGET KEYWORD: river fishing spots
+SECONDARY KEYWORDS: where to fish in a river, river fishing tips, reading a river, best river fishing spots
+TARGET LENGTH: 1200-1500 words (~120-150 lines)
+
+----------------------------------------
+META DESCRIPTION (max 155 chars):
+----------------------------------------
+Rivers are full of fish — if you know where to look. Learn how to read a river, find the best spots, and understand where different species hold.
+
+----------------------------------------
+OUTLINE:
+----------------------------------------
+
+H2: Rivers Are Not Random — Fish Have Addresses
+- Every river has a structure: pools, riffles, runs, eddies
+- Fish position themselves based on current, food, shelter, and oxygen
+- Once you learn to read a river, you can find fish on ANY river
+- It's the most transferable skill in fishing
+
+H2: Understanding River Anatomy
+- **Riffles**: shallow, fast, rocky — oxygenated, attracts insects
+  → Trout, grayling, small perch
+- **Runs**: moderate depth, steady current — the highway for fish
+  → Barbel, chub, trout
+- **Pools**: deep, slow — rest areas and holding spots
+  → Pike, zander, large carp, catfish
+- **Eddies**: where current swirls behind obstacles
+  → Food collects here, all species visit
+- **Glides**: smooth, even-paced water — often deceivingly deep
+  → Excellent for chub, roach, dace
+
+H2: Key Features That Hold Fish
+- Overhanging trees: shade, falling insects, cover
+- Undercut banks: hidden shelter, especially for trout and chub
+- Fallen trees / log jams: predator ambush points (pike, perch)
+- Confluence (where a tributary enters): temperature/oxygen change = fish magnet
+- Bridge pilings: current break, shade, depth change
+- Weir pools: oxygenated, deep, home to almost every species
+
+H2: Reading Current for Fish Position
+- Fish face upstream — they wait for food to come to them
+- They hold where current is slightly slower than the main flow
+- Behind rocks, in front of obstacles, along current seams
+- The "seam": where fast water meets slow water — the food lane
+- Cast upstream of where you think fish are, let bait drift naturally
+
+H2: Species-Specific River Spots
+- **Trout**: riffles, runs, pools with overhead cover
+- **Barbel**: gravel runs, downstream of weirs, strong current
+- **Pike**: slack water, backwaters, behind structures
+- **Chub**: under trees, near structure, any food-rich area
+- **Zander**: deep pools, murky stretches, dam tailwaters
+- **Grayling**: clean gravel runs, well-oxygenated stretches
+
+H2: Seasonal River Changes
+- Spring: rising water levels, fish move to margins, use flooded areas
+- Summer: low water concentrates fish in pools and deeper runs
+- Fall: rain raises water — fish spread out, colored water = great fishing
+- Winter: fish hold in the deepest, slowest sections
+- After rain/floods: fish the edges and slack water, not the main torrent
+
+H2: Practical Tips for Exploring a New River
+1. Walk upstream before fishing — spot features from above
+2. Polarized sunglasses: essential for seeing underwater structure
+3. Start at obvious features: bridge, weir, confluence
+4. Fish the far bank — it's almost always less pressured
+5. Be mobile: move every 20-30 minutes if not catching
+6. "Save your best river spots in Fishing Moments — each spot gets its own weather forecast based on exact GPS coordinates, not just city-level data."
+
+CTA FINAL:
+"River fishing is about reading the water and being in the right spot at the right time. Fishing Moments helps with the timing — species-specific forecasts based on real conditions at your exact river location. Save your spots, check the forecast, and fish smarter."
+
+----------------------------------------
+IMAGES TO FIND:
+----------------------------------------
+- Hero image: River scene with clear structure (riffle, pool, trees)
+  Search: "river fishing" or "fly fishing river" on Unsplash/Pexels
+  Filename: river-fishing-spots.jpg
+
+----------------------------------------
+INTERNAL LINKS:
+----------------------------------------
+- Link to #19 (Read a Lake) as the still water companion
+- Link to #03 (Trout Temperature) for river trout
+- Link to #11 (Spring Fishing) for seasonal river changes
+
+----------------------------------------
+ARTICLE CONTENT:
+(ChatGPT writes the article below this line)
+----------------------------------------
+
+

@@ -1,0 +1,90 @@
+========================================
+ARTICLE BRIEF #06
+========================================
+
+TITLE: Solunar Theory Explained: Does It Really Work for Fishing?
+SLUG: solunar-theory-fishing-explained
+TARGET KEYWORD: solunar theory fishing
+SECONDARY KEYWORDS: solunar calendar fishing, major minor periods, moon fishing theory, does solunar work
+TARGET LENGTH: 1400-1800 words (~140-180 lines)
+
+----------------------------------------
+META DESCRIPTION (max 155 chars):
+----------------------------------------
+What is solunar theory and does it actually predict fish activity? We break down the science, the data, and how to use it to catch more fish.
+
+----------------------------------------
+OUTLINE:
+----------------------------------------
+
+H2: What Is Solunar Theory?
+- Developed by John Alden Knight in 1926
+- Theory: fish (and wildlife) activity peaks at predictable times based on sun/moon positions
+- 4 periods per day: 2 major (~2h each), 2 minor (~1h each)
+- Major periods: moon overhead and moon underfoot
+- Minor periods: moonrise and moonset
+- Used by hunters and fishermen for nearly 100 years
+
+H2: The Science Behind It
+- Gravitational pull of moon/sun creates tidal forces (even in freshwater)
+- Micro-tidal effects on lakes may influence zooplankton movement
+- Light levels change with moon phase — affects prey/predator behavior
+- Studies: several peer-reviewed papers show correlation (cite examples)
+  - Florida largemouth bass study: 60%+ catches during solunar periods
+  - Multiple European studies on lake fish movement patterns
+- Skeptics say: correlation doesn't prove causation, weather may matter more
+
+H2: Major vs. Minor Periods
+- Major periods (~2h): strongest activity, often the best fishing windows
+- Minor periods (~1h): secondary peaks, still notably better than random times
+- Major periods coincide with moon transit (directly overhead/underfoot)
+- These times shift ~50 min later each day (following the lunar cycle)
+- Best: when a major period aligns with dawn or dusk
+
+H2: Moon Phases and Solunar Strength
+- New moon and full moon: strongest solunar effect (sun + moon aligned)
+- First/third quarter: moderate effect
+- The 3 days around new/full moon are often the best fishing of the month
+- Full moon: controversial — great solunar but fish may feed at night instead
+- New moon: consistently the best for daytime fishing
+
+H2: Does It Actually Work?
+- Short answer: yes, but it's ONE factor, not the only one
+- Solunar theory works best when combined with:
+  - Favorable weather (stable/falling pressure)
+  - Appropriate temperature
+  - Correct season
+- Solunar alone won't save a bad weather day
+- But on a neutral day, fishing during solunar periods gives you an edge
+- Think of it as a multiplier, not a magic formula
+
+H2: How to Use Solunar Data in Practice
+- Check solunar times for your fishing date
+- Plan to be on the water 30min BEFORE a major period starts
+- Prioritize days where major period overlaps with dawn/dusk
+- Combine with weather forecast for confidence
+- "Fishing Moments integrates solunar calculations directly into its species-specific scores. You don't need to check a separate solunar calendar — it's already factored in, weighted by species."
+
+CTA FINAL:
+"Solunar theory is one piece of the puzzle — but it's a real one. Fishing Moments combines solunar major and minor periods with barometric pressure, temperature, wind, and species-specific biology into a single score. No need to cross-reference multiple calendars. Just open the app and see when your target species will be most active."
+
+----------------------------------------
+IMAGES TO FIND:
+----------------------------------------
+- Hero image: Moon over water / moonrise over a lake
+  Search: "moon over lake" or "moonrise water" on Unsplash/Pexels
+  Filename: solunar-theory-fishing.jpg
+
+----------------------------------------
+INTERNAL LINKS:
+----------------------------------------
+- Link to #09 (Moon Phases) for deeper moon phase content
+- Link to #07 (Barometric Pressure) when discussing combining factors
+- Link to #08 (Best Time of Day) when discussing dawn/dusk alignment
+
+----------------------------------------
+ARTICLE CONTENT:
+(ChatGPT writes the article below this line)
+----------------------------------------
+
+

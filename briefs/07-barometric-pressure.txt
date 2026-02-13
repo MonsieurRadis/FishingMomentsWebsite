@@ -1,0 +1,97 @@
+========================================
+ARTICLE BRIEF #07
+========================================
+
+TITLE: How Barometric Pressure Affects Fishing (And How to Use It)
+SLUG: barometric-pressure-fishing
+TARGET KEYWORD: barometric pressure fishing
+SECONDARY KEYWORDS: fishing pressure changes, best barometric pressure for fishing, fish behavior pressure, pressure and fish activity
+TARGET LENGTH: 1400-1800 words (~140-180 lines)
+
+----------------------------------------
+META DESCRIPTION (max 155 chars):
+----------------------------------------
+Barometric pressure is one of the biggest factors in fish activity. Learn how rising, falling, and stable pressure affect fish — and when to go fishing.
+
+----------------------------------------
+OUTLINE:
+----------------------------------------
+
+H2: What Is Barometric Pressure?
+- The weight of the atmosphere pressing down on the water
+- Measured in hPa (hectopascals) or inHg (inches of mercury)
+- Normal range: 1010-1025 hPa
+- Changes with weather systems — fronts cause rapid shifts
+- Fish detect even tiny changes through their swim bladder and lateral line
+
+H2: How Fish Detect Pressure Changes
+- Swim bladder acts like a barometer — it expands when pressure drops, compresses when it rises
+- Lateral line picks up pressure wave changes
+- Fish feel pressure changes BEFORE the weather arrives
+- This is why fishing can be great before a storm and dead after
+
+H2: Falling Pressure (Before a Storm)
+- THE best time to fish — almost universally
+- Fish sense the approaching front and feed aggressively
+- Works for predators (pike, perch, zander) and cyprinids (carp, bream)
+- The feeding window: 6-12 hours before the front arrives
+- Fast-falling pressure = intense but short window
+- Slow-falling pressure = longer, steadier feeding period
+
+H2: Low Stable Pressure
+- Underrated — many anglers only focus on falling pressure
+- Once pressure stabilizes at a low level, fish adapt and resume feeding
+- Overcast, mild conditions often accompany low pressure
+- Good for bottom feeders and cruising predators
+- Not explosive like falling pressure, but consistent
+
+H2: Rising Pressure (After a Storm)
+- Generally the worst time to fish
+- Fish become lethargic as the front passes
+- The "dead zone": 12-24 hours after a cold front
+- Recovery time varies by species (pike recover faster than carp)
+- Exception: very slow, gradual rise can be okay
+
+H2: High Stable Pressure
+- Clear skies, sunny, calm — classic "bluebird" conditions
+- Moderate fishing — fish are active but cautious
+- Best approach: early morning, go deeper, use natural presentations
+- Not bad, just not peak — fish feed in shorter windows
+
+H2: Pressure Trends vs. Absolute Numbers
+- The TREND matters more than the exact reading
+- A reading of 1015 hPa means nothing without context
+- 1020 → 1015 (falling) = fish feeding
+- 1010 → 1015 (rising) = fish recovering
+- Track pressure over 24-48h, not just the current number
+
+H2: Practical Tips for Using Pressure Data
+- Check weather forecasts for approaching fronts
+- Fish BEFORE the front, not during or after
+- After a front: wait 12-24h before going out
+- Multiple stable days = consistent but not explosive fishing
+- "Fishing Moments tracks barometric pressure trends and factors them into species-specific scores. It knows that pike respond faster to pressure drops than carp — and adjusts your forecast accordingly."
+
+CTA FINAL:
+"Barometric pressure is the invisible force behind your best (and worst) fishing days. Fishing Moments monitors pressure trends in real time for your saved spots and weighs them into species-specific activity scores — because a zander doesn't react to pressure the same way a trout does."
+
+----------------------------------------
+IMAGES TO FIND:
+----------------------------------------
+- Hero image: Storm clouds over a lake / dramatic sky over water
+  Search: "storm over lake" or "barometric pressure weather" on Unsplash/Pexels
+  Filename: barometric-pressure-fishing.jpg
+
+----------------------------------------
+INTERNAL LINKS:
+----------------------------------------
+- Link to #02 (Carp Weather) for species-specific pressure effects
+- Link to #06 (Solunar Theory) when discussing combining factors
+- Link to #10 (Wind) when discussing weather fronts
+
+----------------------------------------
+ARTICLE CONTENT:
+(ChatGPT writes the article below this line)
+----------------------------------------
+
+

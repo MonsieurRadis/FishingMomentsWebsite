@@ -1,0 +1,89 @@
+========================================
+ARTICLE BRIEF #10
+========================================
+
+TITLE: How Wind Affects Fishing: Direction, Speed & Strategy
+SLUG: how-wind-affects-fishing
+TARGET KEYWORD: wind and fishing
+SECONDARY KEYWORDS: best wind direction for fishing, wind speed fishing, fishing in the wind, windward bank fishing
+TARGET LENGTH: 1200-1500 words (~120-150 lines)
+
+----------------------------------------
+META DESCRIPTION (max 155 chars):
+----------------------------------------
+Wind direction and speed change where fish feed and how active they are. Learn which wind is best, why the windward bank works, and how to adapt.
+
+----------------------------------------
+OUTLINE:
+----------------------------------------
+
+H2: Why Wind Matters More Than You Think
+- Wind pushes food, oxygenates water, and creates cover (surface chop)
+- It moves warm/cold water layers around in lakes
+- Wind is directly tied to pressure systems (they arrive together)
+- Most anglers avoid wind — but the best catches often come on windy days
+
+H2: Wind Direction: The Old Saying That's Actually True
+- "Wind from the west, fish bite best" — largely accurate
+- Southwest/West wind: warm, associated with low/falling pressure → great fishing
+- North/Northeast wind: cold, associated with rising/high pressure → poor fishing
+- South wind: warm, can be excellent, especially in spring
+- East wind: generally poor in Europe ("Wind from the east, fish bite least")
+- The reason: wind direction correlates with weather fronts and temperature
+
+H2: Wind Speed: How Much Is Too Much?
+- Calm (0-5 km/h): poor — flat water, fish spooky, too much light penetration
+- Light breeze (5-15 km/h): ideal — surface chop, comfortable fishing
+- Moderate (15-25 km/h): good for fish, challenging for angler
+- Strong (25+ km/h): fish may feed hard but fishing becomes difficult/dangerous
+- The sweet spot: 10-20 km/h with a SW direction
+
+H2: The Windward Bank Effect
+- Wind pushes surface water (and food) toward one bank
+- Insects, algae, daphnia, baitfish accumulate on the windward side
+- Predators follow the food chain → fish the windward bank
+- This effect is strongest on larger lakes
+- Exception: very cold wind — then the sheltered bank may be warmer
+
+H2: Wind and Waves: Creating Opportunities
+- Surface chop reduces light penetration → fish feel safer in shallows
+- Waves oxygenate the water → increases fish metabolism
+- Murky water stirred up by wind → advantages ambush predators
+- Drift fishing with the wind is a deadly technique (lure covers water naturally)
+
+H2: Adapting Your Technique to Wind
+- Heavier lures/sinkers to maintain contact in the wind
+- Cast with the wind for distance, or across it for control
+- Float fishing: use heavier floats, waggler style
+- Bank fishing: position yourself so the wind is at your back or side
+- Boat fishing: use a drift sock or anchor on the windward side
+
+H2: Using Wind Data to Plan Sessions
+- Check wind forecast for direction AND speed
+- Look for days with SW 10-20 km/h
+- Avoid calm high-pressure days (fish are lethargic and spooky)
+- "Fishing Moments factors wind speed and direction into its forecasts for each of your saved spots — so you know which spot will fish best on any given day."
+
+CTA FINAL:
+"Wind is one of the most underrated factors in fishing. The right breeze can turn a dead lake into a feeding frenzy. Fishing Moments tracks wind conditions for your specific spots and factors them into species-specific activity scores — so you always know where and when to fish."
+
+----------------------------------------
+IMAGES TO FIND:
+----------------------------------------
+- Hero image: Windy lake scene or angler fishing in wind
+  Search: "windy lake fishing" or "waves on lake" on Unsplash/Pexels
+  Filename: wind-affects-fishing.jpg
+
+----------------------------------------
+INTERNAL LINKS:
+----------------------------------------
+- Link to #07 (Barometric Pressure) — wind and pressure are linked
+- Link to #02 (Carp Weather) when discussing windward bank for carp
+- Link to #19 (Read a Lake) when discussing positioning on lakes
+
+----------------------------------------
+ARTICLE CONTENT:
+(ChatGPT writes the article below this line)
+----------------------------------------
+
+

@@ -1,0 +1,88 @@
+========================================
+ARTICLE BRIEF #09
+========================================
+
+TITLE: Moon Phases and Fishing: What the Science Actually Says
+SLUG: moon-phases-and-fishing
+TARGET KEYWORD: moon phases fishing
+SECONDARY KEYWORDS: full moon fishing, new moon fishing, does the moon affect fishing, lunar fishing calendar
+TARGET LENGTH: 1200-1500 words (~120-150 lines)
+
+----------------------------------------
+META DESCRIPTION (max 155 chars):
+----------------------------------------
+Does the moon really affect fishing? We look at the data behind full moon, new moon, and quarter phases — and what it means for your next trip.
+
+----------------------------------------
+OUTLINE:
+----------------------------------------
+
+H2: The Moon and Fish: Myth or Reality?
+- Fishermen have tracked moon phases for centuries
+- Science now has data to back (some of) it up
+- The moon affects: gravitational pull, light levels, and tidal forces
+- All three influence fish behavior — even in freshwater
+
+H2: How Moon Phases Work (Quick Primer)
+- New moon → first quarter → full moon → third quarter → cycle repeats (~29.5 days)
+- New moon: moon between earth and sun, dark nights
+- Full moon: moon opposite sun, bright nights
+- Quarters: half-lit moon, moderate gravitational effect
+
+H2: New Moon: The Best Phase for Daytime Fishing
+- Strongest gravitational effect (sun + moon aligned = spring tides)
+- Dark nights = fish don't feed overnight → hungry in the morning
+- Consistently rated #1 by solunar theory practitioners
+- Multiple studies confirm higher catch rates around new moon
+- Best 3 days: day before, day of, day after new moon
+
+H2: Full Moon: It's Complicated
+- Same gravitational pull as new moon (aligned but opposite)
+- BUT: bright nights mean fish feed after dark
+- Daytime fishing can be slower (fish already fed)
+- Night fishing under full moon: excellent for predators
+- Common pattern: slower morning, good evening/night
+
+H2: Quarter Moons: The Middle Ground
+- Weaker gravitational effect (sun and moon at 90°)
+- Generally average fishing — neither peak nor dead
+- Can still produce good fishing when combined with good weather
+- Don't skip fishing just because it's a quarter moon
+
+H2: Moon Phase + Other Factors
+- Moon phase alone won't make or break a session
+- Best combo: new moon + falling pressure + dawn/dusk = peak
+- Worst combo: post-full moon + rising pressure + midday sun = tough
+- Weather overrides moon phase in most cases
+- Think of moon phase as a 10-20% modifier, not a 100% factor
+- "Fishing Moments weights moon phase into its scoring engine alongside pressure, temperature, and species behavior — so the moon influence is already baked into your forecast."
+
+H2: Practical Moon Phase Calendar Tips
+- Track 3 days around new moon as your "go-to" days each month
+- On full moon nights: try night fishing for zander, catfish, big carp
+- Don't cancel a trip because of moon phase — weather matters more
+- But if you can choose WHEN to go, pick new moon ± 1 day
+
+CTA FINAL:
+"Moon phases are a real factor in fish activity — but they're not the only one. Fishing Moments integrates lunar data into species-specific scores, so you get one clear forecast instead of cross-referencing moon calendars, weather apps, and solunar tables."
+
+----------------------------------------
+IMAGES TO FIND:
+----------------------------------------
+- Hero image: Moon phases illustration or full moon over water
+  Search: "moon phases" or "full moon over lake" on Unsplash/Pexels
+  Filename: moon-phases-fishing.jpg
+
+----------------------------------------
+INTERNAL LINKS:
+----------------------------------------
+- Link to #06 (Solunar Theory) — deep dive on solunar mechanics
+- Link to #17 (Night Fishing) when discussing full moon night fishing
+- Link to #08 (Best Time of Day) when discussing dawn/dusk alignment
+
+----------------------------------------
+ARTICLE CONTENT:
+(ChatGPT writes the article below this line)
+----------------------------------------
+
+

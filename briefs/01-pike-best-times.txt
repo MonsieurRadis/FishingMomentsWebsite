@@ -1,0 +1,78 @@
+========================================
+ARTICLE BRIEF #01
+========================================
+
+TITLE: Best Times to Fish for Pike: A Complete Guide
+SLUG: best-time-to-fish-for-pike
+TARGET KEYWORD: best time to fish for pike
+SECONDARY KEYWORDS: pike feeding times, pike fishing season, when do pike bite, pike activity
+TARGET LENGTH: 1200-1500 words (~120-150 lines)
+
+----------------------------------------
+META DESCRIPTION (max 155 chars):
+----------------------------------------
+Learn the best times to fish for pike by season, time of day, and weather. Science-backed tips to predict when pike are most active and feeding.
+
+----------------------------------------
+OUTLINE:
+----------------------------------------
+
+H2: When Are Pike Most Active?
+- Pike are ambush predators — they don't feed constantly
+- Most active during low-light conditions (dawn, dusk)
+- Feeding windows tied to water temperature and prey activity
+- Mention that solunar periods (major/minor) align with pike activity spikes
+
+H2: Best Time of Day for Pike
+- Early morning (sunrise to ~2h after): #1 window
+- Late afternoon (2h before sunset): #2 window
+- Midday: generally slow except overcast days or cold water periods
+- Night: pike are less active than other predators at night
+
+H2: Best Season for Pike Fishing
+- Spring (post-spawn): aggressive feeding, shallow water, easy to target
+- Summer: early morning only, pike go deep when water warms above 20°C
+- Fall: THE best season — pike bulk up before winter, feed all day
+- Winter: slow but possible, target midday when water is "warmest"
+
+H2: How Weather Affects Pike Activity
+- Barometric pressure: pike feed aggressively before a front (dropping pressure)
+- Overcast days > sunny days (pike prefer low light)
+- Light rain can trigger feeding
+- Wind: a light chop on the water helps (breaks surface light)
+- Stable weather patterns = more predictable pike behavior
+
+H2: Water Temperature and Pike
+- Optimal range: 10-18°C (50-65°F)
+- Below 5°C: very sluggish, slow presentations needed
+- Above 22°C: pike stressed, avoid catch & release (mortality risk)
+- Temperature trends matter more than absolute temp (warming = good)
+
+H2: How to Predict Pike Feeding Times
+- Combine solunar calendar + weather + temperature
+- Mention Fishing Moments as a tool that does this automatically
+- "Instead of checking 5 different apps, tools like Fishing Moments combine all these factors into one score for pike specifically."
+
+CTA FINAL:
+"Pike don't feed randomly. Their activity follows predictable patterns driven by light, temperature, and pressure. Fishing Moments calculates pike-specific activity scores hour by hour, combining solunar data, weather forecasts, and species biology — so you know exactly when to be on the water."
+
+----------------------------------------
+IMAGES TO FIND:
+----------------------------------------
+- Hero image: Pike underwater or pike catch photo
+  Search: "pike fishing" or "northern pike underwater" on Unsplash/Pexels
+  Filename: pike-best-times.jpg
+
+----------------------------------------
+INTERNAL LINKS (to other articles):
+----------------------------------------
+- Link to #07 (Barometric Pressure) when discussing pressure
+- Link to #06 (Solunar Theory) when mentioning solunar periods
+- Link to #13 (Fall Fishing) when discussing autumn pike
+
+----------------------------------------
+ARTICLE CONTENT:
+(ChatGPT writes the article below this line)
+----------------------------------------
+
+

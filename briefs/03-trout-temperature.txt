@@ -1,0 +1,78 @@
+========================================
+ARTICLE BRIEF #03
+========================================
+
+TITLE: Brown Trout Fishing: How Water Temperature Changes Everything
+SLUG: trout-water-temperature-guide
+TARGET KEYWORD: trout water temperature
+SECONDARY KEYWORDS: best temperature for trout fishing, brown trout feeding temperature, trout fishing conditions, cold water trout
+TARGET LENGTH: 1200-1500 words (~120-150 lines)
+
+----------------------------------------
+META DESCRIPTION (max 155 chars):
+----------------------------------------
+Water temperature controls trout behavior. Learn the ideal ranges for brown trout feeding, how seasons shift their patterns, and when to fish each zone.
+
+----------------------------------------
+OUTLINE:
+----------------------------------------
+
+H2: Why Temperature Rules Trout Fishing
+- Trout are cold-water species — they need dissolved oxygen
+- Warm water holds less oxygen → trout stress and stop feeding
+- Unlike carp, trout don't tolerate heat — they'll die above 25°C
+- Temperature dictates where trout position, when they feed, and how aggressive they are
+
+H2: Ideal Temperature Ranges for Brown Trout
+- Peak activity: 12-18°C (54-64°F)
+- Active feeding: 8-20°C (46-68°F)
+- Stress zone: above 20°C — reduced feeding, seek cold pockets
+- Danger zone: above 24°C — risk of mortality, avoid fishing (ethical)
+- Cold but active: 4-8°C — slow, midday only, nymph/slow presentations
+
+H2: How Temperature Affects Trout Behavior by Season
+- Spring: water warming from winter → trout become increasingly active, insect hatches begin
+- Summer: early morning and late evening only in lowland rivers; high-altitude streams stay fishable all day
+- Fall: cooling water re-energizes trout, pre-spawn feeding frenzy
+- Winter: trout still feed (unlike many species) but very selectively, slow metabolism
+
+H2: Finding the Right Temperature Zone
+- In rivers: cold tributaries, spring-fed sections, deep pools
+- In lakes: thermocline — trout sit where temperature + oxygen balance
+- Shaded banks stay cooler — target these in summer
+- After rain: cooler runoff can reactivate trout in warm periods
+
+H2: Temperature Trends vs. Absolute Numbers
+- A warming trend (even within the optimal range) increases activity
+- A sudden cold snap shuts down feeding for 24-48h
+- Gradual cooling in fall = steady improvement
+- 2°C rise overnight = potential feeding window even in winter
+
+H2: Using Temperature Data to Plan Your Trip
+- Check water temperature forecasts, not just air temp
+- Water temp lags behind air temp by 12-24h
+- "Fishing Moments models water temperature based on air temp, cloud cover, and season for each species — and shows you when trout activity peaks."
+
+CTA FINAL:
+"Brown trout are temperature-driven fish. A few degrees make the difference between an empty net and a great session. Fishing Moments factors in water temperature models specific to trout, combined with weather and solunar data, to show you the best fishing windows — hour by hour."
+
+----------------------------------------
+IMAGES TO FIND:
+----------------------------------------
+- Hero image: Brown trout in clear water or being held by angler
+  Search: "brown trout fishing" or "trout in stream" on Unsplash/Pexels
+  Filename: trout-temperature-guide.jpg
+
+----------------------------------------
+INTERNAL LINKS:
+----------------------------------------
+- Link to #12 (Summer Fishing) when discussing hot weather
+- Link to #14 (Winter Fishing) when discussing cold water strategies
+- Link to #16 (Catch and Release) when mentioning ethical considerations in warm water
+
+----------------------------------------
+ARTICLE CONTENT:
+(ChatGPT writes the article below this line)
+----------------------------------------
+
+

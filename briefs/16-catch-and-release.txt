@@ -1,0 +1,97 @@
+========================================
+ARTICLE BRIEF #16
+========================================
+
+TITLE: Catch and Release: Best Practices for Fish Survival
+SLUG: catch-and-release-best-practices
+TARGET KEYWORD: catch and release fishing
+SECONDARY KEYWORDS: how to release fish safely, fish handling tips, catch and release tips, ethical fishing
+TARGET LENGTH: 1200-1500 words (~120-150 lines)
+
+----------------------------------------
+META DESCRIPTION (max 155 chars):
+----------------------------------------
+Catch and release keeps fish populations healthy — but only if done right. Learn the best practices to ensure fish survive after release.
+
+----------------------------------------
+OUTLINE:
+----------------------------------------
+
+H2: Why Catch and Release Matters
+- Fish populations are under pressure from overfishing, pollution, habitat loss
+- C&R allows anglers to enjoy fishing while preserving stocks
+- Done properly, survival rates are 90-95%+
+- Done poorly, fish die hours or days after release
+- It's our responsibility as anglers
+
+H2: Before You Fish: Set Up for Success
+- Use barbless hooks (or crimp barbs flat) — faster, cleaner unhooking
+- Have your unhooking tools ready: forceps, pliers, disgorger
+- Prepare your landing net — a rubberized mesh is gentlest on fish
+- Have a wet unhooking mat if fishing for larger fish (carp, pike)
+- Don't use stainless steel hooks (they don't dissolve if a fish breaks off)
+
+H2: During the Fight
+- Don't play fish to exhaustion — use appropriate tackle strength
+- Bring fish in steadily, don't let them fight for 10+ minutes unnecessarily
+- Oversized gear is better than undersized for C&R (shorter fight)
+- In warm water (20°C+): this is critical — exhausted fish in warm water die
+
+H2: Handling the Fish
+- WET your hands before touching ANY fish — dry hands strip their slime coat
+- Support the fish horizontally — never hold by the jaw alone (except bass)
+- Keep fingers away from gills — gill damage is often fatal
+- Minimize air exposure: 30 seconds max out of water
+- If photographing: prepare the camera FIRST, then lift the fish briefly
+- Hold fish low over water or mat — dropping from height = internal injuries
+
+H2: Unhooking
+- Lip-hooked fish: quick and easy, gently back the hook out
+- Deep-hooked fish: use a disgorger or long forceps, DON'T pull
+- If the hook is in the gills or stomach: cut the line close — the hook will corrode out
+- Trying to remove a deep hook does more damage than leaving it
+- Barbless hooks make ALL unhooking easier and safer
+
+H2: Releasing the Fish
+- Hold the fish upright in the water, facing into any current
+- Support the belly — let the fish recover its balance
+- Wait until the fish kicks away under its own power
+- Don't throw or drop fish back in
+- In rivers: release in calm water, not the main current (tired fish get swept away)
+- If the fish rolls belly-up: gently right it and keep supporting
+
+H2: Temperature Considerations
+- Warm water (above 20°C): fish are already stressed, handle even faster
+- Consider not fishing for sensitive species (trout) in very warm water
+- Cold water: fish recover slower but are less stressed
+- Air temperature matters too — don't lay fish on hot ground or rocks
+
+H2: Keepnets, Sacks, and Retaining
+- If you must retain fish: use a large keepnet in deep water
+- Don't keep fish in small containers or buckets
+- Carp sacks: only in cool water, for short periods
+- Best practice: catch, unhook, photograph, release — no retaining needed
+
+CTA FINAL:
+"Every fish you release properly is one that breeds, grows, and gives another angler a great day. Fishing Moments helps you fish at the right times — which means less time waiting and more successful, responsible sessions."
+
+----------------------------------------
+IMAGES TO FIND:
+----------------------------------------
+- Hero image: Fish being released into water / angler releasing a fish
+  Search: "catch and release fishing" or "releasing fish water" on Unsplash/Pexels
+  Filename: catch-and-release-fishing.jpg
+
+----------------------------------------
+INTERNAL LINKS:
+----------------------------------------
+- Link to #03 (Trout Temperature) for warm water concerns with trout
+- Link to #12 (Summer Fishing) for hot weather ethical fishing
+- Link to #15 (Beginners Guide) for beginner fish handling
+
+----------------------------------------
+ARTICLE CONTENT:
+(ChatGPT writes the article below this line)
+----------------------------------------
+
+
