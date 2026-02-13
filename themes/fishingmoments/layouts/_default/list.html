@@ -8,20 +8,21 @@
     {{ .Content }}
     <div class="blog-grid">
       {{ range .Pages }}
+      {{ $page := . }}
       <article class="blog-card">
-        {{ with .Params.image }}
-        <a href="{{ $.Permalink }}" class="blog-card-image" style="background-image: url('{{ . }}');"></a>
+        {{ with $page.Params.image }}
+        <a href="{{ $page.Permalink }}" class="blog-card-image" style="background-image: url('{{ . }}');"></a>
         {{ end }}
         <div class="blog-card-body">
-          {{ with $.Params.tags }}
+          {{ with $page.Params.tags }}
           <div class="blog-card-tags">
             {{ range first 2 . }}<span class="article-tag">{{ . }}</span>{{ end }}
           </div>
           {{ end }}
-          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-          <p>{{ .Summary }}</p>
+          <h2><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
+          <p>{{ $page.Summary }}</p>
           <div class="blog-card-meta">
-            <time>{{ .Date.Format "January 2, 2006" }}</time>
+            <time>{{ $page.Date.Format "January 2, 2006" }}</time>
           </div>
         </div>
       </article>

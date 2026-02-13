@@ -13,7 +13,7 @@
       <h1>{{ .Title }}</h1>
       <div class="article-meta">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-        <span class="article-reading-time">{{ math.Round (div (countwords .Content) 200.0) }} min read</span>
+        <span class="article-reading-time">{{ div (countwords .Content) 200 | add 1 }} min read</span>
       </div>
     </div>
   </div>
