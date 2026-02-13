@@ -2,6 +2,7 @@ baseURL = '/'
 languageCode = 'en'
 title = 'Fishing Moments — Smart Fishing Forecasts'
 theme = 'fishingmoments'
+buildFuture = true
 
 [params]
   description = "Know when fish are biting. Species-specific forecasts powered by science."

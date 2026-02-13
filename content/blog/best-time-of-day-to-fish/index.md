@@ -1,6 +1,6 @@
 ---
 title: "Best Time of Day to Go Fishing: A Science-Based Guide"
-date: 2026-02-14
+date: 2026-02-13
 description: "When do fish bite most? Discover the best times of day to fish, backed by science. Dawn, dusk, midday — learn what actually works and why."
 tags: ["science", "timing", "tips"]
 image: "/images/blog/best-time-of-day-fishing.jpg"
