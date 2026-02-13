@@ -2,18 +2,22 @@
 <!-- Hero Section -->
 <section class="hero">
   <div class="hero-bg">
-    <img src="/images/backgrounds/hero-night.png" alt="" class="hero-bg-img">
+    <img src="/images/backgrounds/splash-dark.png" alt="" class="hero-bg-img">
     <div class="hero-overlay"></div>
   </div>
   <img src="/images/branding/ornament-corner.svg" alt="" class="hero-ornament hero-ornament-tl">
   <img src="/images/branding/ornament-corner.svg" alt="" class="hero-ornament hero-ornament-tr">
   <img src="/images/branding/ornament-corner.svg" alt="" class="hero-ornament hero-ornament-bl">
   <img src="/images/branding/ornament-corner.svg" alt="" class="hero-ornament hero-ornament-br">
-  <div class="container">
-    <div class="hero-content">
+  <div class="container hero-split">
+    <!-- Above water -->
+    <div class="hero-above">
       <img src="/images/branding/full-logo.svg" alt="Fishing Moments" class="hero-logo">
       <p class="hero-tagline">Smart Fishing Forecasts</p>
       <h1>Know exactly when<br>fish are biting.</h1>
+    </div>
+    <!-- Below water -->
+    <div class="hero-below">
       <p class="hero-subtitle">Species-specific activity forecasts powered by solunar science, real-time weather, and fish biology.</p>
       <div class="hero-cta">
         <a href="{{ .Site.Params.appStoreURL }}" class="btn btn-primary">
