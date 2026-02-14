@@ -815,13 +815,19 @@ img { max-width: 100%; height: auto; }
   padding: 3rem 0 2rem;
 }
 .footer-ornament {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
   margin-bottom: 2.5rem;
 }
 .ornament-line {
   width: 10rem;
   height: auto;
   opacity: 0.12;
+}
+.ornament-mirrored {
+  transform: scaleX(-1);
 }
 .footer-grid {
   display: grid;
