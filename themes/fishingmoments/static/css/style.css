@@ -785,6 +785,12 @@ img { max-width: 100%; height: auto; }
   border-top: none;
   padding-top: 0;
 }
+.article-cta-box .btn {
+  color: #fff;
+}
+.article-cta-box .btn:hover {
+  color: #fff;
+}
 .article-cta-box p {
   color: rgba(232, 240, 255, 0.55);
   font-size: 0.95rem;
