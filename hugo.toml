@@ -2,7 +2,6 @@ baseURL = '/'
 languageCode = 'en'
 title = 'Fishing Moments — Smart Fishing Forecasts'
 theme = 'fishingmoments'
-buildFuture = true
 
 [params]
   description = "Know when fish are biting. Species-specific forecasts powered by science."
@@ -17,13 +16,17 @@ buildFuture = true
     url = "/"
     weight = 1
   [[menu.main]]
+    name = "The App"
+    url = "/app/"
+    weight = 2
+  [[menu.main]]
     name = "Fishing Knowledge Center"
     url = "/blog/"
-    weight = 2
+    weight = 3
   [[menu.main]]
     name = "Support"
     url = "/support/"
-    weight = 3
+    weight = 4
 
 [markup]
   [markup.goldmark]
