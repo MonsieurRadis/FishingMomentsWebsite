@@ -1,0 +1,18 @@
+{{ $page := . }}
+<article class="blog-card">
+  {{ with $page.Params.image }}
+  <a href="{{ $page.Permalink }}" class="blog-card-image" style="background-image: url('{{ . }}');"></a>
+  {{ end }}
+  <div class="blog-card-body">
+    {{ with $page.Params.tags }}
+    <div class="blog-card-tags">
+      {{ range first 2 . }}<span class="article-tag">{{ . }}</span>{{ end }}
+    </div>
+    {{ end }}
+    <h2><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
+    <p>{{ $page.Summary }}</p>
+    <div class="blog-card-meta">
+      <time>{{ $page.Date.Format "January 2, 2006" }}</time>
+    </div>
+  </div>
+</article>

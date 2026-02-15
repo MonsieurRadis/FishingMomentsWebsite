@@ -4,5 +4,27 @@
       "HUGO_VERSION": "0.155.3"
     }
   },
-  "framework": "hugo"
+  "framework": "hugo",
+  "redirects": [
+    { "source": "/blog/best-time-of-day-to-fish/", "destination": "/blog/fish-behavior-and-conditions/best-time-of-day-to-fish/", "statusCode": 301 },
+    { "source": "/blog/moon-phases-and-fishing/", "destination": "/blog/fish-behavior-and-conditions/moon-phases-and-fishing/", "statusCode": 301 },
+    { "source": "/blog/solunar-theory-fishing-explained/", "destination": "/blog/fish-behavior-and-conditions/solunar-theory-fishing-explained/", "statusCode": 301 },
+    { "source": "/blog/barometric-pressure-fishing/", "destination": "/blog/fish-behavior-and-conditions/barometric-pressure-fishing/", "statusCode": 301 },
+    { "source": "/blog/how-wind-affects-fishing/", "destination": "/blog/fish-behavior-and-conditions/how-wind-affects-fishing/", "statusCode": 301 },
+    { "source": "/blog/how-weather-affects-carp-fishing/", "destination": "/blog/fish-behavior-and-conditions/how-weather-affects-carp-fishing/", "statusCode": 301 },
+    { "source": "/blog/spring-fishing-guide/", "destination": "/blog/seasonal-strategies/spring-fishing-guide/", "statusCode": 301 },
+    { "source": "/blog/summer-fishing-beat-the-heat/", "destination": "/blog/seasonal-strategies/summer-fishing-beat-the-heat/", "statusCode": 301 },
+    { "source": "/blog/fall-fishing-best-season/", "destination": "/blog/seasonal-strategies/fall-fishing-best-season/", "statusCode": 301 },
+    { "source": "/blog/winter-fishing-cold-water-strategies/", "destination": "/blog/seasonal-strategies/winter-fishing-cold-water-strategies/", "statusCode": 301 },
+    { "source": "/blog/night-fishing-tips-guide/", "destination": "/blog/fishing-techniques/night-fishing-tips-guide/", "statusCode": 301 },
+    { "source": "/blog/how-to-read-a-lake-fishing/", "destination": "/blog/fishing-techniques/how-to-read-a-lake-fishing/", "statusCode": 301 },
+    { "source": "/blog/river-fishing-best-spots/", "destination": "/blog/fishing-techniques/river-fishing-best-spots/", "statusCode": 301 },
+    { "source": "/blog/best-time-to-fish-for-pike/", "destination": "/blog/species-guides/best-time-to-fish-for-pike/", "statusCode": 301 },
+    { "source": "/blog/perch-fishing-seasonal-patterns/", "destination": "/blog/species-guides/perch-fishing-seasonal-patterns/", "statusCode": 301 },
+    { "source": "/blog/trout-water-temperature-guide/", "destination": "/blog/species-guides/trout-water-temperature-guide/", "statusCode": 301 },
+    { "source": "/blog/zander-fishing-beginners-guide/", "destination": "/blog/species-guides/zander-fishing-beginners-guide/", "statusCode": 301 },
+    { "source": "/blog/freshwater-fishing-beginners-guide/", "destination": "/blog/beginners-and-ethics/freshwater-fishing-beginners-guide/", "statusCode": 301 },
+    { "source": "/blog/fishing-mistakes-beginners/", "destination": "/blog/beginners-and-ethics/fishing-mistakes-beginners/", "statusCode": 301 },
+    { "source": "/blog/catch-and-release-best-practices/", "destination": "/blog/beginners-and-ethics/catch-and-release-best-practices/", "statusCode": 301 }
+  ]
 }

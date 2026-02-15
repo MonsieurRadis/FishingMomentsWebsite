@@ -1,0 +1,85 @@
+{{ define "main" }}
+{{ if .Page.Parent.IsHome }}
+{{/* ======= KNOWLEDGE CENTER HUB (/blog/) ======= */}}
+<section class="knowledge-library">
+  <div class="container">
+    <div class="library-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="library-desc">{{ . }}</p>{{ end }}
+    </div>
+
+    {{/* Editorial intro */}}
+    {{ with .Content }}
+    <div class="library-intro">
+      {{ . }}
+    </div>
+    {{ end }}
+
+    {{/* Category Grid */}}
+    <h2 class="library-section-title">Explore by Topic</h2>
+    <div class="category-grid">
+      {{ range .Sections.ByWeight }}
+      <a href="{{ .Permalink }}" class="category-card">
+        <div class="category-card-icon">
+          {{ partial "category-icon.html" . }}
+        </div>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Description }}</p>
+        {{ $count := len .Pages }}
+        {{ if gt $count 0 }}
+        <span class="category-card-count">{{ $count }} {{ if eq $count 1 }}article{{ else }}articles{{ end }}</span>
+        {{ else }}
+        <span class="category-card-count category-card-soon">Coming soon</span>
+        {{ end }}
+      </a>
+      {{ end }}
+    </div>
+
+    {{/* Pillar Articles */}}
+    {{ $pillars := where .RegularPagesRecursive ".Params.pillar" true }}
+    {{ if $pillars }}
+    <div class="library-section">
+      <h2 class="library-section-title">Pillar Guides</h2>
+      <div class="blog-grid">
+        {{ range $pillars }}
+        {{ partial "blog-card.html" . }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{/* Latest Articles */}}
+    <div class="library-section">
+      <h2 class="library-section-title">Latest Articles</h2>
+      <div class="blog-grid">
+        {{ range first 6 .RegularPagesRecursive.ByDate.Reverse }}
+        {{ partial "blog-card.html" . }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ else }}
+{{/* ======= CATEGORY LANDING PAGE (/blog/category/) ======= */}}
+<section class="blog-list">
+  <div class="container">
+    <div class="blog-list-header">
+      <nav class="breadcrumb">
+        <a href="/blog/">Fishing Knowledge Center</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>{{ .Title }}</span>
+      </nav>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="blog-list-desc">{{ . }}</p>{{ end }}
+    </div>
+    {{ .Content }}
+    <div class="blog-grid">
+      {{ range .Pages.ByDate.Reverse }}
+      {{ partial "blog-card.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
