@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
   blogGrids.forEach(grid => {
     const articles = grid.querySelectorAll('.blog-card');
     articles.forEach(article => {
-      const title = article.querySelector('h3')?.textContent.toLowerCase() || '';
+      const title = article.querySelector('h2')?.textContent.toLowerCase() || '';
       const description = article.querySelector('p')?.textContent.toLowerCase() || '';
-      const tags = Array.from(article.querySelectorAll('.blog-card-tag'))
+      const tags = Array.from(article.querySelectorAll('.article-tag'))
         .map(tag => tag.textContent.toLowerCase())
         .join(' ');
 
