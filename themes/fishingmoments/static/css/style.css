@@ -1120,14 +1120,23 @@ img { max-width: 100%; height: auto; }
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
+/* Pillar Articles Grid */
+.pillar-articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
 /* Breadcrumb */
 .breadcrumb {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   font-size: 0.8rem;
   font-weight: 500;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 .breadcrumb a {
   color: rgba(232, 240, 255, 0.5);

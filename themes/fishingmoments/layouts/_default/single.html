@@ -5,6 +5,16 @@
   <div class="article-hero" style="background-image: url('{{ .Params.image }}');">
     <div class="article-hero-overlay"></div>
     <div class="container article-hero-content">
+      {{/* Breadcrumb */}}
+      {{ if .CurrentSection }}
+      <div class="breadcrumb">
+        <a href="/blog/">Fishing Knowledge Center</a>
+        <span class="breadcrumb-sep">/</span>
+        <a href="{{ .CurrentSection.RelPermalink }}">{{ .CurrentSection.Title }}</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>{{ .Title }}</span>
+      </div>
+      {{ end }}
       {{ with .Params.tags }}
       <div class="article-tags">
         {{ range . }}<span class="article-tag">{{ . }}</span>{{ end }}
@@ -19,6 +29,28 @@
   </div>
   <div class="container article-body">
     {{ .Content }}
+
+    {{/* More in this category */}}
+    {{ if .CurrentSection }}
+      {{ $currentPage := . }}
+      {{ $siblings := where .CurrentSection.Pages "Permalink" "ne" .Permalink }}
+      {{ if $siblings }}
+      <div class="related-category">
+        <h2>More in {{ .CurrentSection.Title }}</h2>
+        <div class="related-grid">
+          {{ range first 3 $siblings }}
+            <a href="{{ .Permalink }}" class="related-card">
+              {{ with .Params.image }}
+                <div class="related-card-image" style="background-image: url('{{ . }}');"></div>
+              {{ end }}
+              <span>{{ .Title }}</span>
+            </a>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+
     <div class="article-cta-box">
       <img src="/images/branding/logo.svg" alt="Fishing Moments" class="article-cta-logo">
       <h3>Put this into practice</h3>
