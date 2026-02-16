@@ -1,9 +1,13 @@
 {{ define "main" }}
 {{- $isBlogHome := or (eq .RelPermalink "/blog/") (eq .RelPermalink "/fr/blog/") -}}
 {{- $isAppPage := or (eq .RelPermalink "/app/") (eq .RelPermalink "/fr/app/") -}}
+{{- $isSupportPage := or (eq .RelPermalink "/support/") (eq .RelPermalink "/fr/support/") -}}
 {{- if $isAppPage -}}
 {{/* Use app template */}}
 {{ partial "app-content.html" . }}
+{{- else if $isSupportPage -}}
+{{/* Use support template */}}
+{{ partial "support-content.html" . }}
 {{- else if $isBlogHome -}}
 {{/* ========== KNOWLEDGE CENTER HUB ========== */}}
 <section class="knowledge-library">

@@ -1494,3 +1494,107 @@ main h2 + h3 {
     padding: 0.45rem 0.9rem;
   }
 }
+
+/* ========================================
+   Support Page Styles
+   ======================================== */
+
+.support-page {
+  padding: 4rem 0;
+  background: #071a2a;
+  color: #e8f0ff;
+  min-height: 80vh;
+}
+
+.support-page h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #e8f0ff;
+}
+
+.support-page h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 3rem 0 1.5rem 0;
+  color: #D4A34F;
+}
+
+.support-page h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #e8f0ff;
+}
+
+.support-page p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: rgba(232, 240, 255, 0.85);
+  margin-bottom: 1rem;
+}
+
+.faq-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(212, 163, 79, 0.05);
+  border-left: 3px solid #D4A34F;
+  border-radius: 4px;
+}
+
+.faq-item h3 {
+  margin-top: 0;
+}
+
+.support-contact {
+  background: rgba(212, 163, 79, 0.1);
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  border: 1px solid rgba(212, 163, 79, 0.2);
+}
+
+.support-contact a {
+  color: #D4A34F;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.support-contact a:hover {
+  text-decoration: underline;
+}
+
+.app-info-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.app-info-list li {
+  padding: 0.5rem 0;
+  font-size: 1.05rem;
+  color: rgba(232, 240, 255, 0.85);
+}
+
+.app-info-list strong {
+  color: #D4A34F;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .support-page {
+    padding: 2rem 0;
+  }
+  
+  .support-page h1 {
+    font-size: 2rem;
+  }
+  
+  .support-page h2 {
+    font-size: 1.5rem;
+  }
+  
+  .faq-item {
+    padding: 1rem;
+  }
+}
