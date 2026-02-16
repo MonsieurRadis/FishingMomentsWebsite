@@ -39,6 +39,20 @@
     const elements = document.querySelectorAll('[data-i18n]');
     elements.forEach(translateElement);
 
+    // Translate placeholder attributes
+    const placeholderElements = document.querySelectorAll('[data-i18n-placeholder]');
+    placeholderElements.forEach(element => {
+      const key = element.getAttribute('data-i18n-placeholder');
+      if (!key) return;
+
+      const lang = getCurrentLang();
+      const translation = translations[lang] && translations[lang][key];
+
+      if (translation) {
+        element.placeholder = translation;
+      }
+    });
+
     // Update lang attribute
     document.documentElement.lang = getCurrentLang();
 

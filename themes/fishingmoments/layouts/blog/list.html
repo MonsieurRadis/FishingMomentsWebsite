@@ -7,13 +7,13 @@
   <div class="container">
     {{/* Header */}}
     <div class="library-header">
-      <h1>{{ .Title }}</h1>
-      {{ with .Description }}<p class="library-desc">{{ . }}</p>{{ end }}
+      <h1 data-i18n="knowledgeCenterTitle">Fishing Knowledge Center</h1>
+      <p class="library-desc" data-i18n="knowledgeCenterDesc">Expert guides backed by science — fish behavior, weather patterns, seasonal strategies, and species-specific techniques.</p>
     </div>
 
     {{/* Search Bar */}}
     <div class="search-container">
-      <input type="text" id="article-search" class="search-input" placeholder="{{ i18n "searchArticles" }}">
+      <input type="text" id="article-search" class="search-input" data-i18n-placeholder="searchArticles" placeholder="Search articles...">
       <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <circle cx="11" cy="11" r="8"></circle>
         <path d="m21 21-4.35-4.35"></path>
@@ -22,7 +22,7 @@
 
     {{/* Category Grid */}}
     <div class="library-section">
-      <h2 class="library-section-title">{{ i18n "exploreByTopic" }}</h2>
+      <h2 class="library-section-title" data-i18n="exploreByTopic">Explore by Topic</h2>
       <div class="category-grid">
         {{ range .Sections.ByWeight }}
         <a href="{{ .RelPermalink }}" class="category-card">
@@ -32,7 +32,7 @@
           <h3>{{ .Title }}</h3>
           <p>{{ .Description }}</p>
           <div class="category-card-count">
-            {{ len .Pages }} {{ if eq (len .Pages) 1 }}{{ i18n "article" 1 }}{{ else }}{{ i18n "article" }}{{ end }}
+            <span class="article-count">{{ len .Pages }}</span> <span data-i18n="articles">articles</span>
           </div>
         </a>
         {{ end }}
@@ -43,7 +43,7 @@
     {{ $pillarArticles := where .Site.RegularPages "Params.pillar" true }}
     {{ if $pillarArticles }}
     <div class="library-section">
-      <h2 class="library-section-title">{{ i18n "pillarGuides" }}</h2>
+      <h2 class="library-section-title" data-i18n="pillarGuides">Pillar Guides</h2>
       <div class="pillar-articles">
         {{ range $pillarArticles }}
           {{ partial "blog-card.html" . }}
@@ -54,7 +54,7 @@
 
     {{/* Latest Articles */}}
     <div class="library-section">
-      <h2 class="library-section-title">{{ i18n "latestArticles" }}</h2>
+      <h2 class="library-section-title" data-i18n="latestArticles">Latest Articles</h2>
       <div class="blog-grid">
         {{ range first 6 .Site.RegularPages }}
           {{ partial "blog-card.html" . }}
@@ -63,12 +63,10 @@
     </div>
 
     {{/* About - Editorial Content (moved to bottom) */}}
-    {{ with .Content }}
     <div class="library-about">
-      <h2 class="library-section-title">{{ i18n "aboutKnowledgeCenter" }}</h2>
-      <div class="library-about-content">{{ . }}</div>
+      <h2 class="library-section-title" data-i18n="aboutKnowledgeCenter">About the Knowledge Center</h2>
+      <div class="library-about-content" data-i18n-html="knowledgeCenterIntro"></div>
     </div>
-    {{ end }}
   </div>
 </section>
 
@@ -78,7 +76,7 @@
   <div class="container">
     {{/* Breadcrumb */}}
     <div class="breadcrumb">
-      <a href="/blog/">{{ i18n "exploreByTopic" | default "Fishing Knowledge Center" }}</a>
+      <a href="/blog/" data-i18n="knowledgeCenterName">Fishing Knowledge Center</a>
       <span class="breadcrumb-sep">/</span>
       <span>{{ .Title }}</span>
     </div>
