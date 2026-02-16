@@ -53,6 +53,28 @@
       }
     });
 
+    // Translate category titles and descriptions
+    const categoryCards = document.querySelectorAll('[data-category-slug]');
+    categoryCards.forEach(card => {
+      const slug = card.getAttribute('data-category-slug');
+      if (!slug) return;
+
+      const lang = getCurrentLang();
+      const categoryData = translations[lang] && translations[lang].categories && translations[lang].categories[slug];
+
+      if (categoryData) {
+        const titleEl = card.querySelector('[data-i18n-category="title"]');
+        const descEl = card.querySelector('[data-i18n-category="description"]');
+
+        if (titleEl && categoryData.title) {
+          titleEl.textContent = categoryData.title;
+        }
+        if (descEl && categoryData.description) {
+          descEl.textContent = categoryData.description;
+        }
+      }
+    });
+
     // Update lang attribute
     document.documentElement.lang = getCurrentLang();
 

@@ -25,12 +25,12 @@
       <h2 class="library-section-title" data-i18n="exploreByTopic">Explore by Topic</h2>
       <div class="category-grid">
         {{ range .Sections.ByWeight }}
-        <a href="{{ .RelPermalink }}" class="category-card">
+        <a href="{{ .RelPermalink }}" class="category-card" data-category-slug="{{ .File.ContentBaseName }}">
           <div class="category-card-icon">
             {{ partial "category-icon.html" . }}
           </div>
-          <h3>{{ .Title }}</h3>
-          <p>{{ .Description }}</p>
+          <h3 data-i18n-category="title">{{ .Title }}</h3>
+          <p data-i18n-category="description">{{ .Description }}</p>
           <div class="category-card-count">
             <span class="article-count">{{ len .Pages }}</span> <span data-i18n="articles">articles</span>
           </div>
