@@ -978,16 +978,56 @@ img { max-width: 100%; height: auto; }
   color: rgba(232, 240, 255, 0.5);
   font-size: 1.05rem;
 }
-.library-intro {
-  max-width: 48rem;
-  margin: 0 auto 3rem;
-  color: rgba(232, 240, 255, 0.65);
-  font-size: 1rem;
-  line-height: 1.8;
+
+/* Search Bar */
+.search-container {
+  position: relative;
+  max-width: 32rem;
+  margin: 2.5rem auto 3rem;
 }
-.library-intro p { margin-bottom: 1rem; }
-.library-intro a { color: #5ab0d8; font-weight: 500; }
-.library-intro a:hover { color: #D4A34F; }
+.search-input {
+  width: 100%;
+  padding: 0.875rem 1.25rem 0.875rem 3rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 2rem;
+  color: #e8f0ff;
+  font-size: 1rem;
+  transition: all 0.3s;
+  outline: none;
+}
+.search-input::placeholder {
+  color: rgba(232, 240, 255, 0.4);
+}
+.search-input:focus {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(212, 163, 79, 0.4);
+  box-shadow: 0 0 0 3px rgba(212, 163, 79, 0.1);
+}
+.search-icon {
+  position: absolute;
+  left: 1.125rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(232, 240, 255, 0.4);
+  pointer-events: none;
+}
+
+/* About Section (moved to bottom) */
+.library-about {
+  max-width: 48rem;
+  margin: 5rem auto 0;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.library-about-content {
+  color: rgba(232, 240, 255, 0.6);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+.library-about-content p { margin-bottom: 0.875rem; }
+.library-about-content a { color: #5ab0d8; font-weight: 500; }
+.library-about-content a:hover { color: #D4A34F; }
 
 /* Category Grid */
 .category-grid {
@@ -1140,6 +1180,25 @@ img { max-width: 100%; height: auto; }
   .category-grid { grid-template-columns: 1fr; }
   .related-grid { grid-template-columns: 1fr; }
   .library-header h1 { font-size: 2rem; }
+  .search-container {
+    margin: 2rem auto 2.5rem;
+  }
+  .search-input {
+    font-size: 0.95rem;
+    padding: 0.75rem 1rem 0.75rem 2.75rem;
+  }
+  .search-icon {
+    width: 18px;
+    height: 18px;
+    left: 1rem;
+  }
+  .library-about {
+    margin-top: 3rem;
+    padding-top: 2rem;
+  }
+  .library-about-content {
+    font-size: 0.9rem;
+  }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .category-grid { grid-template-columns: repeat(2, 1fr); }
