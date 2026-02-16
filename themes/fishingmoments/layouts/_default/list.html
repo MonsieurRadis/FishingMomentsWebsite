@@ -1,6 +1,10 @@
 {{ define "main" }}
 {{- $isBlogHome := or (eq .RelPermalink "/blog/") (eq .RelPermalink "/fr/blog/") -}}
-{{- if $isBlogHome -}}
+{{- $isAppPage := or (eq .RelPermalink "/app/") (eq .RelPermalink "/fr/app/") -}}
+{{- if $isAppPage -}}
+{{/* Use app template */}}
+{{ partial "app-content.html" . }}
+{{- else if $isBlogHome -}}
 {{/* ========== KNOWLEDGE CENTER HUB ========== */}}
 <section class="knowledge-library">
   <div class="container">

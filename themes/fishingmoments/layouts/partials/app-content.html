@@ -1,0 +1,163 @@
+
+<!-- Hero -->
+<section class="app-hero">
+  <div class="app-hero-bg">
+    <img src="/images/backgrounds/splash-dark.png" alt="" class="app-hero-bg-img">
+    <div class="app-hero-overlay"></div>
+  </div>
+  <div class="container app-hero-content">
+    <div class="app-hero-text">
+      <p class="app-hero-label" data-i18n="appHeroLabel">{{ i18n "appHeroLabel" }}</p>
+      <h1 data-i18n="appHeroTitle" data-i18n-html>{{ i18n "appHeroTitle" | safeHTML }}</h1>
+      <p class="app-hero-sub" data-i18n="appHeroSubtitle">{{ i18n "appHeroSubtitle" }}</p>
+      <a href="{{ .Site.Params.appStoreURL }}" class="btn btn-primary btn-lg">
+        <svg width="20" height="20" viewBox="0 0 384 512" fill="currentColor" style="margin-right: 0.5rem;"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+        <span data-i18n="downloadAppStore">{{ i18n "downloadAppStore" }}</span>
+      </a>
+      <p class="app-hero-free">{{ i18n "ctaFreeText" | safeHTML }}</p>
+    </div>
+    <div class="app-hero-visual">
+      <img src="/images/app/screen-02.png" alt="{{ i18n "appScreenAlt" }}" class="app-hero-screen">
+    </div>
+  </div>
+</section>
+
+<!-- Screenshot Showcase -->
+<section class="app-showcase">
+  <div class="container">
+    <div class="app-showcase-row">
+      <div class="app-showcase-screen">
+        <img src="/images/app/screen-03.png" alt="{{ i18n "appHourlyScreenAlt" }}" loading="lazy">
+      </div>
+      <div class="app-showcase-text">
+        <span class="feature-label" data-i18n="appHourlyLabel">{{ i18n "appHourlyLabel" }}</span>
+        <h2 data-i18n="appHourlyTitle">{{ i18n "appHourlyTitle" }}</h2>
+        <p data-i18n="appHourlyDesc">{{ i18n "appHourlyDesc" }}</p>
+        <ul class="feature-list">
+          <li>{{ i18n "appHourlyBullet1" }}</li>
+          <li>{{ i18n "appHourlyBullet2" }}</li>
+          <li>{{ i18n "appHourlyBullet3" }}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="app-showcase-row reverse">
+      <div class="app-showcase-screen">
+        <img src="/images/app/screen-04.png" alt="{{ i18n "appSpeciesScreenAlt" }}" loading="lazy">
+      </div>
+      <div class="app-showcase-text">
+        <span class="feature-label" data-i18n="appSpeciesLabel">{{ i18n "appSpeciesLabel" }}</span>
+        <h2 data-i18n="appSpeciesTitle">{{ i18n "appSpeciesTitle" }}</h2>
+        <p data-i18n="appSpeciesDesc">{{ i18n "appSpeciesDesc" }}</p>
+        <ul class="feature-list">
+          <li>{{ i18n "appSpeciesBullet1" }}</li>
+          <li>{{ i18n "appSpeciesBullet2" }}</li>
+          <li>{{ i18n "appSpeciesBullet3" }}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="app-showcase-row">
+      <div class="app-showcase-screen">
+        <img src="/images/app/screen-05.png" alt="{{ i18n "appHabitatScreenAlt" }}" loading="lazy">
+      </div>
+      <div class="app-showcase-text">
+        <span class="feature-label" data-i18n="appHabitatLabel">{{ i18n "appHabitatLabel" }}</span>
+        <h2 data-i18n="appHabitatTitle">{{ i18n "appHabitatTitle" }}</h2>
+        <p data-i18n="appHabitatDesc">{{ i18n "appHabitatDesc" }}</p>
+        <ul class="feature-list">
+          <li>{{ i18n "appHabitatBullet1" }}</li>
+          <li>{{ i18n "appHabitatBullet2" }}</li>
+          <li>{{ i18n "appHabitatBullet3" }}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="app-showcase-row reverse">
+      <div class="app-showcase-screen">
+        <img src="/images/app/screen-06.png" alt="{{ i18n "appDesignScreenAlt" }}" loading="lazy">
+      </div>
+      <div class="app-showcase-text">
+        <span class="feature-label" data-i18n="appDesignLabel">{{ i18n "appDesignLabel" }}</span>
+        <h2 data-i18n="appDesignTitle">{{ i18n "appDesignTitle" }}</h2>
+        <p data-i18n="appDesignDesc">{{ i18n "appDesignDesc" }}</p>
+        <ul class="feature-list">
+          <li>{{ i18n "appDesignBullet1" }}</li>
+          <li>{{ i18n "appDesignBullet2" }}</li>
+          <li>{{ i18n "appDesignBullet3" }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Countries Coverage -->
+<section class="countries-section">
+  <div class="container">
+    <h2 class="countries-title" data-i18n="appCountriesTitle">{{ i18n "appCountriesTitle" }}</h2>
+    <p class="countries-subtitle" data-i18n="appCountriesSubtitle">{{ i18n "appCountriesSubtitle" }}</p>
+    <div class="countries-grid">
+      <span class="country-tag">{{ i18n "countryFrance" }}</span>
+      <span class="country-tag">{{ i18n "countryUK" }}</span>
+      <span class="country-tag">{{ i18n "countryGermany" }}</span>
+      <span class="country-tag">{{ i18n "countrySpain" }}</span>
+      <span class="country-tag">{{ i18n "countryItaly" }}</span>
+      <span class="country-tag">{{ i18n "countrySweden" }}</span>
+      <span class="country-tag">{{ i18n "countryNorway" }}</span>
+      <span class="country-tag">{{ i18n "countryFinland" }}</span>
+      <span class="country-tag">{{ i18n "countryDenmark" }}</span>
+      <span class="country-tag">{{ i18n "countryNetherlands" }}</span>
+      <span class="country-tag">{{ i18n "countryBelgium" }}</span>
+      <span class="country-tag">{{ i18n "countrySwitzerland" }}</span>
+      <span class="country-tag">{{ i18n "countryAustria" }}</span>
+      <span class="country-tag">{{ i18n "countryPoland" }}</span>
+      <span class="country-tag">{{ i18n "countryCzech" }}</span>
+      <span class="country-tag">{{ i18n "countryHungary" }}</span>
+      <span class="country-tag">{{ i18n "countryCroatia" }}</span>
+      <span class="country-tag">{{ i18n "countryIreland" }}</span>
+      <span class="country-tag">{{ i18n "countryPortugal" }}</span>
+    </div>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="app-stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-number">44</span>
+        <span class="stat-label" data-i18n="statsSpecies">{{ i18n "statsSpecies" }}</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">10</span>
+        <span class="stat-label" data-i18n="statsDays">{{ i18n "statsDays" }}</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">24/7</span>
+        <span class="stat-label" data-i18n="statsHourly">{{ i18n "statsHourly" }}</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">19</span>
+        <span class="stat-label" data-i18n="statsCountries">{{ i18n "statsCountries" }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="final-cta">
+  <div class="container">
+    <img src="/images/branding/logo.svg" alt="" class="cta-logo">
+    <h2 data-i18n="ctaTitle">{{ i18n "ctaTitle" }}</h2>
+    <p data-i18n="ctaDesc">{{ i18n "ctaDesc" }}</p>
+    <a href="{{ .Site.Params.appStoreURL }}" class="btn btn-primary btn-lg">
+      <svg width="20" height="20" viewBox="0 0 384 512" fill="currentColor" style="margin-right: 0.5rem;"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+      <span data-i18n="downloadAppStore">{{ i18n "downloadAppStore" }}</span>
+    </a>
+    <p class="cta-free">{{ i18n "ctaFreeText" | safeHTML }}</p>
+  </div>
+</section>
+
