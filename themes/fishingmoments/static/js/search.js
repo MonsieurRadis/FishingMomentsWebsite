@@ -67,11 +67,16 @@ document.addEventListener('DOMContentLoaded', function() {
       searchContainer.insertAdjacentElement('afterend', searchResultsSection);
     }
 
+    // Get translated strings from search input data attributes
+    const resultsTitle = searchInput.dataset.resultsTitle || 'Search Results';
+    const noResults = searchInput.dataset.noResults || 'No articles found for';
+    const tryDifferent = searchInput.dataset.tryDifferent || 'Try different keywords.';
+
     if (matchingArticles.length === 0) {
       searchResultsSection.innerHTML = `
-        <h2 class="library-section-title">Search Results</h2>
+        <h2 class="library-section-title">${resultsTitle}</h2>
         <p style="text-align: center; color: rgba(232, 240, 255, 0.5); padding: 3rem 0;">
-          No articles found for "<strong>${escapeHtml(query)}</strong>". Try different keywords.
+          ${noResults} "<strong>${escapeHtml(query)}</strong>". ${tryDifferent}
         </p>
       `;
     } else {
@@ -82,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
 
       searchResultsSection.innerHTML = `
-        <h2 class="library-section-title">Search Results (${matchingArticles.length})</h2>
+        <h2 class="library-section-title">${resultsTitle} (${matchingArticles.length})</h2>
       `;
       searchResultsSection.appendChild(resultsGrid);
     }
