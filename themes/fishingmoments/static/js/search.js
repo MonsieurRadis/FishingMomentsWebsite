@@ -3,13 +3,14 @@ document.addEventListener('DOMContentLoaded', function() {
   const searchInput = document.getElementById('article-search');
   if (!searchInput) return;
 
-  const blogGrids = document.querySelectorAll('.blog-grid');
-  const categoryCards = document.querySelectorAll('.category-card');
-  const pillarSection = document.querySelector('.library-section');
-  const latestSection = document.querySelectorAll('.library-section')[1];
+  const categoryGrid = document.querySelector('.category-grid');
+  const categoryTitle = document.querySelector('.library-section-title');
+  const librarySections = document.querySelectorAll('.library-section');
 
-  // Collect all searchable items
+  // Collect all articles from all sections
   const allArticles = [];
+  const blogGrids = document.querySelectorAll('.blog-grid');
+
   blogGrids.forEach(grid => {
     const articles = grid.querySelectorAll('.blog-card');
     articles.forEach(article => {
@@ -20,7 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
         .join(' ');
 
       allArticles.push({
-        element: article,
+        element: article.cloneNode(true), // Clone the element
+        originalElement: article,
         title,
         description,
         tags,
@@ -29,50 +31,60 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  // Create search results container
+  let searchResultsSection = null;
+
   // Search handler
   searchInput.addEventListener('input', function(e) {
     const query = e.target.value.toLowerCase().trim();
 
     if (query === '') {
-      // Show everything when search is empty
-      allArticles.forEach(item => item.element.style.display = '');
-      categoryCards.forEach(card => card.style.display = '');
-      if (pillarSection) pillarSection.style.display = '';
-      if (latestSection) latestSection.style.display = '';
+      // Remove search results section
+      if (searchResultsSection) {
+        searchResultsSection.remove();
+        searchResultsSection = null;
+      }
+      // Show original sections
+      if (categoryGrid) categoryGrid.style.display = '';
+      if (categoryTitle) categoryTitle.style.display = '';
+      librarySections.forEach(section => section.style.display = '');
       return;
     }
 
-    // Hide categories and sections when searching
-    categoryCards.forEach(card => card.style.display = 'none');
-    if (pillarSection) pillarSection.style.display = 'none';
-    if (latestSection) latestSection.style.display = 'none';
+    // Hide original sections
+    if (categoryGrid) categoryGrid.style.display = 'none';
+    if (categoryTitle) categoryTitle.style.display = 'none';
+    librarySections.forEach(section => section.style.display = 'none');
 
     // Filter articles
-    let visibleCount = 0;
-    allArticles.forEach(item => {
-      if (item.text.includes(query)) {
-        item.element.style.display = '';
-        visibleCount++;
-      } else {
-        item.element.style.display = 'none';
-      }
-    });
+    const matchingArticles = allArticles.filter(item => item.text.includes(query));
 
-    // Show a "no results" message if needed
-    const existingNoResults = document.querySelector('.search-no-results');
-    if (visibleCount === 0 && !existingNoResults) {
-      const noResults = document.createElement('div');
-      noResults.className = 'search-no-results';
-      noResults.innerHTML = `
+    // Create or update search results section
+    if (!searchResultsSection) {
+      searchResultsSection = document.createElement('div');
+      searchResultsSection.className = 'library-section search-results-section';
+      const searchContainer = document.querySelector('.search-container');
+      searchContainer.insertAdjacentElement('afterend', searchResultsSection);
+    }
+
+    if (matchingArticles.length === 0) {
+      searchResultsSection.innerHTML = `
+        <h2 class="library-section-title">Search Results</h2>
         <p style="text-align: center; color: rgba(232, 240, 255, 0.5); padding: 3rem 0;">
           No articles found for "<strong>${escapeHtml(query)}</strong>". Try different keywords.
         </p>
       `;
-      searchInput.parentElement.insertAdjacentElement('afterend', noResults);
-    } else if (visibleCount > 0 && existingNoResults) {
-      existingNoResults.remove();
-    } else if (existingNoResults) {
-      existingNoResults.querySelector('strong').textContent = query;
+    } else {
+      const resultsGrid = document.createElement('div');
+      resultsGrid.className = 'blog-grid';
+      matchingArticles.forEach(item => {
+        resultsGrid.appendChild(item.element.cloneNode(true));
+      });
+
+      searchResultsSection.innerHTML = `
+        <h2 class="library-section-title">Search Results (${matchingArticles.length})</h2>
+      `;
+      searchResultsSection.appendChild(resultsGrid);
     }
   });
 
