@@ -8,17 +8,17 @@
   <div class="container hero-split">
     <!-- Above water -->
     <div class="hero-above">
-      <img src="/images/branding/full-logo.svg" alt="Fishing Moments" class="hero-logo">
-      <p class="hero-tagline">Smart Fishing Forecasts</p>
-      <h1>Know exactly when<br>fish are biting.</h1>
+      <img src="/images/branding/full-logo.svg" alt="{{ i18n "heroLogoAlt" }}" class="hero-logo">
+      <p class="hero-tagline">{{ i18n "heroTagline" }}</p>
+      <h1>{{ i18n "heroTitle" | safeHTML }}</h1>
     </div>
     <!-- Below water -->
     <div class="hero-below">
-      <p class="hero-subtitle">Species-specific activity forecasts powered by solunar science, real-time weather, and fish biology.</p>
+      <p class="hero-subtitle">{{ i18n "heroSubtitle" }}</p>
       <div class="hero-cta">
         <a href="{{ .Site.Params.appStoreURL }}" class="btn btn-primary">
           <svg width="18" height="18" viewBox="0 0 384 512" fill="currentColor" style="margin-right: 0.5rem;"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
-          Download on the App Store
+          {{ i18n "downloadAppStore" }}
         </a>
       </div>
     </div>
@@ -31,22 +31,22 @@
     <div class="stats-grid">
       <div class="stat-item">
         <span class="stat-number">44</span>
-        <span class="stat-label">Freshwater Species</span>
+        <span class="stat-label">{{ i18n "statsSpecies" }}</span>
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
         <span class="stat-number">10</span>
-        <span class="stat-label">Day Forecasts</span>
+        <span class="stat-label">{{ i18n "statsDays" }}</span>
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
         <span class="stat-number">24/7</span>
-        <span class="stat-label">Hour by Hour</span>
+        <span class="stat-label">{{ i18n "statsHourly" }}</span>
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
         <span class="stat-number">19</span>
-        <span class="stat-label">Countries</span>
+        <span class="stat-label">{{ i18n "statsCountries" }}</span>
       </div>
     </div>
   </div>
@@ -59,30 +59,30 @@
       <div class="feature-visual">
         <div class="feature-visual-card">
           <div class="species-preview">
-            <div class="species-chip">Pike</div>
-            <div class="species-chip">Zander</div>
-            <div class="species-chip">Brown Trout</div>
-            <div class="species-chip">Perch</div>
-            <div class="species-chip">Carp</div>
-            <div class="species-chip">Catfish</div>
-            <div class="species-chip">Barbel</div>
-            <div class="species-chip">Grayling</div>
-            <div class="species-chip">Tench</div>
-            <div class="species-chip">Eel</div>
-            <div class="species-chip">Bream</div>
-            <div class="species-chip">Roach</div>
-            <div class="species-chip muted">+32 more</div>
+            <div class="species-chip">{{ i18n "speciesPike" }}</div>
+            <div class="species-chip">{{ i18n "speciesZander" }}</div>
+            <div class="species-chip">{{ i18n "speciesBrownTrout" }}</div>
+            <div class="species-chip">{{ i18n "speciesPerch" }}</div>
+            <div class="species-chip">{{ i18n "speciesCarp" }}</div>
+            <div class="species-chip">{{ i18n "speciesCatfish" }}</div>
+            <div class="species-chip">{{ i18n "speciesBarbel" }}</div>
+            <div class="species-chip">{{ i18n "speciesGrayling" }}</div>
+            <div class="species-chip">{{ i18n "speciesTench" }}</div>
+            <div class="species-chip">{{ i18n "speciesEel" }}</div>
+            <div class="species-chip">{{ i18n "speciesBream" }}</div>
+            <div class="species-chip">{{ i18n "speciesRoach" }}</div>
+            <div class="species-chip muted">{{ i18n "speciesMore" }}</div>
           </div>
         </div>
       </div>
       <div class="feature-text">
-        <span class="feature-label">Species Intelligence</span>
-        <h2>44 Species, Each One Unique</h2>
-        <p>Every species has its own behavior model built on real biology. Pike don't feed like carp. Trout don't react to pressure like catfish. Our engine knows the difference.</p>
+        <span class="feature-label">{{ i18n "featureSpeciesLabel" }}</span>
+        <h2>{{ i18n "featureSpeciesTitle" }}</h2>
+        <p>{{ i18n "featureSpeciesDesc" }}</p>
         <ul class="feature-list">
-          <li>Individual sensitivity to temperature, pressure, light & seasons</li>
-          <li>Species-specific optimal conditions</li>
-          <li>Catalogs adapted by country</li>
+          <li>{{ i18n "featureSpeciesBullet1" }}</li>
+          <li>{{ i18n "featureSpeciesBullet2" }}</li>
+          <li>{{ i18n "featureSpeciesBullet3" }}</li>
         </ul>
       </div>
     </div>
@@ -128,13 +128,13 @@
         </div>
       </div>
       <div class="feature-text">
-        <span class="feature-label">Precision Timing</span>
-        <h2>10-Day, Hour by Hour</h2>
-        <p>Plan your sessions ahead. See exactly when fish activity peaks so you're on the water at the right moment, not just hoping for the best.</p>
+        <span class="feature-label">{{ i18n "featureForecastLabel" }}</span>
+        <h2>{{ i18n "featureForecastTitle" }}</h2>
+        <p>{{ i18n "featureForecastDesc" }}</p>
         <ul class="feature-list">
-          <li>Hour-by-hour activity scores for 10 days</li>
-          <li>Combined weather + solunar + biology analysis</li>
-          <li>Visual timeline to spot the best windows</li>
+          <li>{{ i18n "featureForecastBullet1" }}</li>
+          <li>{{ i18n "featureForecastBullet2" }}</li>
+          <li>{{ i18n "featureForecastBullet3" }}</li>
         </ul>
       </div>
     </div>
@@ -153,7 +153,7 @@
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
               </span>
               <div class="science-info">
-                <span class="science-name">Solunar</span>
+                <span class="science-name">{{ i18n "scienceSolunar" }}</span>
                 <div class="science-bar"><div class="science-fill" style="width:78%"></div></div>
               </div>
             </div>
@@ -162,7 +162,7 @@
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v10l4.2 2.4"/><circle cx="12" cy="12" r="10"/></svg>
               </span>
               <div class="science-info">
-                <span class="science-name">Pressure</span>
+                <span class="science-name">{{ i18n "sciencePressure" }}</span>
                 <div class="science-bar"><div class="science-fill" style="width:62%"></div></div>
               </div>
             </div>
@@ -171,7 +171,7 @@
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"/></svg>
               </span>
               <div class="science-info">
-                <span class="science-name">Temperature</span>
+                <span class="science-name">{{ i18n "scienceTemperature" }}</span>
                 <div class="science-bar"><div class="science-fill" style="width:85%"></div></div>
               </div>
             </div>
@@ -180,7 +180,7 @@
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.7 7.7a7.5 7.5 0 1 0 0 8.6"/><path d="M9.4 4.6A2 2 0 0 1 11 4h2a2 2 0 0 1 2 2v0a2 2 0 0 0 2 2h0"/></svg>
               </span>
               <div class="science-info">
-                <span class="science-name">Weather</span>
+                <span class="science-name">{{ i18n "scienceWeather" }}</span>
                 <div class="science-bar"><div class="science-fill" style="width:71%"></div></div>
               </div>
             </div>
@@ -188,13 +188,13 @@
         </div>
       </div>
       <div class="feature-text">
-        <span class="feature-label">Real Science</span>
-        <h2>Not Guesswork, Biology</h2>
-        <p>Every forecast is built on a multi-factor scoring engine. Solunar theory, barometric pressure trends, water temperature models, and species-specific biological rhythms — combined into one clear score.</p>
+        <span class="feature-label">{{ i18n "featureScienceLabel" }}</span>
+        <h2>{{ i18n "featureScienceTitle" }}</h2>
+        <p>{{ i18n "featureScienceDesc" }}</p>
         <ul class="feature-list">
-          <li>Solunar major & minor feeding periods</li>
-          <li>Barometric pressure trend analysis</li>
-          <li>Water temperature models per species</li>
+          <li>{{ i18n "featureScienceBullet1" }}</li>
+          <li>{{ i18n "featureScienceBullet2" }}</li>
+          <li>{{ i18n "featureScienceBullet3" }}</li>
         </ul>
       </div>
     </div>
@@ -210,32 +210,32 @@
           <div class="spots-preview">
             <div class="spot-pin">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="#D4A34F" stroke="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3" fill="#fff"/></svg>
-              <span>My Lake Spot</span>
+              <span>{{ i18n "spotMyLake" }}</span>
             </div>
             <div class="spot-pin">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="#D4A34F" stroke="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3" fill="#fff"/></svg>
-              <span>River Bend</span>
+              <span>{{ i18n "spotRiverBend" }}</span>
             </div>
             <div class="spot-pin">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="#D4A34F" stroke="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3" fill="#fff"/></svg>
-              <span>Dam Pool</span>
+              <span>{{ i18n "spotDamPool" }}</span>
             </div>
             <div class="spot-data">
-              <div class="spot-data-row"><span>Wind</span><span>12 km/h NE</span></div>
-              <div class="spot-data-row"><span>Pressure</span><span>1018 hPa &uarr;</span></div>
-              <div class="spot-data-row"><span>Cloud</span><span>40%</span></div>
+              <div class="spot-data-row"><span>{{ i18n "spotWind" }}</span><span>12 km/h NE</span></div>
+              <div class="spot-data-row"><span>{{ i18n "spotPressure" }}</span><span>1018 hPa &uarr;</span></div>
+              <div class="spot-data-row"><span>{{ i18n "spotCloud" }}</span><span>40%</span></div>
             </div>
           </div>
         </div>
       </div>
       <div class="feature-text">
-        <span class="feature-label">Your Waters</span>
-        <h2>Spot Map & Local Weather</h2>
-        <p>Save your fishing spots and get hyper-local forecasts. Each spot uses precise GPS coordinates for accurate weather data — not just city-level estimates.</p>
+        <span class="feature-label">{{ i18n "featureSpotsLabel" }}</span>
+        <h2>{{ i18n "featureSpotsTitle" }}</h2>
+        <p>{{ i18n "featureSpotsDesc" }}</p>
         <ul class="feature-list">
-          <li>Save unlimited fishing spots on the map</li>
-          <li>GPS-precise weather for each location</li>
-          <li>Wind, pressure, cloud cover per spot</li>
+          <li>{{ i18n "featureSpotsBullet1" }}</li>
+          <li>{{ i18n "featureSpotsBullet2" }}</li>
+          <li>{{ i18n "featureSpotsBullet3" }}</li>
         </ul>
       </div>
     </div>
@@ -246,13 +246,13 @@
 <section class="final-cta">
   <div class="container">
     <img src="/images/branding/logo.svg" alt="" class="cta-logo">
-    <h2>Start catching at the right time.</h2>
-    <p>Join anglers who fish smarter with species-specific forecasts.</p>
+    <h2>{{ i18n "ctaTitle" }}</h2>
+    <p>{{ i18n "ctaDesc" }}</p>
     <a href="{{ .Site.Params.appStoreURL }}" class="btn btn-primary btn-lg">
       <svg width="20" height="20" viewBox="0 0 384 512" fill="currentColor" style="margin-right: 0.5rem;"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
-      Download on the App Store
+      {{ i18n "downloadAppStore" }}
     </a>
-    <p class="cta-free">Free download &middot; Premium features available</p>
+    <p class="cta-free">{{ i18n "ctaFreeText" | safeHTML }}</p>
   </div>
 </section>
 {{ end }}

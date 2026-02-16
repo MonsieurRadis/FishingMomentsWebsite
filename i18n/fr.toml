@@ -55,3 +55,338 @@ other = "Télécharger sur l'App Store"
 
 [minRead]
 other = "min de lecture"
+
+# Homepage strings
+[heroLogoAlt]
+other = "Fishing Moments"
+
+[heroTagline]
+other = "Prévisions de Pêche Intelligentes"
+
+[heroTitle]
+other = "Sachez exactement quand<br>les poissons mordent."
+
+[heroSubtitle]
+other = "Prévisions d'activité par espèce basées sur la science solunaire, la météo en temps réel et la biologie des poissons."
+
+[statsSpecies]
+other = "Espèces d'Eau Douce"
+
+[statsDays]
+other = "Jours de Prévisions"
+
+[statsHourly]
+other = "Heure par Heure"
+
+[statsCountries]
+other = "Pays"
+
+[featureSpeciesLabel]
+other = "Intelligence des Espèces"
+
+[featureSpeciesTitle]
+other = "44 Espèces, Chacune Unique"
+
+[featureSpeciesDesc]
+other = "Chaque espèce possède son propre modèle de comportement basé sur la biologie réelle. Les brochets ne se nourrissent pas comme les carpes. Les truites ne réagissent pas à la pression comme les silures. Notre moteur connaît la différence."
+
+[featureSpeciesBullet1]
+other = "Sensibilité individuelle à la température, pression, lumière et saisons"
+
+[featureSpeciesBullet2]
+other = "Conditions optimales spécifiques à chaque espèce"
+
+[featureSpeciesBullet3]
+other = "Catalogues adaptés par pays"
+
+[speciesPike]
+other = "Brochet"
+
+[speciesZander]
+other = "Sandre"
+
+[speciesBrownTrout]
+other = "Truite Fario"
+
+[speciesPerch]
+other = "Perche"
+
+[speciesCarp]
+other = "Carpe"
+
+[speciesCatfish]
+other = "Silure"
+
+[speciesBarbel]
+other = "Barbeau"
+
+[speciesGrayling]
+other = "Ombre"
+
+[speciesTench]
+other = "Tanche"
+
+[speciesEel]
+other = "Anguille"
+
+[speciesBream]
+other = "Brème"
+
+[speciesRoach]
+other = "Gardon"
+
+[speciesMore]
+other = "+32 de plus"
+
+[featureForecastLabel]
+other = "Timing Précis"
+
+[featureForecastTitle]
+other = "10 Jours, Heure par Heure"
+
+[featureForecastDesc]
+other = "Planifiez vos sessions à l'avance. Voyez exactement quand l'activité des poissons culmine pour être au bord de l'eau au bon moment, pas seulement en espérant avoir de la chance."
+
+[featureForecastBullet1]
+other = "Scores d'activité heure par heure sur 10 jours"
+
+[featureForecastBullet2]
+other = "Analyse combinée météo + solunaire + biologie"
+
+[featureForecastBullet3]
+other = "Timeline visuelle pour repérer les meilleurs créneaux"
+
+[featureScienceLabel]
+other = "Science Réelle"
+
+[featureScienceTitle]
+other = "Pas de Supposition, de la Biologie"
+
+[featureScienceDesc]
+other = "Chaque prévision repose sur un moteur de notation multifactoriel. Théorie solunaire, tendances de pression barométrique, modèles de température de l'eau et rythmes biologiques spécifiques aux espèces — combinés en un score clair."
+
+[featureScienceBullet1]
+other = "Périodes d'alimentation solunaires majeures et mineures"
+
+[featureScienceBullet2]
+other = "Analyse des tendances de pression barométrique"
+
+[featureScienceBullet3]
+other = "Modèles de température de l'eau par espèce"
+
+[scienceSolunar]
+other = "Solunaire"
+
+[sciencePressure]
+other = "Pression"
+
+[scienceTemperature]
+other = "Température"
+
+[scienceWeather]
+other = "Météo"
+
+[featureSpotsLabel]
+other = "Vos Plans d'Eau"
+
+[featureSpotsTitle]
+other = "Carte des Spots & Météo Locale"
+
+[featureSpotsDesc]
+other = "Enregistrez vos spots de pêche et obtenez des prévisions hyper-locales. Chaque spot utilise des coordonnées GPS précises pour des données météo exactes — pas seulement des estimations au niveau de la ville."
+
+[featureSpotsBullet1]
+other = "Enregistrez un nombre illimité de spots de pêche sur la carte"
+
+[featureSpotsBullet2]
+other = "Météo précise au GPS pour chaque emplacement"
+
+[featureSpotsBullet3]
+other = "Vent, pression, couverture nuageuse par spot"
+
+[spotMyLake]
+other = "Mon Spot au Lac"
+
+[spotRiverBend]
+other = "Méandre de la Rivière"
+
+[spotDamPool]
+other = "Bassin du Barrage"
+
+[spotWind]
+other = "Vent"
+
+[spotPressure]
+other = "Pression"
+
+[spotCloud]
+other = "Nuages"
+
+[ctaTitle]
+other = "Commencez à pêcher au bon moment."
+
+[ctaDesc]
+other = "Rejoignez les pêcheurs qui pêchent plus intelligemment avec des prévisions spécifiques par espèce."
+
+[ctaFreeText]
+other = "Téléchargement gratuit &middot; Fonctionnalités premium disponibles"
+
+# App page strings
+[appHeroLabel]
+other = "Application iOS"
+
+[appHeroTitle]
+other = "Prévisions de Pêche<br>Intelligentes"
+
+[appHeroSubtitle]
+other = "Sachez exactement quand les poissons mordent. Prévisions d'activité par espèce basées sur la science solunaire, la météo en temps réel et la biologie des poissons."
+
+[appScreenAlt]
+other = "Fishing Moments — Prévisions de Pêche Intelligentes"
+
+[appHourlyLabel]
+other = "Détail Horaire"
+
+[appHourlyTitle]
+other = "Précision Heure par Heure"
+
+[appHourlyDesc]
+other = "Explorez n'importe quel jour pour voir la répartition horaire complète. Scores d'activité, évaluations en étoiles, température, vitesse du vent et pression barométrique — heure par heure, pour planifier votre session avec une précision chirurgicale."
+
+[appHourlyBullet1]
+other = "Répartition détaillée de l'activité sur 24 heures"
+
+[appHourlyBullet2]
+other = "Température, vent et pression par heure"
+
+[appHourlyBullet3]
+other = "Système d'évaluation par étoiles pour une lecture rapide"
+
+[appHourlyScreenAlt]
+other = "Précision Heure par Heure"
+
+[appSpeciesLabel]
+other = "Intelligence des Espèces"
+
+[appSpeciesTitle]
+other = "44 Espèces, Toutes Entièrement Modélisées"
+
+[appSpeciesDesc]
+other = "Chaque espèce possède son propre modèle de comportement biologique. Prédateurs, salmonidés, cyprinidés et plus encore — chacun avec des profils de sensibilité uniques à la température, la pression, la lumière et les schémas saisonniers."
+
+[appSpeciesBullet1]
+other = "Modèles individuels pour 44 espèces d'eau douce"
+
+[appSpeciesBullet2]
+other = "Organisées par famille : prédateurs, salmonidés, cyprinidés"
+
+[appSpeciesBullet3]
+other = "Catalogue d'espèces adapté par pays"
+
+[appSpeciesScreenAlt]
+other = "44 Espèces Entièrement Modélisées"
+
+[appHabitatLabel]
+other = "Vos Plans d'Eau"
+
+[appHabitatTitle]
+other = "Modélisé pour Leur Habitat"
+
+[appHabitatDesc]
+other = "Enregistrez vos spots de pêche sur la carte et obtenez des prévisions hyper-locales. Chaque spot utilise des coordonnées GPS précises pour des données météo exactes — pas des estimations au niveau de la ville. Disponible en France, Royaume-Uni, Allemagne, Espagne, Italie, Scandinavie et 13 autres pays européens. Chaque région scientifiquement étudiée pour le comportement des espèces locales."
+
+[appHabitatBullet1]
+other = "Enregistrez un nombre illimité de spots de pêche"
+
+[appHabitatBullet2]
+other = "Météo précise au GPS par emplacement"
+
+[appHabitatBullet3]
+other = "Disponible dans 19 pays européens"
+
+[appHabitatScreenAlt]
+other = "Modélisé pour Leur Habitat"
+
+[appDesignLabel]
+other = "Design Soigné"
+
+[appDesignTitle]
+other = "Conçu pour le Jour et la Nuit"
+
+[appDesignDesc]
+other = "Une interface épurée et ciblée qui s'adapte à votre environnement. Mode clair pour les conditions lumineuses au bord de l'eau, mode sombre pour les sessions à l'aube et au crépuscule. Chaque écran conçu pour la clarté et la lecture rapide."
+
+[appDesignBullet1]
+other = "Mode clair et mode sombre"
+
+[appDesignBullet2]
+other = "Conçu pour une lisibilité en extérieur"
+
+[appDesignBullet3]
+other = "Interface épurée et ciblée"
+
+[appDesignScreenAlt]
+other = "Conçu pour le Jour et la Nuit"
+
+[appCountriesTitle]
+other = "Disponible dans 19 Pays Européens"
+
+[appCountriesSubtitle]
+other = "Chaque pays scientifiquement étudié avec des profils environnementaux spécifiques aux espèces adaptés aux eaux locales."
+
+[countryFrance]
+other = "🇫🇷 France"
+
+[countryUK]
+other = "🇬🇧 Royaume-Uni"
+
+[countryGermany]
+other = "🇩🇪 Allemagne"
+
+[countrySpain]
+other = "🇪🇸 Espagne"
+
+[countryItaly]
+other = "🇮🇹 Italie"
+
+[countrySweden]
+other = "🇸🇪 Suède"
+
+[countryNorway]
+other = "🇳🇴 Norvège"
+
+[countryFinland]
+other = "🇫🇮 Finlande"
+
+[countryDenmark]
+other = "🇩🇰 Danemark"
+
+[countryNetherlands]
+other = "🇳🇱 Pays-Bas"
+
+[countryBelgium]
+other = "🇧🇪 Belgique"
+
+[countrySwitzerland]
+other = "🇨🇭 Suisse"
+
+[countryAustria]
+other = "🇦🇹 Autriche"
+
+[countryPoland]
+other = "🇵🇱 Pologne"
+
+[countryCzech]
+other = "🇨🇿 République Tchèque"
+
+[countryHungary]
+other = "🇭🇺 Hongrie"
+
+[countryCroatia]
+other = "🇭🇷 Croatie"
+
+[countryIreland]
+other = "🇮🇪 Irlande"
+
+[countryPortugal]
+other = "🇵🇹 Portugal"

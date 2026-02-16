@@ -55,3 +55,338 @@ other = "Download on the App Store"
 
 [minRead]
 other = "min read"
+
+# Homepage strings
+[heroLogoAlt]
+other = "Fishing Moments"
+
+[heroTagline]
+other = "Smart Fishing Forecasts"
+
+[heroTitle]
+other = "Know exactly when<br>fish are biting."
+
+[heroSubtitle]
+other = "Species-specific activity forecasts powered by solunar science, real-time weather, and fish biology."
+
+[statsSpecies]
+other = "Freshwater Species"
+
+[statsDays]
+other = "Day Forecasts"
+
+[statsHourly]
+other = "Hour by Hour"
+
+[statsCountries]
+other = "Countries"
+
+[featureSpeciesLabel]
+other = "Species Intelligence"
+
+[featureSpeciesTitle]
+other = "44 Species, Each One Unique"
+
+[featureSpeciesDesc]
+other = "Every species has its own behavior model built on real biology. Pike don't feed like carp. Trout don't react to pressure like catfish. Our engine knows the difference."
+
+[featureSpeciesBullet1]
+other = "Individual sensitivity to temperature, pressure, light & seasons"
+
+[featureSpeciesBullet2]
+other = "Species-specific optimal conditions"
+
+[featureSpeciesBullet3]
+other = "Catalogs adapted by country"
+
+[speciesPike]
+other = "Pike"
+
+[speciesZander]
+other = "Zander"
+
+[speciesBrownTrout]
+other = "Brown Trout"
+
+[speciesPerch]
+other = "Perch"
+
+[speciesCarp]
+other = "Carp"
+
+[speciesCatfish]
+other = "Catfish"
+
+[speciesBarbel]
+other = "Barbel"
+
+[speciesGrayling]
+other = "Grayling"
+
+[speciesTench]
+other = "Tench"
+
+[speciesEel]
+other = "Eel"
+
+[speciesBream]
+other = "Bream"
+
+[speciesRoach]
+other = "Roach"
+
+[speciesMore]
+other = "+32 more"
+
+[featureForecastLabel]
+other = "Precision Timing"
+
+[featureForecastTitle]
+other = "10-Day, Hour by Hour"
+
+[featureForecastDesc]
+other = "Plan your sessions ahead. See exactly when fish activity peaks so you're on the water at the right moment, not just hoping for the best."
+
+[featureForecastBullet1]
+other = "Hour-by-hour activity scores for 10 days"
+
+[featureForecastBullet2]
+other = "Combined weather + solunar + biology analysis"
+
+[featureForecastBullet3]
+other = "Visual timeline to spot the best windows"
+
+[featureScienceLabel]
+other = "Real Science"
+
+[featureScienceTitle]
+other = "Not Guesswork, Biology"
+
+[featureScienceDesc]
+other = "Every forecast is built on a multi-factor scoring engine. Solunar theory, barometric pressure trends, water temperature models, and species-specific biological rhythms — combined into one clear score."
+
+[featureScienceBullet1]
+other = "Solunar major & minor feeding periods"
+
+[featureScienceBullet2]
+other = "Barometric pressure trend analysis"
+
+[featureScienceBullet3]
+other = "Water temperature models per species"
+
+[scienceSolunar]
+other = "Solunar"
+
+[sciencePressure]
+other = "Pressure"
+
+[scienceTemperature]
+other = "Temperature"
+
+[scienceWeather]
+other = "Weather"
+
+[featureSpotsLabel]
+other = "Your Waters"
+
+[featureSpotsTitle]
+other = "Spot Map & Local Weather"
+
+[featureSpotsDesc]
+other = "Save your fishing spots and get hyper-local forecasts. Each spot uses precise GPS coordinates for accurate weather data — not just city-level estimates."
+
+[featureSpotsBullet1]
+other = "Save unlimited fishing spots on the map"
+
+[featureSpotsBullet2]
+other = "GPS-precise weather for each location"
+
+[featureSpotsBullet3]
+other = "Wind, pressure, cloud cover per spot"
+
+[spotMyLake]
+other = "My Lake Spot"
+
+[spotRiverBend]
+other = "River Bend"
+
+[spotDamPool]
+other = "Dam Pool"
+
+[spotWind]
+other = "Wind"
+
+[spotPressure]
+other = "Pressure"
+
+[spotCloud]
+other = "Cloud"
+
+[ctaTitle]
+other = "Start catching at the right time."
+
+[ctaDesc]
+other = "Join anglers who fish smarter with species-specific forecasts."
+
+[ctaFreeText]
+other = "Free download &middot; Premium features available"
+
+# App page strings
+[appHeroLabel]
+other = "iOS App"
+
+[appHeroTitle]
+other = "Smart Fishing<br>Forecasts"
+
+[appHeroSubtitle]
+other = "Know exactly when fish are biting. Species-specific activity forecasts powered by solunar science, real-time weather, and fish biology."
+
+[appScreenAlt]
+other = "Fishing Moments — Smart Fishing Forecast"
+
+[appHourlyLabel]
+other = "Hourly Detail"
+
+[appHourlyTitle]
+other = "Hour by Hour Precision"
+
+[appHourlyDesc]
+other = "Drill into any day to see the full hourly breakdown. Activity scores, star ratings, temperature, wind speed, and barometric pressure — hour by hour, so you plan your session with surgical precision."
+
+[appHourlyBullet1]
+other = "24-hour detailed activity breakdown"
+
+[appHourlyBullet2]
+other = "Temperature, wind & pressure per hour"
+
+[appHourlyBullet3]
+other = "Star rating system for quick reading"
+
+[appHourlyScreenAlt]
+other = "Hour by Hour Precision"
+
+[appSpeciesLabel]
+other = "Species Intelligence"
+
+[appSpeciesTitle]
+other = "44 Species, Each Fully Modeled"
+
+[appSpeciesDesc]
+other = "Every species has its own biological behavior model. Predators, salmonids, cyprinids, and more — each with unique sensitivity profiles for temperature, pressure, light, and seasonal patterns."
+
+[appSpeciesBullet1]
+other = "Individual models for 44 freshwater species"
+
+[appSpeciesBullet2]
+other = "Organized by family: predators, salmonids, cyprinids"
+
+[appSpeciesBullet3]
+other = "Species catalog adapted by country"
+
+[appSpeciesScreenAlt]
+other = "44 Species Fully Modeled"
+
+[appHabitatLabel]
+other = "Your Waters"
+
+[appHabitatTitle]
+other = "Modeled for Their Habitat"
+
+[appHabitatDesc]
+other = "Save your fishing spots on the map and get hyper-local forecasts. Each spot uses precise GPS coordinates for accurate weather data — not city-level estimates. Supports France, UK, Germany, Spain, Italy, Scandinavia, and 13 other European countries. Each region scientifically studied for local species behavior."
+
+[appHabitatBullet1]
+other = "Save unlimited fishing spots"
+
+[appHabitatBullet2]
+other = "GPS-precise weather per location"
+
+[appHabitatBullet3]
+other = "Available in 19 European countries"
+
+[appHabitatScreenAlt]
+other = "Modeled for Their Habitat"
+
+[appDesignLabel]
+other = "Beautiful Design"
+
+[appDesignTitle]
+other = "Designed for Day and Night"
+
+[appDesignDesc]
+other = "A clean, focused interface that adapts to your environment. Light mode for bright conditions on the water, dark mode for dawn and dusk sessions. Every screen designed for clarity and quick reading."
+
+[appDesignBullet1]
+other = "Light and dark mode"
+
+[appDesignBullet2]
+other = "Designed for outdoor readability"
+
+[appDesignBullet3]
+other = "Clean, focused interface"
+
+[appDesignScreenAlt]
+other = "Designed for Day and Night"
+
+[appCountriesTitle]
+other = "Available in 19 European Countries"
+
+[appCountriesSubtitle]
+other = "Each country scientifically studied with species-specific environmental profiles adapted to local waters."
+
+[countryFrance]
+other = "🇫🇷 France"
+
+[countryUK]
+other = "🇬🇧 United Kingdom"
+
+[countryGermany]
+other = "🇩🇪 Germany"
+
+[countrySpain]
+other = "🇪🇸 Spain"
+
+[countryItaly]
+other = "🇮🇹 Italy"
+
+[countrySweden]
+other = "🇸🇪 Sweden"
+
+[countryNorway]
+other = "🇳🇴 Norway"
+
+[countryFinland]
+other = "🇫🇮 Finland"
+
+[countryDenmark]
+other = "🇩🇰 Denmark"
+
+[countryNetherlands]
+other = "🇳🇱 Netherlands"
+
+[countryBelgium]
+other = "🇧🇪 Belgium"
+
+[countrySwitzerland]
+other = "🇨🇭 Switzerland"
+
+[countryAustria]
+other = "🇦🇹 Austria"
+
+[countryPoland]
+other = "🇵🇱 Poland"
+
+[countryCzech]
+other = "🇨🇿 Czech Republic"
+
+[countryHungary]
+other = "🇭🇺 Hungary"
+
+[countryCroatia]
+other = "🇭🇷 Croatia"
+
+[countryIreland]
+other = "🇮🇪 Ireland"
+
+[countryPortugal]
+other = "🇵🇹 Portugal"

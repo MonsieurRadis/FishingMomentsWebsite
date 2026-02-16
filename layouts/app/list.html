@@ -8,17 +8,17 @@
   </div>
   <div class="container app-hero-content">
     <div class="app-hero-text">
-      <p class="app-hero-label">iOS App</p>
-      <h1>Smart Fishing<br>Forecasts</h1>
-      <p class="app-hero-sub">Know exactly when fish are biting. Species-specific activity forecasts powered by solunar science, real-time weather, and fish biology.</p>
+      <p class="app-hero-label">{{ i18n "appHeroLabel" }}</p>
+      <h1>{{ i18n "appHeroTitle" | safeHTML }}</h1>
+      <p class="app-hero-sub">{{ i18n "appHeroSubtitle" }}</p>
       <a href="{{ .Site.Params.appStoreURL }}" class="btn btn-primary btn-lg">
         <svg width="20" height="20" viewBox="0 0 384 512" fill="currentColor" style="margin-right: 0.5rem;"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
-        Download on the App Store
+        {{ i18n "downloadAppStore" }}
       </a>
-      <p class="app-hero-free">Free download &middot; Premium features available</p>
+      <p class="app-hero-free">{{ i18n "ctaFreeText" | safeHTML }}</p>
     </div>
     <div class="app-hero-visual">
-      <img src="/images/app/screen-02.png" alt="Fishing Moments — Smart Fishing Forecast" class="app-hero-screen">
+      <img src="/images/app/screen-02.png" alt="{{ i18n "appScreenAlt" }}" class="app-hero-screen">
     </div>
   </div>
 </section>
@@ -28,64 +28,64 @@
   <div class="container">
     <div class="app-showcase-row">
       <div class="app-showcase-screen">
-        <img src="/images/app/screen-03.png" alt="Hour by Hour Precision" loading="lazy">
+        <img src="/images/app/screen-03.png" alt="{{ i18n "appHourlyScreenAlt" }}" loading="lazy">
       </div>
       <div class="app-showcase-text">
-        <span class="feature-label">Hourly Detail</span>
-        <h2>Hour by Hour Precision</h2>
-        <p>Drill into any day to see the full hourly breakdown. Activity scores, star ratings, temperature, wind speed, and barometric pressure — hour by hour, so you plan your session with surgical precision.</p>
+        <span class="feature-label">{{ i18n "appHourlyLabel" }}</span>
+        <h2>{{ i18n "appHourlyTitle" }}</h2>
+        <p>{{ i18n "appHourlyDesc" }}</p>
         <ul class="feature-list">
-          <li>24-hour detailed activity breakdown</li>
-          <li>Temperature, wind & pressure per hour</li>
-          <li>Star rating system for quick reading</li>
+          <li>{{ i18n "appHourlyBullet1" }}</li>
+          <li>{{ i18n "appHourlyBullet2" }}</li>
+          <li>{{ i18n "appHourlyBullet3" }}</li>
         </ul>
       </div>
     </div>
 
     <div class="app-showcase-row reverse">
       <div class="app-showcase-screen">
-        <img src="/images/app/screen-04.png" alt="44 Species Fully Modeled" loading="lazy">
+        <img src="/images/app/screen-04.png" alt="{{ i18n "appSpeciesScreenAlt" }}" loading="lazy">
       </div>
       <div class="app-showcase-text">
-        <span class="feature-label">Species Intelligence</span>
-        <h2>44 Species, Each Fully Modeled</h2>
-        <p>Every species has its own biological behavior model. Predators, salmonids, cyprinids, and more — each with unique sensitivity profiles for temperature, pressure, light, and seasonal patterns.</p>
+        <span class="feature-label">{{ i18n "appSpeciesLabel" }}</span>
+        <h2>{{ i18n "appSpeciesTitle" }}</h2>
+        <p>{{ i18n "appSpeciesDesc" }}</p>
         <ul class="feature-list">
-          <li>Individual models for 44 freshwater species</li>
-          <li>Organized by family: predators, salmonids, cyprinids</li>
-          <li>Species catalog adapted by country</li>
+          <li>{{ i18n "appSpeciesBullet1" }}</li>
+          <li>{{ i18n "appSpeciesBullet2" }}</li>
+          <li>{{ i18n "appSpeciesBullet3" }}</li>
         </ul>
       </div>
     </div>
 
     <div class="app-showcase-row">
       <div class="app-showcase-screen">
-        <img src="/images/app/screen-05.png" alt="Modeled for Their Habitat" loading="lazy">
+        <img src="/images/app/screen-05.png" alt="{{ i18n "appHabitatScreenAlt" }}" loading="lazy">
       </div>
       <div class="app-showcase-text">
-        <span class="feature-label">Your Waters</span>
-        <h2>Modeled for Their Habitat</h2>
-        <p>Save your fishing spots on the map and get hyper-local forecasts. Each spot uses precise GPS coordinates for accurate weather data — not city-level estimates. Supports France, UK, Germany, Spain, Italy, Scandinavia, and 13 other European countries. Each region scientifically studied for local species behavior.</p>
+        <span class="feature-label">{{ i18n "appHabitatLabel" }}</span>
+        <h2>{{ i18n "appHabitatTitle" }}</h2>
+        <p>{{ i18n "appHabitatDesc" }}</p>
         <ul class="feature-list">
-          <li>Save unlimited fishing spots</li>
-          <li>GPS-precise weather per location</li>
-          <li>Available in 19 European countries</li>
+          <li>{{ i18n "appHabitatBullet1" }}</li>
+          <li>{{ i18n "appHabitatBullet2" }}</li>
+          <li>{{ i18n "appHabitatBullet3" }}</li>
         </ul>
       </div>
     </div>
 
     <div class="app-showcase-row reverse">
       <div class="app-showcase-screen">
-        <img src="/images/app/screen-06.png" alt="Designed for Day and Night" loading="lazy">
+        <img src="/images/app/screen-06.png" alt="{{ i18n "appDesignScreenAlt" }}" loading="lazy">
       </div>
       <div class="app-showcase-text">
-        <span class="feature-label">Beautiful Design</span>
-        <h2>Designed for Day and Night</h2>
-        <p>A clean, focused interface that adapts to your environment. Light mode for bright conditions on the water, dark mode for dawn and dusk sessions. Every screen designed for clarity and quick reading.</p>
+        <span class="feature-label">{{ i18n "appDesignLabel" }}</span>
+        <h2>{{ i18n "appDesignTitle" }}</h2>
+        <p>{{ i18n "appDesignDesc" }}</p>
         <ul class="feature-list">
-          <li>Light and dark mode</li>
-          <li>Designed for outdoor readability</li>
-          <li>Clean, focused interface</li>
+          <li>{{ i18n "appDesignBullet1" }}</li>
+          <li>{{ i18n "appDesignBullet2" }}</li>
+          <li>{{ i18n "appDesignBullet3" }}</li>
         </ul>
       </div>
     </div>
@@ -95,28 +95,28 @@
 <!-- Countries Coverage -->
 <section class="countries-section">
   <div class="container">
-    <h2 class="countries-title">Available in 19 European Countries</h2>
-    <p class="countries-subtitle">Each country scientifically studied with species-specific environmental profiles adapted to local waters.</p>
+    <h2 class="countries-title">{{ i18n "appCountriesTitle" }}</h2>
+    <p class="countries-subtitle">{{ i18n "appCountriesSubtitle" }}</p>
     <div class="countries-grid">
-      <span class="country-tag">🇫🇷 France</span>
-      <span class="country-tag">🇬🇧 United Kingdom</span>
-      <span class="country-tag">🇩🇪 Germany</span>
-      <span class="country-tag">🇪🇸 Spain</span>
-      <span class="country-tag">🇮🇹 Italy</span>
-      <span class="country-tag">🇸🇪 Sweden</span>
-      <span class="country-tag">🇳🇴 Norway</span>
-      <span class="country-tag">🇫🇮 Finland</span>
-      <span class="country-tag">🇩🇰 Denmark</span>
-      <span class="country-tag">🇳🇱 Netherlands</span>
-      <span class="country-tag">🇧🇪 Belgium</span>
-      <span class="country-tag">🇨🇭 Switzerland</span>
-      <span class="country-tag">🇦🇹 Austria</span>
-      <span class="country-tag">🇵🇱 Poland</span>
-      <span class="country-tag">🇨🇿 Czech Republic</span>
-      <span class="country-tag">🇭🇺 Hungary</span>
-      <span class="country-tag">🇭🇷 Croatia</span>
-      <span class="country-tag">🇮🇪 Ireland</span>
-      <span class="country-tag">🇵🇹 Portugal</span>
+      <span class="country-tag">{{ i18n "countryFrance" }}</span>
+      <span class="country-tag">{{ i18n "countryUK" }}</span>
+      <span class="country-tag">{{ i18n "countryGermany" }}</span>
+      <span class="country-tag">{{ i18n "countrySpain" }}</span>
+      <span class="country-tag">{{ i18n "countryItaly" }}</span>
+      <span class="country-tag">{{ i18n "countrySweden" }}</span>
+      <span class="country-tag">{{ i18n "countryNorway" }}</span>
+      <span class="country-tag">{{ i18n "countryFinland" }}</span>
+      <span class="country-tag">{{ i18n "countryDenmark" }}</span>
+      <span class="country-tag">{{ i18n "countryNetherlands" }}</span>
+      <span class="country-tag">{{ i18n "countryBelgium" }}</span>
+      <span class="country-tag">{{ i18n "countrySwitzerland" }}</span>
+      <span class="country-tag">{{ i18n "countryAustria" }}</span>
+      <span class="country-tag">{{ i18n "countryPoland" }}</span>
+      <span class="country-tag">{{ i18n "countryCzech" }}</span>
+      <span class="country-tag">{{ i18n "countryHungary" }}</span>
+      <span class="country-tag">{{ i18n "countryCroatia" }}</span>
+      <span class="country-tag">{{ i18n "countryIreland" }}</span>
+      <span class="country-tag">{{ i18n "countryPortugal" }}</span>
     </div>
   </div>
 </section>
@@ -127,22 +127,22 @@
     <div class="stats-grid">
       <div class="stat-item">
         <span class="stat-number">44</span>
-        <span class="stat-label">Freshwater Species</span>
+        <span class="stat-label">{{ i18n "statsSpecies" }}</span>
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
         <span class="stat-number">10</span>
-        <span class="stat-label">Day Forecasts</span>
+        <span class="stat-label">{{ i18n "statsDays" }}</span>
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
         <span class="stat-number">24/7</span>
-        <span class="stat-label">Hour by Hour</span>
+        <span class="stat-label">{{ i18n "statsHourly" }}</span>
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
         <span class="stat-number">19</span>
-        <span class="stat-label">Countries</span>
+        <span class="stat-label">{{ i18n "statsCountries" }}</span>
       </div>
     </div>
   </div>
@@ -152,13 +152,13 @@
 <section class="final-cta">
   <div class="container">
     <img src="/images/branding/logo.svg" alt="" class="cta-logo">
-    <h2>Start catching at the right time.</h2>
-    <p>Join anglers who fish smarter with species-specific forecasts.</p>
+    <h2>{{ i18n "ctaTitle" }}</h2>
+    <p>{{ i18n "ctaDesc" }}</p>
     <a href="{{ .Site.Params.appStoreURL }}" class="btn btn-primary btn-lg">
       <svg width="20" height="20" viewBox="0 0 384 512" fill="currentColor" style="margin-right: 0.5rem;"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
-      Download on the App Store
+      {{ i18n "downloadAppStore" }}
     </a>
-    <p class="cta-free">Free download &middot; Premium features available</p>
+    <p class="cta-free">{{ i18n "ctaFreeText" | safeHTML }}</p>
   </div>
 </section>
 
