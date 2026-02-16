@@ -22,7 +22,7 @@ The forecasts are based on well-established ichthyological research and solunar 
 Fishing Moments covers 44 freshwater species including pike, zander, perch, carp, trout, catfish, and many more. The species catalog is adapted for each country.
 
 ### Which countries are supported?
-The app supports 19 European countries including France, UK, Germany, Spain, Italy, Scandinavia (Sweden, Norway, Finland, Denmark), Netherlands, Belgium, Switzerland, Austria, Poland, Czech Republic, Hungary, Croatia, Ireland, and Portugal. Each country has scientifically studied species catalogs adapted to local environments.
+The app supports 19 European countries: 🇫🇷 France, 🇬🇧 UK, 🇩🇪 Germany, 🇪🇸 Spain, 🇮🇹 Italy, 🇸🇪 Sweden, 🇳🇴 Norway, 🇫🇮 Finland, 🇩🇰 Denmark, 🇳🇱 Netherlands, 🇧🇪 Belgium, 🇨🇭 Switzerland, 🇦🇹 Austria, 🇵🇱 Poland, 🇨🇿 Czech Republic, 🇭🇺 Hungary, 🇭🇷 Croatia, 🇮🇪 Ireland, and 🇵🇹 Portugal. Each country has scientifically studied species catalogs adapted to local environments.
 
 ### How do I add a fishing spot?
 Tap the map icon, then long-press on the map at your desired location. You can also use the search bar to find a location by name. Each spot saves its GPS coordinates for precise weather data.

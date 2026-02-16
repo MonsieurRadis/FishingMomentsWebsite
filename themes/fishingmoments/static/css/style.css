@@ -1322,3 +1322,89 @@ img { max-width: 100%; height: auto; }
     gap: 3rem;
   }
 }
+
+/* === Countries Section === */
+.countries-section {
+  padding: 4rem 0 3rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.countries-title {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #e8f0ff;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+.countries-subtitle {
+  text-align: center;
+  color: rgba(232, 240, 255, 0.6);
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.countries-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  max-width: 56rem;
+  margin: 0 auto;
+}
+.country-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background: rgba(212, 163, 79, 0.1);
+  border: 1px solid rgba(212, 163, 79, 0.25);
+  border-radius: 2rem;
+  color: #e8f0ff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.country-tag:hover {
+  background: rgba(212, 163, 79, 0.15);
+  border-color: rgba(212, 163, 79, 0.4);
+  transform: translateY(-1px);
+}
+
+/* === Support Page FAQ === */
+.support-contact h3,
+main h3 {
+  color: #D4A34F;
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+main h3:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 1.5rem;
+}
+main h2 + h3 {
+  border-top: none;
+  padding-top: 0;
+}
+
+/* Responsive — Countries */
+@media (max-width: 768px) {
+  .countries-title {
+    font-size: 1.75rem;
+  }
+  .countries-subtitle {
+    font-size: 0.95rem;
+  }
+  .country-tag {
+    font-size: 0.85rem;
+    padding: 0.45rem 0.9rem;
+  }
+}
