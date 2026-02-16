@@ -1,31 +1,66 @@
 baseURL = '/'
-languageCode = 'en'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
 title = 'Fishing Moments — Smart Fishing Forecasts'
 theme = 'fishingmoments'
 
+[languages]
+  [languages.en]
+    languageCode = 'en'
+    languageName = 'English'
+    weight = 1
+    title = 'Fishing Moments — Smart Fishing Forecasts'
+    [languages.en.params]
+      description = "Know when fish are biting. Species-specific forecasts powered by science."
+
+  [languages.fr]
+    languageCode = 'fr'
+    languageName = 'Français'
+    weight = 2
+    title = 'Fishing Moments — Prévisions de Pêche Intelligentes'
+    [languages.fr.params]
+      description = "Sachez quand les poissons mordent. Prévisions par espèce basées sur la science."
+
 [params]
-  description = "Know when fish are biting. Species-specific forecasts powered by science."
   author = "Fishing Moments"
   email = "contact@fishingmoments.eu"
   appStoreURL = ""
   ogImage = "/images/og-image.png"
 
-[menu]
-  [[menu.main]]
+[languages.en.menu]
+  [[languages.en.menu.main]]
     name = "Home"
     url = "/"
     weight = 1
-  [[menu.main]]
+  [[languages.en.menu.main]]
     name = "The App"
     url = "/app/"
     weight = 2
-  [[menu.main]]
+  [[languages.en.menu.main]]
     name = "Fishing Knowledge Center"
     url = "/blog/"
     weight = 3
-  [[menu.main]]
+  [[languages.en.menu.main]]
     name = "Support"
     url = "/support/"
+    weight = 4
+
+[languages.fr.menu]
+  [[languages.fr.menu.main]]
+    name = "Accueil"
+    url = "/fr/"
+    weight = 1
+  [[languages.fr.menu.main]]
+    name = "L'Application"
+    url = "/fr/app/"
+    weight = 2
+  [[languages.fr.menu.main]]
+    name = "Centre de Connaissances"
+    url = "/fr/blog/"
+    weight = 3
+  [[languages.fr.menu.main]]
+    name = "Support"
+    url = "/fr/support/"
     weight = 4
 
 [markup]

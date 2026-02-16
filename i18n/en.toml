@@ -1,0 +1,42 @@
+[readMore]
+other = "Read more"
+
+[searchArticles]
+other = "Search articles..."
+
+[searchResults]
+other = "Search Results"
+
+[noResults]
+other = "No articles found for"
+
+[tryDifferentKeywords]
+other = "Try different keywords."
+
+[exploreByTopic]
+other = "Explore by Topic"
+
+[pillarGuides]
+other = "Pillar Guides"
+
+[latestArticles]
+other = "Latest Articles"
+
+[aboutKnowledgeCenter]
+other = "About This Knowledge Center"
+
+[article]
+one = "article"
+other = "articles"
+
+[comingSoon]
+other = "Coming soon"
+
+[relatedArticles]
+other = "Related Articles"
+
+[freeDownload]
+other = "Free download"
+
+[premiumFeatures]
+other = "Premium features available"

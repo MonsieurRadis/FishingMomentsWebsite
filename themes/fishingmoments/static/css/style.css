@@ -89,6 +89,24 @@ img { max-width: 100%; height: auto; }
 .main-nav a:hover, .main-nav a.active { color: #e8f0ff; text-decoration: none; }
 .main-nav a:hover::after, .main-nav a.active::after { width: 100%; }
 
+/* Language Switcher */
+.lang-switcher {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-left: 1rem;
+}
+.lang-link {
+  font-size: 1.25rem;
+  opacity: 0.6;
+  transition: opacity 0.2s, transform 0.2s;
+  display: inline-block;
+}
+.lang-link:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
 /* === Hero === */
 .hero {
   position: relative;

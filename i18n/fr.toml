@@ -1,0 +1,42 @@
+[readMore]
+other = "Lire la suite"
+
+[searchArticles]
+other = "Rechercher des articles..."
+
+[searchResults]
+other = "Résultats de recherche"
+
+[noResults]
+other = "Aucun article trouvé pour"
+
+[tryDifferentKeywords]
+other = "Essayez d'autres mots-clés."
+
+[exploreByTopic]
+other = "Explorer par Thème"
+
+[pillarGuides]
+other = "Guides Fondamentaux"
+
+[latestArticles]
+other = "Derniers Articles"
+
+[aboutKnowledgeCenter]
+other = "À Propos de Ce Centre de Connaissances"
+
+[article]
+one = "article"
+other = "articles"
+
+[comingSoon]
+other = "Bientôt disponible"
+
+[relatedArticles]
+other = "Articles Connexes"
+
+[freeDownload]
+other = "Téléchargement gratuit"
+
+[premiumFeatures]
+other = "Fonctionnalités premium disponibles"
