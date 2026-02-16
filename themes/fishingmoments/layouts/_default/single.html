@@ -8,7 +8,11 @@
       {{/* Breadcrumb */}}
       {{ if .CurrentSection }}
       <div class="breadcrumb">
-        <a href="/blog/">Fishing Knowledge Center</a>
+        {{ $blogHome := .Site.GetPage (printf "/%s/blog" .Language.Lang) }}
+        {{ if eq .Language.Lang "en" }}
+          {{ $blogHome = .Site.GetPage "/blog" }}
+        {{ end }}
+        <a href="{{ $blogHome.RelPermalink }}">{{ $blogHome.Title }}</a>
         <span class="breadcrumb-sep">/</span>
         <a href="{{ .CurrentSection.RelPermalink }}">{{ .CurrentSection.Title }}</a>
         <span class="breadcrumb-sep">/</span>
