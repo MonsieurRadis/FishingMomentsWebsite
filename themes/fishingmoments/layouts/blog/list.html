@@ -1,6 +1,7 @@
 {{ define "main" }}
-
-{{- if .IsHome -}}
+<div style="display:none">DEBUG: {{ .RelPermalink }} | {{ .Kind }} | {{ .Section }} | Sections={{ len .Sections }}</div>
+{{- $isBlogHome := or (eq .RelPermalink "/blog/") (eq .RelPermalink "/fr/blog/") -}}
+{{- if $isBlogHome -}}
 {{/* ========== KNOWLEDGE CENTER HUB ========== */}}
 <section class="knowledge-library">
   <div class="container">

@@ -1,33 +1,105 @@
 {{ define "main" }}
+{{- $isBlogHome := or (eq .RelPermalink "/blog/") (eq .RelPermalink "/fr/blog/") -}}
+{{- if $isBlogHome -}}
+{{/* ========== KNOWLEDGE CENTER HUB ========== */}}
+<section class="knowledge-library">
+  <div class="container">
+    {{/* Header */}}
+    <div class="library-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="library-desc">{{ . }}</p>{{ end }}
+    </div>
+
+    {{/* Search Bar */}}
+    <div class="search-container">
+      <input type="text" id="article-search" class="search-input" placeholder="{{ i18n "searchArticles" }}">
+      <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35"></path>
+      </svg>
+    </div>
+
+    {{/* Category Grid */}}
+    <div class="library-section">
+      <h2 class="library-section-title">{{ i18n "exploreByTopic" }}</h2>
+      <div class="category-grid">
+        {{ range .Sections.ByWeight }}
+        <a href="{{ .RelPermalink }}" class="category-card">
+          <div class="category-card-icon">
+            {{ partial "category-icon.html" . }}
+          </div>
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Description }}</p>
+          <div class="category-card-count">
+            {{ len .Pages }} {{ if eq (len .Pages) 1 }}{{ i18n "article" 1 }}{{ else }}{{ i18n "article" }}{{ end }}
+          </div>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+
+    {{/* Pillar Articles - Featured articles (one per category with pillar: true) */}}
+    {{ $pillarArticles := where .Site.RegularPages "Params.pillar" true }}
+    {{ if $pillarArticles }}
+    <div class="library-section">
+      <h2 class="library-section-title">{{ i18n "pillarGuides" }}</h2>
+      <div class="pillar-articles">
+        {{ range $pillarArticles }}
+          {{ partial "blog-card.html" . }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{/* Latest Articles */}}
+    <div class="library-section">
+      <h2 class="library-section-title">{{ i18n "latestArticles" }}</h2>
+      <div class="blog-grid">
+        {{ range first 6 .Site.RegularPages }}
+          {{ partial "blog-card.html" . }}
+        {{ end }}
+      </div>
+    </div>
+
+    {{/* About - Editorial Content (moved to bottom) */}}
+    {{ with .Content }}
+    <div class="library-about">
+      <h2 class="library-section-title">{{ i18n "aboutKnowledgeCenter" }}</h2>
+      <div class="library-about-content">{{ . }}</div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{- else -}}
+{{/* ========== CATEGORY PAGE ========== */}}
 <section class="blog-list">
   <div class="container">
+    {{/* Breadcrumb */}}
+    <div class="breadcrumb">
+      <a href="/blog/">{{ i18n "exploreByTopic" | default "Fishing Knowledge Center" }}</a>
+      <span class="breadcrumb-sep">/</span>
+      <span>{{ .Title }}</span>
+    </div>
+
+    {{/* Category Header */}}
     <div class="blog-list-header">
       <h1>{{ .Title }}</h1>
       {{ with .Description }}<p class="blog-list-desc">{{ . }}</p>{{ end }}
     </div>
+
+    {{/* Category Content (if any) */}}
     {{ .Content }}
+
+    {{/* Articles in this category */}}
     <div class="blog-grid">
       {{ range .Pages }}
-      {{ $page := . }}
-      <article class="blog-card">
-        {{ with $page.Params.image }}
-        <a href="{{ $page.Permalink }}" class="blog-card-image" style="background-image: url('{{ . }}');"></a>
-        {{ end }}
-        <div class="blog-card-body">
-          {{ with $page.Params.tags }}
-          <div class="blog-card-tags">
-            {{ range first 2 . }}<span class="article-tag">{{ . }}</span>{{ end }}
-          </div>
-          {{ end }}
-          <h2><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
-          <p>{{ $page.Summary }}</p>
-          <div class="blog-card-meta">
-            <time>{{ $page.Date.Format "January 2, 2006" }}</time>
-          </div>
-        </div>
-      </article>
+        {{ partial "blog-card.html" . }}
       {{ end }}
     </div>
   </div>
 </section>
+
+{{- end -}}
+
 {{ end }}
