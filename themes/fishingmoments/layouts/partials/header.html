@@ -10,21 +10,8 @@
       {{ end }}
     </nav>
     <div class="lang-switcher">
-      {{ if .IsTranslated }}
-        {{/* Page has translations - link to translated version */}}
-        {{ range .Translations }}
-          <a href="{{ .RelPermalink }}" class="lang-link" title="{{ .Language.LanguageName }}">
-            {{ if eq .Language.Lang "fr" }}🇫🇷{{ else if eq .Language.Lang "en" }}🇬🇧{{ end }}
-          </a>
-        {{ end }}
-      {{ else }}
-        {{/* No translation - link to homepage in other language */}}
-        {{ if eq .Language.Lang "fr" }}
-          <a href="/" class="lang-link" title="English">🇬🇧</a>
-        {{ else }}
-          <a href="/fr/" class="lang-link" title="Français">🇫🇷</a>
-        {{ end }}
-      {{ end }}
+      {{/* Language switcher - handled by JavaScript, no page reload */}}
+      <a href="#" class="lang-link" title="Change language">🇬🇧</a>
     </div>
   </div>
 </header>

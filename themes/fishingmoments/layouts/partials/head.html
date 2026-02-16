@@ -14,5 +14,7 @@
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9567363888101576" crossorigin="anonymous"></script>
+{{ partial "i18n-data.html" . }}
 <script src="/js/lang-detect.js"></script>
+<script src="/js/language-switcher.js"></script>
 <script src="/js/search.js"></script>
