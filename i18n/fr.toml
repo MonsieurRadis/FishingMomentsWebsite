@@ -40,3 +40,18 @@ other = "Téléchargement gratuit"
 
 [premiumFeatures]
 other = "Fonctionnalités premium disponibles"
+
+[moreIn]
+other = "Plus dans"
+
+[putIntoPractice]
+other = "Mettez ceci en pratique"
+
+[appCtaText]
+other = "Fishing Moments vous donne des prévisions d'activité par espèce — heure par heure, basées sur la science. Téléchargement gratuit."
+
+[downloadAppStore]
+other = "Télécharger sur l'App Store"
+
+[minRead]
+other = "min de lecture"
