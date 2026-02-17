@@ -75,17 +75,21 @@
       }
     });
 
-    // Show/hide articles based on language
-    const lang = getCurrentLang();
-    const articles = document.querySelectorAll('.blog-card[data-lang]');
-    articles.forEach(article => {
-      const articleLang = article.getAttribute('data-lang');
-      if (articleLang === lang) {
-        article.style.display = '';
-      } else {
-        article.style.display = 'none';
-      }
-    });
+    // Show/hide articles based on language (only on non-blog pages)
+    // On blog pages, articles are already filtered by Hugo based on URL
+    const currentPath = window.location.pathname;
+    if (!currentPath.startsWith('/blog/') && !currentPath.startsWith('/fr/blog/')) {
+      const lang = getCurrentLang();
+      const articles = document.querySelectorAll('.blog-card[data-lang]');
+      articles.forEach(article => {
+        const articleLang = article.getAttribute('data-lang');
+        if (articleLang === lang) {
+          article.style.display = '';
+        } else {
+          article.style.display = 'none';
+        }
+      });
+    }
 
     // Update lang attribute
     document.documentElement.lang = getCurrentLang();
@@ -121,6 +125,9 @@
     // For blog pages, redirect to the other language version
     const currentPath = window.location.pathname;
     if (currentPath.startsWith('/blog/') || currentPath.startsWith('/fr/blog/')) {
+      // Update language in localStorage before redirecting
+      setCurrentLang(newLang);
+
       if (newLang === 'fr' && !currentPath.startsWith('/fr/')) {
         window.location.href = '/fr' + currentPath;
         return;
