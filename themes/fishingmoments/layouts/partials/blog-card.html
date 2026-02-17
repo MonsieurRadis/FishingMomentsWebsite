@@ -1,6 +1,6 @@
-{{- $page := . -}}
-<article class="blog-card">
-  {{- with $page.Params.image -}}
+{{ $page := . }}
+<article class="blog-card" data-lang="en" data-test="yes">
+  {{ with $page.Params.image }}
   <a href="{{ $page.Permalink }}" class="blog-card-image" style="background-image: url('{{ . }}');"></a>
   {{- end -}}
   <div class="blog-card-body">

@@ -40,7 +40,9 @@
     </div>
 
     {{/* Pillar Articles - Featured articles (one per category with pillar: true) */}}
-    {{ $pillarArticles := where .Site.RegularPages "Params.pillar" true }}
+    {{ $allBlogPages := where .Site.AllPages "Section" "in" (slice "blog" "gear-and-equipment" "fish-behavior-and-conditions" "seasonal-strategies" "fishing-techniques" "species-guides" "beginners-and-ethics") }}
+    {{ $allBlogPages = where $allBlogPages "Kind" "page" }}
+    {{ $pillarArticles := where $allBlogPages "Params.pillar" true }}
     {{ if $pillarArticles }}
     <div class="library-section">
       <h2 class="library-section-title" data-i18n="pillarGuides">Pillar Guides</h2>
@@ -56,7 +58,7 @@
     <div class="library-section">
       <h2 class="library-section-title" data-i18n="latestArticles">Latest Articles</h2>
       <div class="blog-grid">
-        {{ range first 6 .Site.RegularPages }}
+        {{ range first 12 $allBlogPages }}
           {{ partial "blog-card.html" . }}
         {{ end }}
       </div>

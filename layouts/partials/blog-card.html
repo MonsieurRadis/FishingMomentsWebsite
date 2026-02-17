@@ -1,5 +1,5 @@
 {{ $page := . }}
-<article class="blog-card">
+<article class="blog-card" data-lang="{{ if .Language }}{{ .Language.Lang }}{{ else }}en{{ end }}">
   {{ with $page.Params.image }}
   <a href="{{ $page.Permalink }}" class="blog-card-image" style="background-image: url('{{ . }}');"></a>
   {{ end }}

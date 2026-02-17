@@ -75,6 +75,18 @@
       }
     });
 
+    // Show/hide articles based on language
+    const lang = getCurrentLang();
+    const articles = document.querySelectorAll('.blog-card[data-lang]');
+    articles.forEach(article => {
+      const articleLang = article.getAttribute('data-lang');
+      if (articleLang === lang) {
+        article.style.display = '';
+      } else {
+        article.style.display = 'none';
+      }
+    });
+
     // Update lang attribute
     document.documentElement.lang = getCurrentLang();
 
