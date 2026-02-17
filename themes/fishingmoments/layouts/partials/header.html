@@ -6,7 +6,12 @@
     </a>
     <nav class="main-nav">
       {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
+        {{ $i18nKey := "" }}
+        {{ if or (eq .URL "/") (eq .URL "/fr/") }}{{ $i18nKey = "menuHome" }}{{ end }}
+        {{ if or (eq .URL "/app/") (eq .URL "/fr/app/") }}{{ $i18nKey = "menuApp" }}{{ end }}
+        {{ if or (eq .URL "/blog/") (eq .URL "/fr/blog/") }}{{ $i18nKey = "menuBlog" }}{{ end }}
+        {{ if or (eq .URL "/support/") (eq .URL "/fr/support/") }}{{ $i18nKey = "menuSupport" }}{{ end }}
+        <a href="{{ .URL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}" {{ if $i18nKey }}data-i18n="{{ $i18nKey }}"{{ end }}>{{ .Name }}</a>
       {{ end }}
     </nav>
     <div class="lang-switcher">
