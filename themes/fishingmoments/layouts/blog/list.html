@@ -40,8 +40,8 @@
     </div>
 
     {{/* Pillar Articles - Featured articles (one per category with pillar: true) */}}
-    {{ $allBlogPages := where .Site.AllPages "Section" "in" (slice "blog" "gear-and-equipment" "fish-behavior-and-conditions" "seasonal-strategies" "fishing-techniques" "species-guides" "beginners-and-ethics") }}
-    {{ $allBlogPages = where $allBlogPages "Kind" "page" }}
+    {{ $allBlogPages := where .Site.RegularPages "Type" "blog" }}
+    {{ $allBlogPages = sort $allBlogPages "Date" "desc" }}
     {{ $pillarArticles := where $allBlogPages "Params.pillar" true }}
     {{ if $pillarArticles }}
     <div class="library-section">

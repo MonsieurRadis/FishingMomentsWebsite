@@ -118,6 +118,19 @@
     const currentLang = getCurrentLang();
     const newLang = currentLang === 'en' ? 'fr' : 'en';
 
+    // For blog pages, redirect to the other language version
+    const currentPath = window.location.pathname;
+    if (currentPath.startsWith('/blog/') || currentPath.startsWith('/fr/blog/')) {
+      if (newLang === 'fr' && !currentPath.startsWith('/fr/')) {
+        window.location.href = '/fr' + currentPath;
+        return;
+      } else if (newLang === 'en' && currentPath.startsWith('/fr/')) {
+        window.location.href = currentPath.replace('/fr/', '/');
+        return;
+      }
+    }
+
+    // For other pages, translate in place
     setCurrentLang(newLang);
     translatePage();
   }

@@ -938,6 +938,13 @@ img { max-width: 100%; height: auto; }
     font-size: 0.7rem;
     padding: 0.25rem 0.375rem;
   }
+  .lang-switcher {
+    margin-left: 0.5rem;
+    flex-shrink: 0;
+  }
+  .lang-link {
+    font-size: 1.1rem;
+  }
 
   /* Content */
   .hero { min-height: 100vh; }
