@@ -6,8 +6,20 @@
   // Get translations data injected by Hugo
   let translations = window.FISHING_MOMENTS_I18N || {};
 
-  // Get current language from localStorage or default
+  // Get current language from URL (for blog pages) or localStorage
   function getCurrentLang() {
+    const currentPath = window.location.pathname;
+
+    // On blog pages, detect language from URL (source of truth)
+    if (currentPath.startsWith('/blog/') || currentPath.startsWith('/fr/blog/')) {
+      if (currentPath.startsWith('/fr/')) {
+        return 'fr';
+      } else {
+        return 'en';
+      }
+    }
+
+    // On other pages, use localStorage
     return localStorage.getItem(STORAGE_KEY) || DEFAULT_LANG;
   }
 
@@ -53,27 +65,31 @@
       }
     });
 
-    // Translate category titles and descriptions
-    const categoryCards = document.querySelectorAll('[data-category-slug]');
-    categoryCards.forEach(card => {
-      const slug = card.getAttribute('data-category-slug');
-      if (!slug) return;
+    // Translate category titles and descriptions (only on non-blog pages)
+    // On blog pages, Hugo already generates the correct language from _index.md
+    const currentPath = window.location.pathname;
+    if (!currentPath.startsWith('/blog/') && !currentPath.startsWith('/fr/blog/')) {
+      const categoryCards = document.querySelectorAll('[data-category-slug]');
+      categoryCards.forEach(card => {
+        const slug = card.getAttribute('data-category-slug');
+        if (!slug) return;
 
-      const lang = getCurrentLang();
-      const categoryData = translations[lang] && translations[lang].categories && translations[lang].categories[slug];
+        const lang = getCurrentLang();
+        const categoryData = translations[lang] && translations[lang].categories && translations[lang].categories[slug];
 
-      if (categoryData) {
-        const titleEl = card.querySelector('[data-i18n-category="title"]');
-        const descEl = card.querySelector('[data-i18n-category="description"]');
+        if (categoryData) {
+          const titleEl = card.querySelector('[data-i18n-category="title"]');
+          const descEl = card.querySelector('[data-i18n-category="description"]');
 
-        if (titleEl && categoryData.title) {
-          titleEl.textContent = categoryData.title;
+          if (titleEl && categoryData.title) {
+            titleEl.textContent = categoryData.title;
+          }
+          if (descEl && categoryData.description) {
+            descEl.textContent = categoryData.description;
+          }
         }
-        if (descEl && categoryData.description) {
-          descEl.textContent = categoryData.description;
-        }
-      }
-    });
+      });
+    }
 
     // Show/hide articles based on language (only on non-blog pages)
     // On blog pages, articles are already filtered by Hugo based on URL
@@ -142,6 +158,33 @@
     translatePage();
   }
 
+  // Handle navigation links to maintain language consistency
+  function handleNavigation(e) {
+    const link = e.currentTarget;
+    const href = link.getAttribute('href');
+
+    // Skip if it's an external link or anchor
+    if (!href || href.startsWith('http') || href.startsWith('#')) {
+      return;
+    }
+
+    const currentLang = getCurrentLang();
+
+    // If we're in French mode and the link doesn't start with /fr/
+    if (currentLang === 'fr' && !href.startsWith('/fr/')) {
+      e.preventDefault();
+      window.location.href = '/fr' + href;
+      return;
+    }
+
+    // If we're in English mode and the link starts with /fr/
+    if (currentLang === 'en' && href.startsWith('/fr/')) {
+      e.preventDefault();
+      window.location.href = href.replace('/fr/', '/');
+      return;
+    }
+  }
+
   // Initialize
   function init() {
     // Apply saved language on page load
@@ -152,6 +195,12 @@
     if (langLink) {
       langLink.addEventListener('click', toggleLanguage);
     }
+
+    // Attach click handlers to all internal navigation links
+    const navLinks = document.querySelectorAll('.main-nav a, .logo, .footer-links a, .breadcrumb a, .related-card, .category-card');
+    navLinks.forEach(link => {
+      link.addEventListener('click', handleNavigation);
+    });
   }
 
   // Run when DOM is ready

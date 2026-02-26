@@ -24,7 +24,7 @@ theme = 'fishingmoments'
 [params]
   author = "Fishing Moments"
   email = "contact@fishingmoments.eu"
-  appStoreURL = ""
+  appStoreURL = "https://apps.apple.com/app/fishing-moments/id6759101113"
   ogImage = "/images/og-image.png"
 
 [languages.en.menu]
