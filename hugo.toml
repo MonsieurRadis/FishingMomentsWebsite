@@ -12,6 +12,7 @@ theme = 'fishingmoments'
     title = 'Fishing Moments — Smart Fishing Forecasts'
     [languages.en.params]
       description = "Know when fish are biting. Species-specific forecasts powered by science."
+      appStoreURL = "https://apps.apple.com/gb/app/fishing-moments/id6759101113"
 
   [languages.fr]
     languageCode = 'fr'
@@ -20,11 +21,11 @@ theme = 'fishingmoments'
     title = 'Fishing Moments — Prévisions de Pêche Intelligentes'
     [languages.fr.params]
       description = "Sachez quand les poissons mordent. Prévisions par espèce basées sur la science."
+      appStoreURL = "https://apps.apple.com/fr/app/fishing-moments/id6759101113"
 
 [params]
   author = "Fishing Moments"
   email = "contact@fishingmoments.eu"
-  appStoreURL = "https://apps.apple.com/fr/app/fishing-moments/id6759101113"
   ogImage = "/images/og-image.png"
 
 [languages.en.menu]
