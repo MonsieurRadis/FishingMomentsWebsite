@@ -53,6 +53,21 @@ other = "Fishing Moments vous donne des prévisions d'activité par espèce — 
 [downloadAppStore]
 other = "Télécharger sur l'App Store"
 
+[downloadOnThe]
+other = "Télécharger sur"
+
+[appStore]
+other = "l'App Store"
+
+[getItOn]
+other = "DISPONIBLE SUR"
+
+[googlePlay]
+other = "Google Play"
+
+[androidComingSoon]
+other = "Disponible mars 2026"
+
 [minRead]
 other = "min de lecture"
 
