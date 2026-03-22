@@ -93,7 +93,6 @@
 
     // Show/hide articles based on language (only on non-blog pages)
     // On blog pages, articles are already filtered by Hugo based on URL
-    const currentPath = window.location.pathname;
     if (!currentPath.startsWith('/blog/') && !currentPath.startsWith('/fr/blog/')) {
       const lang = getCurrentLang();
       const articles = document.querySelectorAll('.blog-card[data-lang]');
