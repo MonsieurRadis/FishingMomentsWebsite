@@ -22,7 +22,7 @@ Les prévisions sont basées sur des recherches ichtyologiques bien établies et
 Fishing Moments couvre 44 espèces d'eau douce incluant le brochet, le sandre, la perche, la carpe, la truite, le silure et bien d'autres. Le catalogue d'espèces est adapté pour chaque pays.
 
 ### Quels pays sont supportés ?
-L'application supporte 19 pays européens : 🇫🇷 France, 🇬🇧 Royaume-Uni, 🇩🇪 Allemagne, 🇪🇸 Espagne, 🇮🇹 Italie, 🇸🇪 Suède, 🇳🇴 Norvège, 🇫🇮 Finlande, 🇩🇰 Danemark, 🇳🇱 Pays-Bas, 🇧🇪 Belgique, 🇨🇭 Suisse, 🇦🇹 Autriche, 🇵🇱 Pologne, 🇨🇿 République Tchèque, 🇭🇺 Hongrie, 🇭🇷 Croatie, 🇮🇪 Irlande et 🇵🇹 Portugal. Chaque pays dispose de catalogues d'espèces étudiés scientifiquement et adaptés aux environnements locaux.
+L'application supporte actuellement 8 pays européens : 🇫🇷 France, 🇬🇧 Royaume-Uni, 🇩🇪 Allemagne, 🇪🇸 Espagne, 🇮🇹 Italie, 🇳🇱 Pays-Bas, 🇸🇪 Suède et 🇫🇮 Finlande. Chaque pays pris en charge dispose de catalogues d'espèces étudiés scientifiquement et adaptés aux environnements locaux.
 
 ### Comment ajouter un spot de pêche ?
 Appuyez sur l'icône de carte, puis appuyez longuement sur la carte à l'emplacement souhaité. Vous pouvez également utiliser la barre de recherche pour trouver un lieu par son nom. Chaque spot enregistre ses coordonnées GPS pour des données météo précises.

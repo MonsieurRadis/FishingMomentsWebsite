@@ -308,7 +308,7 @@ other = "Your Waters"
 other = "Modeled for Their Habitat"
 
 [appHabitatDesc]
-other = "Save your fishing spots on the map and get hyper-local forecasts. Each spot uses precise GPS coordinates for accurate weather data — not city-level estimates. Supports France, UK, Germany, Spain, Italy, Scandinavia, and 13 other European countries. Each region scientifically studied for local species behavior."
+other = "Save your fishing spots on the map and get hyper-local forecasts. Each spot uses precise GPS coordinates for accurate weather data — not city-level estimates. Supports France, UK, Germany, Spain, Italy, Netherlands, Sweden, and Finland. Each supported country is scientifically studied for local species behavior."
 
 [appHabitatBullet1]
 other = "Save unlimited fishing spots"
@@ -317,7 +317,7 @@ other = "Save unlimited fishing spots"
 other = "GPS-precise weather per location"
 
 [appHabitatBullet3]
-other = "Available in 19 European countries"
+other = "Available in 8 European countries"
 
 [appHabitatScreenAlt]
 other = "Modeled for Their Habitat"
@@ -365,10 +365,10 @@ other = "Clean, focused interface"
 other = "Designed for Day and Night"
 
 [appCountriesTitle]
-other = "Available in 19 European Countries"
+other = "Available in 8 European Countries"
 
 [appCountriesSubtitle]
-other = "Each country scientifically studied with species-specific environmental profiles adapted to local waters."
+other = "Each supported country is scientifically studied with species-specific environmental profiles adapted to local waters."
 
 [countryFrance]
 other = "🇫🇷 France"

@@ -308,7 +308,7 @@ other = "Vos Plans d'Eau"
 other = "Modélisé pour Leur Habitat"
 
 [appHabitatDesc]
-other = "Enregistrez vos spots de pêche sur la carte et obtenez des prévisions hyper-locales. Chaque spot utilise des coordonnées GPS précises pour des données météo exactes — pas des estimations au niveau de la ville. Disponible en France, Royaume-Uni, Allemagne, Espagne, Italie, Scandinavie et 13 autres pays européens. Chaque région scientifiquement étudiée pour le comportement des espèces locales."
+other = "Enregistrez vos spots de pêche sur la carte et obtenez des prévisions hyper-locales. Chaque spot utilise des coordonnées GPS précises pour des données météo exactes — pas des estimations au niveau de la ville. Disponible en France, Royaume-Uni, Allemagne, Espagne, Italie, Pays-Bas, Suède et Finlande. Chaque pays pris en charge est étudié scientifiquement pour le comportement des espèces locales."
 
 [appHabitatBullet1]
 other = "Enregistrez un nombre illimité de spots de pêche"
@@ -317,7 +317,7 @@ other = "Enregistrez un nombre illimité de spots de pêche"
 other = "Météo précise au GPS par emplacement"
 
 [appHabitatBullet3]
-other = "Disponible dans 19 pays européens"
+other = "Disponible dans 8 pays européens"
 
 [appHabitatScreenAlt]
 other = "Modélisé pour Leur Habitat"
@@ -365,10 +365,10 @@ other = "Interface épurée et ciblée"
 other = "Conçu pour le Jour et la Nuit"
 
 [appCountriesTitle]
-other = "Disponible dans 19 Pays Européens"
+other = "Disponible dans 8 Pays Européens"
 
 [appCountriesSubtitle]
-other = "Chaque pays scientifiquement étudié avec des profils environnementaux spécifiques aux espèces adaptés aux eaux locales."
+other = "Chaque pays pris en charge est étudié scientifiquement avec des profils environnementaux spécifiques aux espèces adaptés aux eaux locales."
 
 [countryFrance]
 other = "🇫🇷 France"
