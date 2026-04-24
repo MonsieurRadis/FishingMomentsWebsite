@@ -19,6 +19,12 @@
   </div>
 </section>
 
+<aside class="app-mobile-download-bar" aria-label="{{ i18n "freeDownload" }}">
+  <div class="container">
+    {{ partial "store-badges.html" (dict "context" . "extraClass" "app-mobile-download-badges") }}
+  </div>
+</aside>
+
 <!-- Screenshot Showcase -->
 <section class="app-showcase">
   <div class="container">
@@ -159,3 +165,5 @@
     <p class="cta-free">{{ i18n "ctaFreeText" | safeHTML }}</p>
   </div>
 </section>
+
+<div class="app-mobile-download-spacer" aria-hidden="true"></div>
