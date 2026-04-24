@@ -322,6 +322,27 @@ other = "Available in 19 European countries"
 [appHabitatScreenAlt]
 other = "Modeled for Their Habitat"
 
+[appStationsLabel]
+other = "River Stations"
+
+[appStationsTitle]
+other = "Hydrological Context for Rivers"
+
+[appStationsDesc]
+other = "Track hydrological stations directly in the app and understand river conditions before you leave. See flow, level, short-term trends, and seasonal context in one place so you know whether the river is stable, rising, low, or right where it should be."
+
+[appStationsBullet1]
+other = "Flow and water level from tracked stations"
+
+[appStationsBullet2]
+other = "Seasonal context to judge whether conditions are typical"
+
+[appStationsBullet3]
+other = "7-day trend view plus favorite stations for quick access"
+
+[appStationsScreenAlt]
+other = "Hydrological station details and river levels"
+
 [appDesignLabel]
 other = "Beautiful Design"
 

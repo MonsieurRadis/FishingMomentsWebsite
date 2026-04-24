@@ -322,6 +322,27 @@ other = "Disponible dans 19 pays européens"
 [appHabitatScreenAlt]
 other = "Modélisé pour Leur Habitat"
 
+[appStationsLabel]
+other = "Stations Rivière"
+
+[appStationsTitle]
+other = "Le Contexte Hydrologique des Rivières"
+
+[appStationsDesc]
+other = "Suivez les stations hydrologiques directement dans l'app et comprenez l'état de la rivière avant de partir. Débit, niveau, tendance récente et contexte saisonnier sont réunis au même endroit pour savoir si le cours d'eau est stable, en hausse, bas ou simplement dans sa norme."
+
+[appStationsBullet1]
+other = "Débit et niveau d'eau sur les stations suivies"
+
+[appStationsBullet2]
+other = "Contexte saisonnier pour juger si la situation est normale"
+
+[appStationsBullet3]
+other = "Vue sur 7 jours et stations favorites pour aller vite"
+
+[appStationsScreenAlt]
+other = "Détail d'une station hydrologique et niveaux de rivière"
+
 [appDesignLabel]
 other = "Design Soigné"
 
