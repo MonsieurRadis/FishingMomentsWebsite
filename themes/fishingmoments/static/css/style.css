@@ -261,7 +261,7 @@ img { max-width: 100%; height: auto; }
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  padding: 0.55rem 1.2rem;
+  padding: 0.95rem 1.25rem;
   border-radius: 0.625rem;
   color: #fff;
   text-decoration: none;
@@ -324,19 +324,19 @@ img { max-width: 100%; height: auto; }
 }
 /* Large variant for hero/CTA */
 .store-badges-lg .store-badge {
-  padding: 0.7rem 1.5rem;
+  padding: 1.2rem 1.65rem;
   gap: 0.75rem;
   border-radius: 0.75rem;
 }
 .store-badges-lg .store-badge-icon {
-  width: 26px;
-  height: 26px;
+  width: 28px;
+  height: 28px;
 }
 .store-badges-lg .store-badge-small {
-  font-size: 0.6rem;
+  font-size: 0.64rem;
 }
 .store-badges-lg .store-badge-title {
-  font-size: 1.2rem;
+  font-size: 1.24rem;
 }
 
 /* === Wave Separator === */
@@ -1575,18 +1575,18 @@ img { max-width: 100%; height: auto; }
     max-height: none;
   }
   .store-badges-lg .store-badge {
-    padding: 0.65rem 1.1rem;
+    padding: 1.05rem 1.15rem;
     gap: 0.65rem;
   }
   .store-badges-lg .store-badge-icon {
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
   }
   .store-badges-lg .store-badge-small {
-    font-size: 0.56rem;
+    font-size: 0.58rem;
   }
   .store-badges-lg .store-badge-title {
-    font-size: 1.02rem;
+    font-size: 1.08rem;
   }
   .app-showcase {
     padding: 3rem 0;
@@ -1640,22 +1640,22 @@ img { max-width: 100%; height: auto; }
     width: 100%;
     min-width: 0;
     justify-content: center;
-    padding: 0.72rem 0.8rem;
+    padding: 1.18rem 0.85rem;
     gap: 0.45rem;
     border-radius: 1rem;
   }
   .app-download-dock .store-badge-icon {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
   }
   .app-download-dock .store-badge-text {
     min-width: 0;
   }
   .app-download-dock .store-badge-small {
-    font-size: 0.48rem;
+    font-size: 0.52rem;
   }
   .app-download-dock .store-badge-title {
-    font-size: 0.92rem;
+    font-size: 0.98rem;
     white-space: nowrap;
   }
 }
@@ -1684,7 +1684,7 @@ img { max-width: 100%; height: auto; }
     padding-right: 0.85rem;
   }
   .store-badges-lg .store-badge-title {
-    font-size: 0.94rem;
+    font-size: 0.98rem;
   }
   .app-download-dock {
     left: max(0.5rem, env(safe-area-inset-left));
@@ -1693,18 +1693,18 @@ img { max-width: 100%; height: auto; }
     padding: 0.625rem;
   }
   .app-download-dock .store-badge {
-    padding: 0.65rem 0.6rem;
+    padding: 1rem 0.65rem;
     gap: 0.35rem;
   }
   .app-download-dock .store-badge-icon {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
   }
   .app-download-dock .store-badge-small {
-    font-size: 0.45rem;
+    font-size: 0.48rem;
   }
   .app-download-dock .store-badge-title {
-    font-size: 0.82rem;
+    font-size: 0.88rem;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
