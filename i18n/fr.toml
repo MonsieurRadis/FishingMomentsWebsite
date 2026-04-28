@@ -426,3 +426,132 @@ other = "🇮🇪 Irlande"
 
 [countryPortugal]
 other = "🇵🇹 Portugal"
+
+[supportTitle]
+other = "Support"
+
+[supportHowHelp]
+other = "Comment pouvons-nous vous aider ?"
+
+[supportIntro]
+other = "Cette FAQ se concentre sur ce que l'app fait réellement aujourd'hui : prévisions par espèce, spots enregistrés, météo locale, Premium et stations rivière."
+
+[supportFaqTitle]
+other = "Questions Fréquentes"
+
+[faqForecastTitle]
+other = "Comment fonctionne la prévision ?"
+
+[faqForecastAnswer]
+other = "Le score repose d'abord sur la biologie de l'espèce (rythme journalier, saison, frai), la température probable de l'eau et la lumière réelle. Le vent, la pluie, la nébulosité et la tendance de pression viennent ensuite ajuster le résultat. Les périodes solunaires peuvent s'ajouter comme indicateur complémentaire si vous les activez dans l'app."
+
+[faqScoreTitle]
+other = "Que signifie le score d'activité ?"
+
+[faqScoreAnswer]
+other = "C'est une estimation du potentiel d'activité d'une espèce sur votre spot à ce moment-là. Plus le score est élevé, plus la fenêtre paraît favorable pour cette espèce si elle est réellement présente. Le score sert à comparer des créneaux, pas à remplacer la lecture de l'eau ou l'expérience du terrain."
+
+[faqSpeciesTitle]
+other = "Pourquoi le score change-t-il selon l'espèce ?"
+
+[faqSpeciesAnswer]
+other = "Parce qu'un sandre, une carpe, une truite ou un brochet n'ont ni le même rythme, ni la même fenêtre thermique, ni la même sensibilité à la lumière. Fishing Moments n'affiche pas une note météo générique : l'app applique un modèle distinct à chaque espèce d'eau douce."
+
+[faqAccuracyTitle]
+other = "Dans quelle mesure les prévisions sont-elles fiables ?"
+
+[faqAccuracyAnswer]
+other = "La prévision est une aide à la décision, pas une garantie de capture. Elle sert surtout à comparer des créneaux, des journées et des espèces sur un spot donné. L'état réel de l'eau, la pression de pêche, le débit, la turbidité ou votre approche sur le terrain peuvent encore faire varier le résultat."
+
+[faqCoverageTitle]
+other = "Quelles espèces sont couvertes ?"
+
+[faqCoverageAnswer]
+other = "Le catalogue actuel compte 44 espèces d'eau douce modélisées. Selon le pays choisi, l'app adapte la sélection affichée et les profils locaux lorsque c'est pertinent."
+
+[faqCountriesTitle]
+other = "Quels pays sont actuellement pris en charge ?"
+
+[faqCountriesAnswer]
+other = "L'app couvre actuellement 8 pays : France, Royaume-Uni, Allemagne, Espagne, Belgique, Pays-Bas, Suisse et Finlande. Ce sont aussi les pays actuellement reliés au catalogue de stations hydrométriques."
+
+[faqAddSpotTitle]
+other = "Comment ajouter un spot de pêche ?"
+
+[faqAddSpotAnswer]
+other = "Ouvrez la carte, touchez l'endroit voulu ou déplacez le marqueur. Vous pouvez aussi partir d'une recherche de lieu. L'app enregistre les coordonnées GPS du spot, et vous pouvez conserver jusqu'à 30 spots favoris."
+
+[faqPremiumTitle]
+other = "Qu'est-ce qui est inclus dans Premium ?"
+
+[faqPremiumAnswer]
+other = "Le téléchargement est gratuit. Sans abonnement, l'application affiche la journée en cours. Un essai gratuit de 14 jours donne l'accès complet, puis Premium débloque jusqu'à 10 jours de prévisions détaillées. Des offres mensuelle et annuelle sont proposées via le store."
+
+[faqRestoreTitle]
+other = "Comment restaurer un achat ?"
+
+[faqRestoreAnswer]
+other = "Ouvrez la page Premium et utilisez le bouton « Restaurer mes achats ». Cela permet de rattacher un abonnement déjà actif à votre compte App Store ou Google Play."
+
+[faqWeatherTitle]
+other = "La météo semble incohérente sur mon spot"
+
+[faqWeatherAnswer]
+other = "La météo est demandée à partir des coordonnées GPS exactes du spot, pas depuis une ville voisine. Si le rendu paraît incohérent, vérifiez bien l'emplacement du spot, surtout en rivière, en vallée ou près d'un relief. Hors connexion, l'app peut aussi réafficher un cache météo déjà consulté."
+
+[supportHydroTitle]
+other = "Stations Hydrométriques"
+
+[faqHydroPurposeTitle]
+other = "À quoi servent les stations hydrométriques ?"
+
+[faqHydroPurposeAnswer]
+other = "Elles apportent le contexte rivière que la météo seule ne donne pas. Sur une rivière, le niveau et le débit peuvent tout changer : eau basse, montée, décrue ou simple retour à une situation normale pour la saison. L'écran Stations aide surtout à savoir si la rivière paraît stable et pêchable avant de partir."
+
+[faqHydroDataTitle]
+other = "Quelles données affiche une station ?"
+
+[faqHydroDataAnswer]
+other = "Selon la station, l'app peut afficher le niveau d'eau, le débit, la tendance récente, un historique sur 7 jours et un contexte saisonnier pour replacer la valeur actuelle. Vous pouvez aussi enregistrer des stations en favoris pour y revenir rapidement."
+
+[faqHydroMissingTitle]
+other = "Pourquoi certaines stations paraissent incomplètes ou indisponibles ?"
+
+[faqHydroMissingAnswer]
+other = "La couverture dépend des réseaux publics de chaque pays. Certaines stations publient du temps réel, d'autres seulement des données partielles ou historiques. Il peut donc manquer un niveau, un débit ou une mise à jour récente selon la source."
+
+[supportContactTitle]
+other = "Besoin d'aide supplémentaire ?"
+
+[supportContactText]
+other = "Pour un bug, un problème d'abonnement ou une lecture de station précise, écrivez-nous en indiquant votre appareil, votre pays et le spot ou la station concernés."
+
+[supportEmailLabel]
+other = "Écrivez-nous à :"
+
+[supportAppInfoTitle]
+other = "Informations Utiles"
+
+[supportAppName]
+other = "Nom de l'app :"
+
+[supportAppNameValue]
+other = "Fishing Moments"
+
+[supportDeveloper]
+other = "Développeur :"
+
+[supportDeveloperValue]
+other = "Anthony Expert"
+
+[supportPlatform]
+other = "Plateformes :"
+
+[supportPlatformValue]
+other = "iOS et Android"
+
+[supportCoverage]
+other = "Couverture :"
+
+[supportCoverageValue]
+other = "44 espèces d'eau douce · 8 pays couverts"

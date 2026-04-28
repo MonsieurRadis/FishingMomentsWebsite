@@ -426,3 +426,132 @@ other = "🇮🇪 Ireland"
 
 [countryPortugal]
 other = "🇵🇹 Portugal"
+
+[supportTitle]
+other = "Support"
+
+[supportHowHelp]
+other = "How can we help?"
+
+[supportIntro]
+other = "This FAQ focuses on what the app actually does today: species forecasts, saved spots, local weather, Premium, and river stations."
+
+[supportFaqTitle]
+other = "Frequently Asked Questions"
+
+[faqForecastTitle]
+other = "How does the forecast work?"
+
+[faqForecastAnswer]
+other = "The score is built first around species biology (daily rhythm, season, spawning), probable water temperature, and effective light. Wind, rain, cloud cover, and pressure trend then adjust the result. Solunar periods can be added as a complementary indicator if you enable them in the app."
+
+[faqScoreTitle]
+other = "What does the activity score mean?"
+
+[faqScoreAnswer]
+other = "It is an estimate of how favorable the current window looks for a species at your spot. A higher score means a better-looking opportunity for that species if it is actually present. The score helps compare time windows, not replace water reading or on-the-bank judgment."
+
+[faqSpeciesTitle]
+other = "Why does the score change from one species to another?"
+
+[faqSpeciesAnswer]
+other = "Because zander, carp, trout, or pike do not share the same daily rhythm, thermal window, or light sensitivity. Fishing Moments does not show one generic weather grade: the app uses a separate model for each freshwater species."
+
+[faqAccuracyTitle]
+other = "How reliable are the forecasts?"
+
+[faqAccuracyAnswer]
+other = "The forecast is a decision aid, not a catch guarantee. It is most useful for comparing time slots, days, and species on a given spot. Real water conditions, fishing pressure, flow, turbidity, and your approach on the bank can still change the outcome."
+
+[faqCoverageTitle]
+other = "What species are covered?"
+
+[faqCoverageAnswer]
+other = "The current catalog includes 44 modeled freshwater species. Depending on the selected country, the app adapts the displayed selection and local species profiles where relevant."
+
+[faqCountriesTitle]
+other = "Which countries are currently supported?"
+
+[faqCountriesAnswer]
+other = "The app currently covers 8 countries: France, United Kingdom, Germany, Spain, Belgium, Netherlands, Switzerland, and Finland. These are also the countries currently connected to the hydrometric station catalog."
+
+[faqAddSpotTitle]
+other = "How do I add a fishing spot?"
+
+[faqAddSpotAnswer]
+other = "Open the map, tap where you want to fish, or move the marker. You can also start from a place search. The app saves the spot's GPS coordinates, and you can keep up to 30 favorite spots."
+
+[faqPremiumTitle]
+other = "What is included in Premium?"
+
+[faqPremiumAnswer]
+other = "The download is free. Without a subscription, the app shows the current day. A 14-day free trial gives full access, then Premium unlocks up to 10 days of detailed forecasts. Monthly and yearly plans are offered through the store."
+
+[faqRestoreTitle]
+other = "How do I restore a purchase?"
+
+[faqRestoreAnswer]
+other = "Open the Premium page and use the \"Restore purchases\" button. This reconnects an already active subscription to your App Store or Google Play account."
+
+[faqWeatherTitle]
+other = "The weather looks wrong on my spot"
+
+[faqWeatherAnswer]
+other = "Weather is requested from the exact GPS coordinates of the spot, not from a nearby town. If it looks off, check the spot location carefully, especially near rivers, valleys, or relief. If you are offline, the app may also fall back to previously cached weather data."
+
+[supportHydroTitle]
+other = "Hydrometric Stations"
+
+[faqHydroPurposeTitle]
+other = "What are hydrometric stations for?"
+
+[faqHydroPurposeAnswer]
+other = "They add river context that weather alone cannot provide. On rivers, water level and flow can change everything: low water, a rise, a drop, or simply normal seasonal conditions. The Stations screen helps you understand whether the river looks stable and fishable before you leave."
+
+[faqHydroDataTitle]
+other = "What data does a station show?"
+
+[faqHydroDataAnswer]
+other = "Depending on the station, the app can show water level, flow, recent trend, a 7-day history, and seasonal context to place the current value in perspective. You can also save favorite stations for faster access."
+
+[faqHydroMissingTitle]
+other = "Why do some stations look incomplete or unavailable?"
+
+[faqHydroMissingAnswer]
+other = "Coverage depends on each country's public networks. Some stations publish real-time data, while others only provide partial or historical data. A level, a flow value, or a fresh update can therefore be missing depending on the source."
+
+[supportContactTitle]
+other = "Need More Help?"
+
+[supportContactText]
+other = "For a bug, a billing issue, or a specific station reading, email us with your device, country, and the spot or station involved."
+
+[supportEmailLabel]
+other = "Email us at:"
+
+[supportAppInfoTitle]
+other = "Useful Information"
+
+[supportAppName]
+other = "App name:"
+
+[supportAppNameValue]
+other = "Fishing Moments"
+
+[supportDeveloper]
+other = "Developer:"
+
+[supportDeveloperValue]
+other = "Anthony Expert"
+
+[supportPlatform]
+other = "Platforms:"
+
+[supportPlatformValue]
+other = "iOS and Android"
+
+[supportCoverage]
+other = "Coverage:"
+
+[supportCoverageValue]
+other = "44 freshwater species · 8 supported countries"
