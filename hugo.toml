@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://fishingmoments.eu/'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 title = 'Fishing Moments — Smart Fishing Forecasts'
@@ -28,7 +28,7 @@ theme = 'fishingmoments'
 [params]
   author = "Fishing Moments"
   email = "contact@fishingmoments.eu"
-  ogImage = "/images/og-image.png"
+  ogImage = "/images/og-image.jpg"
 
 [languages.en.menu]
   [[languages.en.menu.main]]

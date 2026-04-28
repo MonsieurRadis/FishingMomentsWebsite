@@ -1,5 +1,6 @@
+{{ $htmlLang := cond (hasPrefix .RelPermalink "/fr/") "fr" "en" }}
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ $htmlLang }}">
 <head>
   {{ partial "head.html" . }}
 </head>

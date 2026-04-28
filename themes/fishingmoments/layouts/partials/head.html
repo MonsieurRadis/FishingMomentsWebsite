@@ -1,7 +1,20 @@
+{{ $pageTitle := cond .IsHome .Site.Title (printf "%s — %s" .Title .Site.Title) }}
+{{ $socialTitle := cond .IsHome .Site.Title (printf "%s | %s" .Title .Site.Params.author) }}
+{{ $description := or .Description .Site.Params.description }}
+{{ $shareImage := "" }}
+{{ with .Params.image }}
+  {{ $shareImage = . | absURL }}
+{{ else }}
+  {{ with .Site.Params.ogImage }}
+    {{ $shareImage = . | absURL }}
+  {{ end }}
+{{ end }}
+{{ $isFrench := hasPrefix .RelPermalink "/fr/" }}
+{{ $ogLocale := cond $isFrench "fr_FR" "en_US" }}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<title>{{ $pageTitle }}</title>
+<meta name="description" content="{{ $description }}">
 <link rel="stylesheet" href="/css/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,10 +22,19 @@
 <link rel="icon" type="image/svg+xml" href="/images/branding/logo.svg">
 <link rel="icon" type="image/png" href="/images/branding/icon.png">
 <link rel="apple-touch-icon" href="/images/branding/icon.png">
-{{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ else }}{{ with .Site.Params.ogImage }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}{{ end }}
-<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:title" content="{{ $socialTitle }}">
+<meta property="og:description" content="{{ $description }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Params.author }}">
+<meta property="og:locale" content="{{ $ogLocale }}">
+{{ with $shareImage }}<meta property="og:image" content="{{ . }}">
+<meta property="og:image:secure_url" content="{{ . }}">
+<meta property="og:image:alt" content="Fishing Moments">
+<meta name="twitter:image" content="{{ . }}">{{ end }}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $socialTitle }}">
+<meta name="twitter:description" content="{{ $description }}">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9567363888101576" crossorigin="anonymous"></script>
 <!-- Google Ads (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18033920482"></script>
