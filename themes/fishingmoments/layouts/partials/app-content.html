@@ -3,7 +3,7 @@
   <!-- Hero -->
   <section class="app-hero">
     <div class="app-hero-bg">
-      <img src="/images/backgrounds/splash-dark.png" alt="" class="app-hero-bg-img">
+      <img src="/images/backgrounds/splash-dark.webp" alt="" class="app-hero-bg-img">
       <div class="app-hero-overlay"></div>
     </div>
     <div class="container app-hero-content">
@@ -15,7 +15,10 @@
         <p class="app-hero-free">{{ i18n "ctaFreeText" | safeHTML }}</p>
       </div>
       <div class="app-hero-visual">
-        <img src="/images/app/screen-02.png" alt="{{ i18n "appScreenAlt" }}" class="app-hero-screen">
+        <picture>
+          <source srcset="/images/app/screen-02.webp" type="image/webp">
+          <img src="/images/app/screen-02.png" alt="{{ i18n "appScreenAlt" }}" class="app-hero-screen" width="900" height="1894" decoding="async" fetchpriority="high">
+        </picture>
       </div>
     </div>
   </section>
@@ -25,7 +28,10 @@
     <div class="container">
       <div class="app-showcase-row">
         <div class="app-showcase-screen">
-          <img src="/images/app/screen-03.png" alt="{{ i18n "appHourlyScreenAlt" }}" loading="lazy">
+          <picture>
+            <source srcset="/images/app/screen-03.webp" type="image/webp">
+            <img src="/images/app/screen-03.png" alt="{{ i18n "appHourlyScreenAlt" }}" loading="lazy" decoding="async" width="900" height="1894">
+          </picture>
         </div>
         <div class="app-showcase-text">
           <span class="feature-label" data-i18n="appHourlyLabel">{{ i18n "appHourlyLabel" }}</span>
@@ -41,7 +47,10 @@
 
       <div class="app-showcase-row reverse">
         <div class="app-showcase-screen">
-          <img src="/images/app/screen-04.png" alt="{{ i18n "appSpeciesScreenAlt" }}" loading="lazy">
+          <picture>
+            <source srcset="/images/app/screen-04.webp" type="image/webp">
+            <img src="/images/app/screen-04.png" alt="{{ i18n "appSpeciesScreenAlt" }}" loading="lazy" decoding="async" width="900" height="1894">
+          </picture>
         </div>
         <div class="app-showcase-text">
           <span class="feature-label" data-i18n="appSpeciesLabel">{{ i18n "appSpeciesLabel" }}</span>
@@ -57,7 +66,10 @@
 
       <div class="app-showcase-row">
         <div class="app-showcase-screen">
-          <img src="/images/app/screen-05.png" alt="{{ i18n "appHabitatScreenAlt" }}" loading="lazy">
+          <picture>
+            <source srcset="/images/app/screen-05.webp" type="image/webp">
+            <img src="/images/app/screen-05.png" alt="{{ i18n "appHabitatScreenAlt" }}" loading="lazy" decoding="async" width="900" height="1894">
+          </picture>
         </div>
         <div class="app-showcase-text">
           <span class="feature-label" data-i18n="appHabitatLabel">{{ i18n "appHabitatLabel" }}</span>
@@ -73,7 +85,10 @@
 
       <div class="app-showcase-row reverse">
         <div class="app-showcase-screen">
-          <img src="/images/app/screen-07.png" alt="{{ i18n "appStationsScreenAlt" }}" loading="lazy">
+          <picture>
+            <source srcset="/images/app/screen-07.webp" type="image/webp">
+            <img src="/images/app/screen-07.png" alt="{{ i18n "appStationsScreenAlt" }}" loading="lazy" decoding="async" width="900" height="1894">
+          </picture>
         </div>
         <div class="app-showcase-text">
           <span class="feature-label" data-i18n="appStationsLabel">{{ i18n "appStationsLabel" }}</span>
@@ -89,7 +104,10 @@
 
       <div class="app-showcase-row">
         <div class="app-showcase-screen">
-          <img src="/images/app/screen-06.png" alt="{{ i18n "appDesignScreenAlt" }}" loading="lazy">
+          <picture>
+            <source srcset="/images/app/screen-06.webp" type="image/webp">
+            <img src="/images/app/screen-06.png" alt="{{ i18n "appDesignScreenAlt" }}" loading="lazy" decoding="async" width="900" height="1894">
+          </picture>
         </div>
         <div class="app-showcase-text">
           <span class="feature-label" data-i18n="appDesignLabel">{{ i18n "appDesignLabel" }}</span>

@@ -2,7 +2,7 @@
 {{ if and (.Params.image) (eq .Section "blog") }}
 <!-- Blog article layout -->
 <article class="blog-article">
-  <div class="article-hero" style="background-image: url('{{ .Params.image }}');">
+  <div class="article-hero" style="background-image: url('{{ partial "webp-url.html" .Params.image }}');">
     <div class="article-hero-overlay"></div>
     <div class="container article-hero-content">
       {{/* Breadcrumb */}}
@@ -44,8 +44,11 @@
         <div class="related-grid">
           {{ range first 3 $siblings }}
             <a href="{{ .Permalink }}" class="related-card">
+              {{ $relatedTitle := .Title }}
               {{ with .Params.image }}
-                <div class="related-card-image" style="background-image: url('{{ . }}');"></div>
+                <div class="related-card-image">
+                  <img src="{{ partial "webp-url.html" . }}" alt="{{ $relatedTitle }}" loading="lazy" decoding="async">
+                </div>
               {{ end }}
               <span>{{ .Title }}</span>
             </a>

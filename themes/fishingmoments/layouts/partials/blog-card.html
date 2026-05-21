@@ -1,7 +1,9 @@
 {{ $page := . }}
 <article class="blog-card" data-lang="en" data-test="yes">
   {{ with $page.Params.image }}
-  <a href="{{ $page.Permalink }}" class="blog-card-image" style="background-image: url('{{ . }}');"></a>
+  <a href="{{ $page.Permalink }}" class="blog-card-image">
+    <img src="{{ partial "webp-url.html" . }}" alt="{{ $page.Title }}" loading="lazy" decoding="async">
+  </a>
   {{- end -}}
   <div class="blog-card-body">
     {{- with $page.Params.tags -}}

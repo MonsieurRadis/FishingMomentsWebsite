@@ -5,6 +5,17 @@
     }
   },
   "framework": "hugo",
+  "headers": [
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
   "redirects": [
     { "source": "/blog/best-time-of-day-to-fish/", "destination": "/blog/fish-behavior-and-conditions/best-time-of-day-to-fish/", "statusCode": 301 },
     { "source": "/blog/moon-phases-and-fishing/", "destination": "/blog/fish-behavior-and-conditions/moon-phases-and-fishing/", "statusCode": 301 },
