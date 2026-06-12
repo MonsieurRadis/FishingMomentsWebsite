@@ -1,0 +1,22 @@
+name: Scheduled Vercel rebuild
+
+on:
+  schedule:
+    # Runs daily at 03:10 UTC so Hugo can publish articles whose date has passed.
+    - cron: "10 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel deploy hook
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$VERCEL_DEPLOY_HOOK_URL" ]; then
+            echo "Missing VERCEL_DEPLOY_HOOK_URL secret."
+            exit 1
+          fi
+
+          curl --fail --silent --show-error --request POST "$VERCEL_DEPLOY_HOOK_URL"
