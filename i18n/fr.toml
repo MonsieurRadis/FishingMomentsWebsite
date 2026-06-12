@@ -66,7 +66,7 @@ other = "DISPONIBLE SUR"
 other = "Google Play"
 
 [androidComingSoon]
-other = "Disponible mars 2026"
+other = "Disponible sur Google Play"
 
 [minRead]
 other = "min de lecture"
@@ -82,7 +82,7 @@ other = "Prévisions de Pêche Intelligentes"
 other = "Sachez exactement quand<br>les poissons mordent."
 
 [heroSubtitle]
-other = "Prévisions d'activité par espèce basées sur la science solunaire, la météo en temps réel et la biologie des poissons."
+other = "Prévisions de pêche par espèce basées sur la biologie des poissons, la météo locale, les données rivière et le bon timing. Disponible sur iOS et Android."
 
 [statsSpecies]
 other = "Espèces d'Eau Douce"
@@ -248,16 +248,16 @@ other = "Téléchargement gratuit &middot; Fonctionnalités premium disponibles"
 
 # App page strings
 [appHeroLabel]
-other = "Application iOS"
+other = "Application iOS & Android"
 
 [appHeroTitle]
 other = "Prévisions de Pêche<br>Intelligentes"
 
 [appHeroSubtitle]
-other = "Sachez exactement quand les poissons mordent. Prévisions d'activité par espèce basées sur la science solunaire, la météo en temps réel et la biologie des poissons."
+other = "Planifiez chaque session avec des prévisions par espèce, une précision heure par heure, vos spots enregistrés, un design adapté à la nuit et les données des stations rivière. Disponible sur l'App Store et Google Play."
 
 [appScreenAlt]
-other = "Fishing Moments — Prévisions de Pêche Intelligentes"
+other = "Écran d'accueil Android de Fishing Moments"
 
 [appHourlyLabel]
 other = "Détail Horaire"
@@ -266,16 +266,16 @@ other = "Détail Horaire"
 other = "Précision Heure par Heure"
 
 [appHourlyDesc]
-other = "Explorez n'importe quel jour pour voir la répartition horaire complète. Scores d'activité, évaluations en étoiles, température, vitesse du vent et pression barométrique — heure par heure, pour planifier votre session avec une précision chirurgicale."
+other = "Ouvrez la prévision détaillée pour comparer chaque moment de la journée. Scores d'activité, étoiles, météo, pression, vent et lumière sont organisés heure par heure pour choisir le bon créneau avant de partir."
 
 [appHourlyBullet1]
-other = "Répartition détaillée de l'activité sur 24 heures"
+other = "Fenêtres d'activité claires heure par heure"
 
 [appHourlyBullet2]
-other = "Température, vent et pression par heure"
+other = "Météo, pression, vent et lumière en un coup d'œil"
 
 [appHourlyBullet3]
-other = "Système d'évaluation par étoiles pour une lecture rapide"
+other = "Score et étoiles pour lire chaque créneau rapidement"
 
 [appHourlyScreenAlt]
 other = "Précision Heure par Heure"
@@ -308,16 +308,37 @@ other = "Vos Plans d'Eau"
 other = "Modélisé pour Leur Habitat"
 
 [appHabitatDesc]
-other = "Enregistrez vos spots de pêche sur la carte et obtenez des prévisions hyper-locales. Chaque spot utilise des coordonnées GPS précises pour des données météo exactes — pas des estimations au niveau de la ville. Disponible en France, Royaume-Uni, Allemagne, Espagne, Italie, Pays-Bas, Suède et Finlande. Chaque pays pris en charge est étudié scientifiquement pour le comportement des espèces locales."
+other = "Enregistrez vos spots et obtenez des prévisions construites à partir de l'endroit exact où vous pêchez. Chaque lieu utilise ses coordonnées GPS, la météo locale et un catalogue d'espèces adapté au pays, plutôt que de simples estimations au niveau de la ville."
 
 [appHabitatBullet1]
-other = "Enregistrez un nombre illimité de spots de pêche"
+other = "Enregistrez jusqu'à 30 spots favoris"
 
 [appHabitatBullet2]
-other = "Météo précise au GPS par emplacement"
+other = "Prévisions précises au GPS pour chaque lieu"
 
 [appHabitatBullet3]
-other = "Disponible dans 8 pays européens"
+other = "Catalogue d'espèces adapté aux pays couverts"
+
+[appNightLabel]
+other = "Sessions de Nuit"
+
+[appNightTitle]
+other = "Prêt Avant l'Aube et Après la Tombée du Jour"
+
+[appNightDesc]
+other = "Utilisez Fishing Moments confortablement en faible lumière. L'interface sombre garde les prévisions lisibles à l'aube, au crépuscule et de nuit, avec le même accès rapide aux scores, au timing, à la météo et aux spots enregistrés."
+
+[appNightBullet1]
+other = "Interface sombre pour les conditions de faible lumière"
+
+[appNightBullet2]
+other = "Prévisions lisibles pendant les sessions de nuit"
+
+[appNightBullet3]
+other = "Accès rapide au timing, à la météo et aux spots"
+
+[appNightScreenAlt]
+other = "Écran Android Fishing Moments en mode sombre pour la pêche de nuit"
 
 [appHabitatScreenAlt]
 other = "Modélisé pour Leur Habitat"
@@ -329,7 +350,7 @@ other = "Stations Rivière"
 other = "Le Contexte Hydrologique des Rivières"
 
 [appStationsDesc]
-other = "Suivez les stations hydrologiques directement dans l'app et comprenez l'état de la rivière avant de partir. Débit, niveau, tendance récente et contexte saisonnier sont réunis au même endroit pour savoir si le cours d'eau est stable, en hausse, bas ou simplement dans sa norme."
+other = "Suivez les stations rivière directement dans l'app et comprenez l'eau avant de partir. Débit, niveau, tendance récente et contexte saisonnier aident à savoir si la rivière est stable, en hausse, basse ou simplement dans sa norme."
 
 [appStationsBullet1]
 other = "Débit et niveau d'eau sur les stations suivies"

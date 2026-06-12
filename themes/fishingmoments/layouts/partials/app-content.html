@@ -1,9 +1,10 @@
 
 <div class="app-page-shell">
+  {{ $screenLocale := cond (eq .Language.Lang "fr") "fr" "en" }}
   <!-- Hero -->
   <section class="app-hero">
     <div class="app-hero-bg">
-      <img src="/images/backgrounds/splash-dark.webp" alt="" class="app-hero-bg-img">
+      <img src="/images/backgrounds/splash-dark.png" alt="" class="app-hero-bg-img">
       <div class="app-hero-overlay"></div>
     </div>
     <div class="container app-hero-content">
@@ -12,13 +13,10 @@
         <h1 data-i18n="appHeroTitle" data-i18n-html>{{ i18n "appHeroTitle" | safeHTML }}</h1>
         <p class="app-hero-sub" data-i18n="appHeroSubtitle">{{ i18n "appHeroSubtitle" }}</p>
         {{ partial "store-badges.html" (dict "context" . "size" "lg") }}
-        <p class="app-hero-free">{{ i18n "ctaFreeText" | safeHTML }}</p>
+        <p class="app-hero-free" data-i18n="ctaFreeText" data-i18n-html>{{ i18n "ctaFreeText" | safeHTML }}</p>
       </div>
       <div class="app-hero-visual">
-        <picture>
-          <source srcset="/images/app/screen-02.webp" type="image/webp">
-          <img src="/images/app/screen-02.png" alt="{{ i18n "appScreenAlt" }}" class="app-hero-screen" width="900" height="1894" decoding="async" fetchpriority="high">
-        </picture>
+        <img src="/images/app/{{ $screenLocale }}/screen-01.png" data-localized-img data-en-src="/images/app/en/screen-01.png" data-fr-src="/images/app/fr/screen-01.png" alt="{{ i18n "appScreenAlt" }}" class="app-hero-screen" width="427" height="900" decoding="async" fetchpriority="high">
       </div>
     </div>
   </section>
@@ -28,98 +26,68 @@
     <div class="container">
       <div class="app-showcase-row">
         <div class="app-showcase-screen">
-          <picture>
-            <source srcset="/images/app/screen-03.webp" type="image/webp">
-            <img src="/images/app/screen-03.png" alt="{{ i18n "appHourlyScreenAlt" }}" loading="lazy" decoding="async" width="900" height="1894">
-          </picture>
+          <img src="/images/app/{{ $screenLocale }}/screen-02.png" data-localized-img data-en-src="/images/app/en/screen-02.png" data-fr-src="/images/app/fr/screen-02.png" alt="{{ i18n "appHourlyScreenAlt" }}" loading="lazy" decoding="async" width="427" height="900">
         </div>
         <div class="app-showcase-text">
           <span class="feature-label" data-i18n="appHourlyLabel">{{ i18n "appHourlyLabel" }}</span>
           <h2 data-i18n="appHourlyTitle">{{ i18n "appHourlyTitle" }}</h2>
           <p data-i18n="appHourlyDesc">{{ i18n "appHourlyDesc" }}</p>
           <ul class="feature-list">
-            <li>{{ i18n "appHourlyBullet1" }}</li>
-            <li>{{ i18n "appHourlyBullet2" }}</li>
-            <li>{{ i18n "appHourlyBullet3" }}</li>
+            <li data-i18n="appHourlyBullet1">{{ i18n "appHourlyBullet1" }}</li>
+            <li data-i18n="appHourlyBullet2">{{ i18n "appHourlyBullet2" }}</li>
+            <li data-i18n="appHourlyBullet3">{{ i18n "appHourlyBullet3" }}</li>
           </ul>
         </div>
       </div>
 
       <div class="app-showcase-row reverse">
         <div class="app-showcase-screen">
-          <picture>
-            <source srcset="/images/app/screen-04.webp" type="image/webp">
-            <img src="/images/app/screen-04.png" alt="{{ i18n "appSpeciesScreenAlt" }}" loading="lazy" decoding="async" width="900" height="1894">
-          </picture>
-        </div>
-        <div class="app-showcase-text">
-          <span class="feature-label" data-i18n="appSpeciesLabel">{{ i18n "appSpeciesLabel" }}</span>
-          <h2 data-i18n="appSpeciesTitle">{{ i18n "appSpeciesTitle" }}</h2>
-          <p data-i18n="appSpeciesDesc">{{ i18n "appSpeciesDesc" }}</p>
-          <ul class="feature-list">
-            <li>{{ i18n "appSpeciesBullet1" }}</li>
-            <li>{{ i18n "appSpeciesBullet2" }}</li>
-            <li>{{ i18n "appSpeciesBullet3" }}</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="app-showcase-row">
-        <div class="app-showcase-screen">
-          <picture>
-            <source srcset="/images/app/screen-05.webp" type="image/webp">
-            <img src="/images/app/screen-05.png" alt="{{ i18n "appHabitatScreenAlt" }}" loading="lazy" decoding="async" width="900" height="1894">
-          </picture>
+          <img src="/images/app/{{ $screenLocale }}/screen-03.png" data-localized-img data-en-src="/images/app/en/screen-03.png" data-fr-src="/images/app/fr/screen-03.png" alt="{{ i18n "appHabitatScreenAlt" }}" loading="lazy" decoding="async" width="427" height="900">
         </div>
         <div class="app-showcase-text">
           <span class="feature-label" data-i18n="appHabitatLabel">{{ i18n "appHabitatLabel" }}</span>
           <h2 data-i18n="appHabitatTitle">{{ i18n "appHabitatTitle" }}</h2>
           <p data-i18n="appHabitatDesc">{{ i18n "appHabitatDesc" }}</p>
           <ul class="feature-list">
-            <li>{{ i18n "appHabitatBullet1" }}</li>
-            <li>{{ i18n "appHabitatBullet2" }}</li>
-            <li>{{ i18n "appHabitatBullet3" }}</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="app-showcase-row reverse">
-        <div class="app-showcase-screen">
-          <picture>
-            <source srcset="/images/app/screen-07.webp" type="image/webp">
-            <img src="/images/app/screen-07.png" alt="{{ i18n "appStationsScreenAlt" }}" loading="lazy" decoding="async" width="900" height="1894">
-          </picture>
-        </div>
-        <div class="app-showcase-text">
-          <span class="feature-label" data-i18n="appStationsLabel">{{ i18n "appStationsLabel" }}</span>
-          <h2 data-i18n="appStationsTitle">{{ i18n "appStationsTitle" }}</h2>
-          <p data-i18n="appStationsDesc">{{ i18n "appStationsDesc" }}</p>
-          <ul class="feature-list">
-            <li>{{ i18n "appStationsBullet1" }}</li>
-            <li>{{ i18n "appStationsBullet2" }}</li>
-            <li>{{ i18n "appStationsBullet3" }}</li>
+            <li data-i18n="appHabitatBullet1">{{ i18n "appHabitatBullet1" }}</li>
+            <li data-i18n="appHabitatBullet2">{{ i18n "appHabitatBullet2" }}</li>
+            <li data-i18n="appHabitatBullet3">{{ i18n "appHabitatBullet3" }}</li>
           </ul>
         </div>
       </div>
 
       <div class="app-showcase-row">
         <div class="app-showcase-screen">
-          <picture>
-            <source srcset="/images/app/screen-06.webp" type="image/webp">
-            <img src="/images/app/screen-06.png" alt="{{ i18n "appDesignScreenAlt" }}" loading="lazy" decoding="async" width="900" height="1894">
-          </picture>
+          <img src="/images/app/{{ $screenLocale }}/screen-04.png" data-localized-img data-en-src="/images/app/en/screen-04.png" data-fr-src="/images/app/fr/screen-04.png" alt="{{ i18n "appNightScreenAlt" }}" loading="lazy" decoding="async" width="427" height="900">
         </div>
         <div class="app-showcase-text">
-          <span class="feature-label" data-i18n="appDesignLabel">{{ i18n "appDesignLabel" }}</span>
-          <h2 data-i18n="appDesignTitle">{{ i18n "appDesignTitle" }}</h2>
-          <p data-i18n="appDesignDesc">{{ i18n "appDesignDesc" }}</p>
+          <span class="feature-label" data-i18n="appNightLabel">{{ i18n "appNightLabel" }}</span>
+          <h2 data-i18n="appNightTitle">{{ i18n "appNightTitle" }}</h2>
+          <p data-i18n="appNightDesc">{{ i18n "appNightDesc" }}</p>
           <ul class="feature-list">
-            <li>{{ i18n "appDesignBullet1" }}</li>
-            <li>{{ i18n "appDesignBullet2" }}</li>
-            <li>{{ i18n "appDesignBullet3" }}</li>
+            <li data-i18n="appNightBullet1">{{ i18n "appNightBullet1" }}</li>
+            <li data-i18n="appNightBullet2">{{ i18n "appNightBullet2" }}</li>
+            <li data-i18n="appNightBullet3">{{ i18n "appNightBullet3" }}</li>
           </ul>
         </div>
       </div>
+
+      <div class="app-showcase-row reverse">
+        <div class="app-showcase-screen">
+          <img src="/images/app/{{ $screenLocale }}/screen-05.png" data-localized-img data-en-src="/images/app/en/screen-05.png" data-fr-src="/images/app/fr/screen-05.png" alt="{{ i18n "appStationsScreenAlt" }}" loading="lazy" decoding="async" width="427" height="900">
+        </div>
+        <div class="app-showcase-text">
+          <span class="feature-label" data-i18n="appStationsLabel">{{ i18n "appStationsLabel" }}</span>
+          <h2 data-i18n="appStationsTitle">{{ i18n "appStationsTitle" }}</h2>
+          <p data-i18n="appStationsDesc">{{ i18n "appStationsDesc" }}</p>
+          <ul class="feature-list">
+            <li data-i18n="appStationsBullet1">{{ i18n "appStationsBullet1" }}</li>
+            <li data-i18n="appStationsBullet2">{{ i18n "appStationsBullet2" }}</li>
+            <li data-i18n="appStationsBullet3">{{ i18n "appStationsBullet3" }}</li>
+          </ul>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -129,14 +97,14 @@
       <h2 class="countries-title" data-i18n="appCountriesTitle">{{ i18n "appCountriesTitle" }}</h2>
       <p class="countries-subtitle" data-i18n="appCountriesSubtitle">{{ i18n "appCountriesSubtitle" }}</p>
       <div class="countries-grid">
-        <span class="country-tag">{{ i18n "countryFrance" }}</span>
-        <span class="country-tag">{{ i18n "countryUK" }}</span>
-        <span class="country-tag">{{ i18n "countryGermany" }}</span>
-        <span class="country-tag">{{ i18n "countrySpain" }}</span>
-        <span class="country-tag">{{ i18n "countryItaly" }}</span>
-        <span class="country-tag">{{ i18n "countryNetherlands" }}</span>
-        <span class="country-tag">{{ i18n "countrySweden" }}</span>
-        <span class="country-tag">{{ i18n "countryFinland" }}</span>
+        <span class="country-tag" data-i18n="countryFrance">{{ i18n "countryFrance" }}</span>
+        <span class="country-tag" data-i18n="countryUK">{{ i18n "countryUK" }}</span>
+        <span class="country-tag" data-i18n="countryGermany">{{ i18n "countryGermany" }}</span>
+        <span class="country-tag" data-i18n="countrySpain">{{ i18n "countrySpain" }}</span>
+        <span class="country-tag" data-i18n="countryItaly">{{ i18n "countryItaly" }}</span>
+        <span class="country-tag" data-i18n="countryNetherlands">{{ i18n "countryNetherlands" }}</span>
+        <span class="country-tag" data-i18n="countrySweden">{{ i18n "countrySweden" }}</span>
+        <span class="country-tag" data-i18n="countryFinland">{{ i18n "countryFinland" }}</span>
       </div>
     </div>
   </section>
@@ -175,7 +143,7 @@
       <h2 data-i18n="ctaTitle">{{ i18n "ctaTitle" }}</h2>
       <p data-i18n="ctaDesc">{{ i18n "ctaDesc" }}</p>
       {{ partial "store-badges.html" (dict "context" . "size" "lg") }}
-      <p class="cta-free">{{ i18n "ctaFreeText" | safeHTML }}</p>
+      <p class="cta-free" data-i18n="ctaFreeText" data-i18n-html>{{ i18n "ctaFreeText" | safeHTML }}</p>
     </div>
   </section>
 

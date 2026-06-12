@@ -66,7 +66,7 @@ other = "GET IT ON"
 other = "Google Play"
 
 [androidComingSoon]
-other = "Coming March 2026"
+other = "Available on Google Play"
 
 [minRead]
 other = "min read"
@@ -82,7 +82,7 @@ other = "Smart Fishing Forecasts"
 other = "Know exactly when<br>fish are biting."
 
 [heroSubtitle]
-other = "Species-specific activity forecasts powered by solunar science, real-time weather, and fish biology."
+other = "Species-specific fishing forecasts powered by fish biology, local weather, river data, and precise timing. Available on iOS and Android."
 
 [statsSpecies]
 other = "Freshwater Species"
@@ -248,16 +248,16 @@ other = "Free download &middot; Premium features available"
 
 # App page strings
 [appHeroLabel]
-other = "iOS App"
+other = "iOS & Android App"
 
 [appHeroTitle]
 other = "Smart Fishing<br>Forecasts"
 
 [appHeroSubtitle]
-other = "Know exactly when fish are biting. Species-specific activity forecasts powered by solunar science, real-time weather, and fish biology."
+other = "Plan every session with species-specific forecasts, hourly precision, saved fishing spots, night-ready design, and river station data. Available on the App Store and Google Play."
 
 [appScreenAlt]
-other = "Fishing Moments — Smart Fishing Forecast"
+other = "Fishing Moments Android home forecast screen"
 
 [appHourlyLabel]
 other = "Hourly Detail"
@@ -266,16 +266,16 @@ other = "Hourly Detail"
 other = "Hour by Hour Precision"
 
 [appHourlyDesc]
-other = "Drill into any day to see the full hourly breakdown. Activity scores, star ratings, temperature, wind speed, and barometric pressure — hour by hour, so you plan your session with surgical precision."
+other = "Open the detailed forecast to compare every part of the day. Activity scores, stars, weather conditions, pressure, wind, and light are organized hour by hour so you can choose the right window before you leave."
 
 [appHourlyBullet1]
-other = "24-hour detailed activity breakdown"
+other = "Clear hourly activity windows"
 
 [appHourlyBullet2]
-other = "Temperature, wind & pressure per hour"
+other = "Weather, pressure, wind, and light at a glance"
 
 [appHourlyBullet3]
-other = "Star rating system for quick reading"
+other = "Fast score and star reading for each time slot"
 
 [appHourlyScreenAlt]
 other = "Hour by Hour Precision"
@@ -308,16 +308,37 @@ other = "Your Waters"
 other = "Modeled for Their Habitat"
 
 [appHabitatDesc]
-other = "Save your fishing spots on the map and get hyper-local forecasts. Each spot uses precise GPS coordinates for accurate weather data — not city-level estimates. Supports France, UK, Germany, Spain, Italy, Netherlands, Sweden, and Finland. Each supported country is scientifically studied for local species behavior."
+other = "Save your fishing spots and get forecasts built from the exact place you fish. Each location uses precise GPS coordinates, local weather, and country-specific species coverage instead of broad city-level estimates."
 
 [appHabitatBullet1]
-other = "Save unlimited fishing spots"
+other = "Save up to 30 favorite fishing spots"
 
 [appHabitatBullet2]
-other = "GPS-precise weather per location"
+other = "GPS-precise forecasts for each location"
 
 [appHabitatBullet3]
-other = "Available in 8 European countries"
+other = "Species catalog adapted to supported countries"
+
+[appNightLabel]
+other = "Night Sessions"
+
+[appNightTitle]
+other = "Ready Before Sunrise and After Dark"
+
+[appNightDesc]
+other = "Use Fishing Moments comfortably in low light. The dark interface keeps forecasts readable during dawn, dusk, and night sessions while preserving the same fast access to scores, timing, weather, and saved spots."
+
+[appNightBullet1]
+other = "Dark interface for low-light conditions"
+
+[appNightBullet2]
+other = "Readable forecasts during night sessions"
+
+[appNightBullet3]
+other = "Quick access to timing, weather, and spots"
+
+[appNightScreenAlt]
+other = "Fishing Moments dark mode night forecast screen"
 
 [appHabitatScreenAlt]
 other = "Modeled for Their Habitat"
@@ -329,7 +350,7 @@ other = "River Stations"
 other = "Hydrological Context for Rivers"
 
 [appStationsDesc]
-other = "Track hydrological stations directly in the app and understand river conditions before you leave. See flow, level, short-term trends, and seasonal context in one place so you know whether the river is stable, rising, low, or right where it should be."
+other = "Track river stations directly in the app and understand the water before you leave. Flow, level, recent trend, and seasonal context help you judge whether the river is stable, rising, low, or right where it should be."
 
 [appStationsBullet1]
 other = "Flow and water level from tracked stations"

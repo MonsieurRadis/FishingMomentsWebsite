@@ -48,8 +48,17 @@
 
   // Translate all elements on page
   function translatePage() {
+    const lang = getCurrentLang();
     const elements = document.querySelectorAll('[data-i18n]');
     elements.forEach(translateElement);
+
+    const localizedImages = document.querySelectorAll('img[data-localized-img]');
+    localizedImages.forEach(image => {
+      const localizedSrc = image.getAttribute(`data-${lang}-src`);
+      if (localizedSrc && image.getAttribute('src') !== localizedSrc) {
+        image.setAttribute('src', localizedSrc);
+      }
+    });
 
     // Translate placeholder attributes
     const placeholderElements = document.querySelectorAll('[data-i18n-placeholder]');
@@ -57,7 +66,6 @@
       const key = element.getAttribute('data-i18n-placeholder');
       if (!key) return;
 
-      const lang = getCurrentLang();
       const translation = translations[lang] && translations[lang][key];
 
       if (translation) {
@@ -74,7 +82,6 @@
         const slug = card.getAttribute('data-category-slug');
         if (!slug) return;
 
-        const lang = getCurrentLang();
         const categoryData = translations[lang] && translations[lang].categories && translations[lang].categories[slug];
 
         if (categoryData) {
@@ -94,7 +101,6 @@
     // Show/hide articles based on language (only on non-blog pages)
     // On blog pages, articles are already filtered by Hugo based on URL
     if (!currentPath.startsWith('/blog/') && !currentPath.startsWith('/fr/blog/')) {
-      const lang = getCurrentLang();
       const articles = document.querySelectorAll('.blog-card[data-lang]');
       articles.forEach(article => {
         const articleLang = article.getAttribute('data-lang');

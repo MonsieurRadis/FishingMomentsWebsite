@@ -11,7 +11,7 @@ theme = 'fishingmoments'
     weight = 1
     title = 'Fishing Moments — Smart Fishing Forecasts'
     [languages.en.params]
-      description = "Know when fish are biting. Species-specific forecasts powered by science."
+      description = "Know when fish are biting with species-specific forecasts, saved spots, and river data. Available on iOS and Android."
       appStoreURL = "https://apps.apple.com/gb/app/fishing-moments/id6759101113"
       playStoreURL = "https://play.google.com/store/apps/details?id=com.ltdt.app"
 
@@ -21,7 +21,7 @@ theme = 'fishingmoments'
     weight = 2
     title = 'Fishing Moments — Prévisions de Pêche Intelligentes'
     [languages.fr.params]
-      description = "Sachez quand les poissons mordent. Prévisions par espèce basées sur la science."
+      description = "Sachez quand les poissons mordent avec des prévisions par espèce, vos spots et les données rivière. Disponible sur iOS et Android."
       appStoreURL = "https://apps.apple.com/fr/app/fishing-moments/id6759101113"
       playStoreURL = "https://play.google.com/store/apps/details?id=com.ltdt.app"
 
