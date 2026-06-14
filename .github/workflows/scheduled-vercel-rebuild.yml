@@ -9,14 +9,22 @@ on:
 jobs:
   rebuild:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Trigger Vercel deploy hook
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Trigger Vercel rebuild
         env:
           VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
         run: |
-          if [ -z "$VERCEL_DEPLOY_HOOK_URL" ]; then
-            echo "Missing VERCEL_DEPLOY_HOOK_URL secret."
-            exit 1
+          if [ -n "$VERCEL_DEPLOY_HOOK_URL" ]; then
+            curl --fail --silent --show-error --request POST "$VERCEL_DEPLOY_HOOK_URL"
+            exit 0
           fi
 
-          curl --fail --silent --show-error --request POST "$VERCEL_DEPLOY_HOOK_URL"
+          git config user.name "Radis de l'Amour"
+          git config user.email "phenixwhite@gmail.com"
+          git commit --allow-empty -m "chore: trigger scheduled Vercel rebuild"
+          git push origin HEAD:main
