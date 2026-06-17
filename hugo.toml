@@ -28,7 +28,7 @@ theme = 'fishingmoments'
 [params]
   author = "Fishing Moments"
   email = "contact@fishingmoments.eu"
-  ogImage = "/images/og-image.jpg"
+  ogImage = "/images/og-image-20260617.jpg"
 
 [languages.en.menu]
   [[languages.en.menu.main]]
