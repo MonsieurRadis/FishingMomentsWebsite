@@ -3,9 +3,9 @@
 html {
   font-size: 16px;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow: hidden;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   background: #071a2a;
 }
 body {
@@ -14,25 +14,21 @@ body {
   background: #071a2a;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
-  position: relative;
+  overflow: hidden;
   width: 100%;
-  min-height: 100vh;
-  min-height: 100dvh;
+  height: 100%;
 }
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
+.site-scroll {
   background: #071a2a;
-}
-.site-header,
-main,
-.site-footer {
+  height: 100vh;
+  height: 100dvh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior-y: none;
   position: relative;
-  z-index: 1;
+  scroll-behavior: smooth;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 a { color: #5ab0d8; text-decoration: none; transition: color 0.2s; }
 a:hover { color: #D4A34F; }
@@ -2380,7 +2376,7 @@ body {
     radial-gradient(circle at 50% 0%, rgba(32, 177, 169, 0.2), transparent 28rem),
     linear-gradient(180deg, #0c5260 0%, var(--fm-app-bg) 36rem, #031f28 100%);
 }
-body::before {
+.site-scroll {
   background:
     radial-gradient(circle at 50% 0%, rgba(32, 177, 169, 0.2), transparent 28rem),
     linear-gradient(180deg, #0c5260 0%, var(--fm-app-bg) 36rem, #031f28 100%);
