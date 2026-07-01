@@ -3,8 +3,11 @@
 html {
   font-size: 16px;
   scroll-behavior: smooth;
+  overscroll-behavior-y: none;
   overflow-x: hidden;
   width: 100%;
+  min-height: 100%;
+  background: #071a2a;
 }
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -13,8 +16,10 @@ body {
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  overscroll-behavior-y: none;
   width: 100%;
   min-height: 100vh;
+  min-height: 100dvh;
 }
 a { color: #5ab0d8; text-decoration: none; transition: color 0.2s; }
 a:hover { color: #D4A34F; }
@@ -2348,6 +2353,12 @@ main h3 {
   --fm-app-lime: #dceb8d;
   --fm-app-gold: #d8bd67;
   --fm-app-shadow: 0 24px 58px rgba(0, 28, 36, 0.34);
+}
+
+html {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(32, 177, 169, 0.2), transparent 28rem),
+    linear-gradient(180deg, #0c5260 0%, var(--fm-app-bg) 36rem, #031f28 100%);
 }
 
 body {
