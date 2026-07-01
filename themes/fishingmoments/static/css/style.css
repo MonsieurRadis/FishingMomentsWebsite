@@ -15,9 +15,24 @@ body {
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  position: relative;
   width: 100%;
   min-height: 100vh;
   min-height: 100dvh;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: #071a2a;
+}
+.site-header,
+main,
+.site-footer {
+  position: relative;
+  z-index: 1;
 }
 a { color: #5ab0d8; text-decoration: none; transition: color 0.2s; }
 a:hover { color: #D4A34F; }
@@ -2361,6 +2376,11 @@ html {
 
 body {
   color: var(--fm-app-text);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(32, 177, 169, 0.2), transparent 28rem),
+    linear-gradient(180deg, #0c5260 0%, var(--fm-app-bg) 36rem, #031f28 100%);
+}
+body::before {
   background:
     radial-gradient(circle at 50% 0%, rgba(32, 177, 169, 0.2), transparent 28rem),
     linear-gradient(180deg, #0c5260 0%, var(--fm-app-bg) 36rem, #031f28 100%);
