@@ -19,10 +19,10 @@ Because fish don't all react the same way. Pike love cold fronts and pressure dr
 The forecasts are based on well-established ichthyological research and solunar theory. While no prediction can be 100% accurate (fishing remains fishing!), our users report significantly better catch rates when following the app's recommendations.
 
 ### What species are covered?
-Fishing Moments covers 44 freshwater species including pike, zander, perch, carp, trout, catfish, and many more. The species catalog is adapted for each country.
+Fishing Moments covers 44 freshwater species including pike, zander, perch, carp, trout, catfish, and many more. The app uses species-specific biological models and local context where relevant.
 
-### Which countries are supported?
-The app currently supports 8 European countries: 🇫🇷 France, 🇬🇧 UK, 🇩🇪 Germany, 🇪🇸 Spain, 🇮🇹 Italy, 🇳🇱 Netherlands, 🇸🇪 Sweden, and 🇫🇮 Finland. Each supported country has scientifically studied species catalogs adapted to local environments.
+### Where are forecasts and river stations available?
+Fishing forecasts are available worldwide. Hydrometric stations, station history and some details depend on supported public data sources by country.
 
 ### How do I add a fishing spot?
 Tap the map icon, then long-press on the map at your desired location. You can also use the search bar to find a location by name. Each spot saves its GPS coordinates for precise weather data.
@@ -34,7 +34,7 @@ Free users get today's forecast. Premium unlocks 10-day forecasts, unlimited spo
 Go to Settings in the app, then tap "Restore Purchase". This will restore your Premium subscription if you've already purchased one.
 
 ### The app shows wrong weather data
-Make sure your fishing spot is placed at the correct location. The app uses the spot's GPS coordinates to fetch weather data from the nearest station. Try moving the spot if the data seems off.
+Make sure your fishing spot is placed at the correct location. The app requests local weather from the spot's exact GPS coordinates, not from a broad city-level estimate. Try moving the spot if the data seems off.
 
 ## Contact Us
 

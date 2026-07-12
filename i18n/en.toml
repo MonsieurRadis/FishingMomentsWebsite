@@ -94,7 +94,10 @@ other = "Day Forecasts"
 other = "Hour by Hour"
 
 [statsCountries]
-other = "Countries"
+other = "Forecasts"
+
+[statsCountriesValue]
+other = "Worldwide"
 
 [featureSpeciesLabel]
 other = "Species Intelligence"
@@ -112,7 +115,7 @@ other = "Individual sensitivity to temperature, pressure, light & seasons"
 other = "Species-specific optimal conditions"
 
 [featureSpeciesBullet3]
-other = "Catalogs adapted by country"
+other = "Species-specific models with local context where available"
 
 [speciesPike]
 other = "Pike"
@@ -296,7 +299,7 @@ other = "Individual models for 44 freshwater species"
 other = "Organized by family: predators, salmonids, cyprinids"
 
 [appSpeciesBullet3]
-other = "Species catalog adapted by country"
+other = "Species-specific models with local context where available"
 
 [appSpeciesScreenAlt]
 other = "44 Species Fully Modeled"
@@ -308,7 +311,7 @@ other = "Your Waters"
 other = "Modeled for Their Habitat"
 
 [appHabitatDesc]
-other = "Save your fishing spots and get forecasts built from the exact place you fish. Each location uses precise GPS coordinates, local weather, and country-specific species coverage instead of broad city-level estimates."
+other = "Save your fishing spots and get forecasts built from the exact place you fish. Each location uses precise GPS coordinates, local weather, and local data where available instead of broad city-level estimates."
 
 [appHabitatBullet1]
 other = "Save up to 30 favorite fishing spots"
@@ -317,7 +320,7 @@ other = "Save up to 30 favorite fishing spots"
 other = "GPS-precise forecasts for each location"
 
 [appHabitatBullet3]
-other = "Species catalog adapted to supported countries"
+other = "Local data where available"
 
 [appNightLabel]
 other = "Night Sessions"
@@ -386,67 +389,19 @@ other = "Clean, focused interface"
 other = "Designed for Day and Night"
 
 [appCountriesTitle]
-other = "Available in 8 European Countries"
+other = "Forecasts available worldwide"
 
 [appCountriesSubtitle]
-other = "Each supported country is scientifically studied with species-specific environmental profiles adapted to local waters."
+other = "Fishing forecasts work worldwide. Hydrometric stations, station history and some details depend on supported public data sources by country."
 
-[countryFrance]
-other = "🇫🇷 France"
+[coverageForecasts]
+other = "Worldwide forecasts"
 
-[countryUK]
-other = "🇬🇧 United Kingdom"
+[coverageLocalData]
+other = "Local data where available"
 
-[countryGermany]
-other = "🇩🇪 Germany"
-
-[countrySpain]
-other = "🇪🇸 Spain"
-
-[countryItaly]
-other = "🇮🇹 Italy"
-
-[countrySweden]
-other = "🇸🇪 Sweden"
-
-[countryNorway]
-other = "🇳🇴 Norway"
-
-[countryFinland]
-other = "🇫🇮 Finland"
-
-[countryDenmark]
-other = "🇩🇰 Denmark"
-
-[countryNetherlands]
-other = "🇳🇱 Netherlands"
-
-[countryBelgium]
-other = "🇧🇪 Belgium"
-
-[countrySwitzerland]
-other = "🇨🇭 Switzerland"
-
-[countryAustria]
-other = "🇦🇹 Austria"
-
-[countryPoland]
-other = "🇵🇱 Poland"
-
-[countryCzech]
-other = "🇨🇿 Czech Republic"
-
-[countryHungary]
-other = "🇭🇺 Hungary"
-
-[countryCroatia]
-other = "🇭🇷 Croatia"
-
-[countryIreland]
-other = "🇮🇪 Ireland"
-
-[countryPortugal]
-other = "🇵🇹 Portugal"
+[coverageHydro]
+other = "Hydrometric stations where public data is supported"
 
 [supportTitle]
 other = "Support"
@@ -488,13 +443,13 @@ other = "The forecast is a decision aid, not a catch guarantee. It is most usefu
 other = "What species are covered?"
 
 [faqCoverageAnswer]
-other = "The current catalog includes 44 modeled freshwater species. Depending on the selected country, the app adapts the displayed selection and local species profiles where relevant."
+other = "The current catalog includes 44 modeled freshwater species. Fishing Moments uses species-specific biological models and local context where relevant."
 
 [faqCountriesTitle]
-other = "Which countries are currently supported?"
+other = "Where are forecasts and river stations available?"
 
 [faqCountriesAnswer]
-other = "The app currently covers 8 countries: France, United Kingdom, Germany, Spain, Belgium, Netherlands, Switzerland, and Finland. These are also the countries currently connected to the hydrometric station catalog."
+other = "Fishing forecasts are available worldwide. Hydrometric stations, station history and some details depend on supported public data sources by country."
 
 [faqAddSpotTitle]
 other = "How do I add a fishing spot?"
@@ -575,4 +530,4 @@ other = "iOS and Android"
 other = "Coverage:"
 
 [supportCoverageValue]
-other = "44 freshwater species · 8 supported countries"
+other = "44 freshwater species · worldwide forecasts · hydrometric stations where public data is supported"

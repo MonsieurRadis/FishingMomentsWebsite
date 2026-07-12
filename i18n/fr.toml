@@ -94,7 +94,10 @@ other = "Jours de Prévisions"
 other = "Heure par Heure"
 
 [statsCountries]
-other = "Pays"
+other = "Prévisions"
+
+[statsCountriesValue]
+other = "Monde"
 
 [featureSpeciesLabel]
 other = "Intelligence des Espèces"
@@ -112,7 +115,7 @@ other = "Sensibilité individuelle à la température, pression, lumière et sai
 other = "Conditions optimales spécifiques à chaque espèce"
 
 [featureSpeciesBullet3]
-other = "Catalogues adaptés par pays"
+other = "Modèles par espèce avec contexte local selon disponibilité"
 
 [speciesPike]
 other = "Brochet"
@@ -296,7 +299,7 @@ other = "Modèles individuels pour 44 espèces d'eau douce"
 other = "Organisées par famille : prédateurs, salmonidés, cyprinidés"
 
 [appSpeciesBullet3]
-other = "Catalogue d'espèces adapté par pays"
+other = "Modèles par espèce avec contexte local selon disponibilité"
 
 [appSpeciesScreenAlt]
 other = "44 Espèces Entièrement Modélisées"
@@ -308,7 +311,7 @@ other = "Vos Plans d'Eau"
 other = "Modélisé pour Leur Habitat"
 
 [appHabitatDesc]
-other = "Enregistrez vos spots et obtenez des prévisions construites à partir de l'endroit exact où vous pêchez. Chaque lieu utilise ses coordonnées GPS, la météo locale et un catalogue d'espèces adapté au pays, plutôt que de simples estimations au niveau de la ville."
+other = "Enregistrez vos spots et obtenez des prévisions construites à partir de l'endroit exact où vous pêchez. Chaque lieu utilise ses coordonnées GPS, la météo locale et les données locales disponibles, plutôt que de simples estimations au niveau de la ville."
 
 [appHabitatBullet1]
 other = "Enregistrez jusqu'à 30 spots favoris"
@@ -317,7 +320,7 @@ other = "Enregistrez jusqu'à 30 spots favoris"
 other = "Prévisions précises au GPS pour chaque lieu"
 
 [appHabitatBullet3]
-other = "Catalogue d'espèces adapté aux pays couverts"
+other = "Données locales selon disponibilité"
 
 [appNightLabel]
 other = "Sessions de Nuit"
@@ -386,67 +389,19 @@ other = "Interface épurée et ciblée"
 other = "Conçu pour le Jour et la Nuit"
 
 [appCountriesTitle]
-other = "Disponible dans 8 Pays Européens"
+other = "Prévisions disponibles dans le monde entier"
 
 [appCountriesSubtitle]
-other = "Chaque pays pris en charge est étudié scientifiquement avec des profils environnementaux spécifiques aux espèces adaptés aux eaux locales."
+other = "Les prévisions pêche fonctionnent dans le monde entier. Les stations hydrométriques, l'historique et certains détails dépendent des sources publiques prises en charge selon les pays."
 
-[countryFrance]
-other = "🇫🇷 France"
+[coverageForecasts]
+other = "Prévisions mondiales"
 
-[countryUK]
-other = "🇬🇧 Royaume-Uni"
+[coverageLocalData]
+other = "Données locales selon disponibilité"
 
-[countryGermany]
-other = "🇩🇪 Allemagne"
-
-[countrySpain]
-other = "🇪🇸 Espagne"
-
-[countryItaly]
-other = "🇮🇹 Italie"
-
-[countrySweden]
-other = "🇸🇪 Suède"
-
-[countryNorway]
-other = "🇳🇴 Norvège"
-
-[countryFinland]
-other = "🇫🇮 Finlande"
-
-[countryDenmark]
-other = "🇩🇰 Danemark"
-
-[countryNetherlands]
-other = "🇳🇱 Pays-Bas"
-
-[countryBelgium]
-other = "🇧🇪 Belgique"
-
-[countrySwitzerland]
-other = "🇨🇭 Suisse"
-
-[countryAustria]
-other = "🇦🇹 Autriche"
-
-[countryPoland]
-other = "🇵🇱 Pologne"
-
-[countryCzech]
-other = "🇨🇿 République Tchèque"
-
-[countryHungary]
-other = "🇭🇺 Hongrie"
-
-[countryCroatia]
-other = "🇭🇷 Croatie"
-
-[countryIreland]
-other = "🇮🇪 Irlande"
-
-[countryPortugal]
-other = "🇵🇹 Portugal"
+[coverageHydro]
+other = "Stations hydrométriques selon les données publiques disponibles"
 
 [supportTitle]
 other = "Support"
@@ -488,13 +443,13 @@ other = "La prévision est une aide à la décision, pas une garantie de capture
 other = "Quelles espèces sont couvertes ?"
 
 [faqCoverageAnswer]
-other = "Le catalogue actuel compte 44 espèces d'eau douce modélisées. Selon le pays choisi, l'app adapte la sélection affichée et les profils locaux lorsque c'est pertinent."
+other = "Le catalogue actuel compte 44 espèces d'eau douce modélisées. Fishing Moments utilise des modèles biologiques par espèce et un contexte local lorsque c'est pertinent."
 
 [faqCountriesTitle]
-other = "Quels pays sont actuellement pris en charge ?"
+other = "Où les prévisions et les stations rivière sont-elles disponibles ?"
 
 [faqCountriesAnswer]
-other = "L'app couvre actuellement 8 pays : France, Royaume-Uni, Allemagne, Espagne, Belgique, Pays-Bas, Suisse et Finlande. Ce sont aussi les pays actuellement reliés au catalogue de stations hydrométriques."
+other = "Les prévisions pêche sont disponibles dans le monde entier. Les stations hydrométriques, l'historique et certains détails dépendent des sources publiques prises en charge selon les pays."
 
 [faqAddSpotTitle]
 other = "Comment ajouter un spot de pêche ?"
@@ -575,4 +530,4 @@ other = "iOS et Android"
 other = "Couverture :"
 
 [supportCoverageValue]
-other = "44 espèces d'eau douce · 8 pays couverts"
+other = "44 espèces d'eau douce · prévisions mondiales · stations hydrométriques selon les données publiques disponibles"

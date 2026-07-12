@@ -19,10 +19,10 @@ Parce que les poissons ne réagissent pas tous de la même manière. Les brochet
 Les prévisions sont basées sur des recherches ichtyologiques bien établies et sur la théorie solunaire. Bien qu'aucune prédiction ne puisse être précise à 100% (la pêche reste la pêche !), nos utilisateurs rapportent des taux de capture significativement meilleurs lorsqu'ils suivent les recommandations de l'application.
 
 ### Quelles espèces sont couvertes ?
-Fishing Moments couvre 44 espèces d'eau douce incluant le brochet, le sandre, la perche, la carpe, la truite, le silure et bien d'autres. Le catalogue d'espèces est adapté pour chaque pays.
+Fishing Moments couvre 44 espèces d'eau douce incluant le brochet, le sandre, la perche, la carpe, la truite, le silure et bien d'autres. L'app utilise des modèles biologiques par espèce et un contexte local lorsque c'est pertinent.
 
-### Quels pays sont supportés ?
-L'application supporte actuellement 8 pays européens : 🇫🇷 France, 🇬🇧 Royaume-Uni, 🇩🇪 Allemagne, 🇪🇸 Espagne, 🇮🇹 Italie, 🇳🇱 Pays-Bas, 🇸🇪 Suède et 🇫🇮 Finlande. Chaque pays pris en charge dispose de catalogues d'espèces étudiés scientifiquement et adaptés aux environnements locaux.
+### Où les prévisions et les stations rivière sont-elles disponibles ?
+Les prévisions pêche sont disponibles dans le monde entier. Les stations hydrométriques, l'historique et certains détails dépendent des sources publiques prises en charge selon les pays.
 
 ### Comment ajouter un spot de pêche ?
 Appuyez sur l'icône de carte, puis appuyez longuement sur la carte à l'emplacement souhaité. Vous pouvez également utiliser la barre de recherche pour trouver un lieu par son nom. Chaque spot enregistre ses coordonnées GPS pour des données météo précises.
@@ -34,7 +34,7 @@ Les utilisateurs gratuits obtiennent la prévision du jour. Premium débloque le
 Allez dans les Paramètres de l'application, puis appuyez sur "Restaurer l'achat". Cela restaurera votre abonnement Premium si vous en avez déjà acheté un.
 
 ### L'application affiche des données météo incorrectes
-Assurez-vous que votre spot de pêche est placé au bon emplacement. L'application utilise les coordonnées GPS du spot pour récupérer les données météo de la station la plus proche. Essayez de déplacer le spot si les données semblent incorrectes.
+Assurez-vous que votre spot de pêche est placé au bon emplacement. L'app demande la météo locale à partir des coordonnées GPS exactes du spot, pas depuis une estimation générale au niveau de la ville. Essayez de déplacer le spot si les données semblent incorrectes.
 
 ## Nous Contacter
 
